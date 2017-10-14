@@ -1,3 +1,12 @@
+import makoto from './confidant-objects/Makoto.json'
+import yusuke from './confidant-objects/Yusuke.json'
+
+const confidants = new Map()
+confidants.set('makoto', makoto)
+confidants.set('yusuke', yusuke)
+
+export default confidants
+
 // const path = require('path')
 // // const fse = require('fs-extra')
 // // const fs = require('fs')
