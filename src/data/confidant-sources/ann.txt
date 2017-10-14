@@ -1,0 +1,61 @@
+Arcana: Lovers
+Name: Ann
+Location: Underground Mall in Shibuya after school.
+Gifts: Powdered Green Tea Set, KGB49 Music CD.
+Rank 1:
+On 4/15 as part of the story your cooperation with Ann will begin. 
+Unlocks Baton Pass ability, letting you pass Ann's turn to other Baton Pass users in battle after a 1 More.
+Rank 2:
+Requires rank 2 (considerate) kindness. The date must also be after 5/6.
+Impactful Conversation Choices for this Rank:
+Choice 1: "She's so strong." +3 / "Are you feeling better now?" +3 / "So are you friends again?" +2
+Choice 2: "You might be right." +3 / "You can't blame yourself?" +2 / "Kamoshida had the upper hand." +2
+Choice 3: Both give +3
+Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed demon negotiation.
+Rank 3:
+Impactful conversation choices for this rank:
+Choice 5: "Can we stop yet?" +3 / "I love you." +2 / "I like you." +2
+Choice 8: "Has that happened to you?" +3 / "That's odd." +2
+Choice 9: "The freedom sounds nice?" +2
+Unlocks the Follow Up ability, giving Ann the chance to attack an enemy after Joker as a follow-up.
+Unlocks the Inokashira Park location. 
+Rank 4:
+Impactful conversation choices for this rank:
+Choice 1: "I know what you mean." +3 / "That comes down to you." +2
+Choice 2: "That's hilarious." +3 / "That was mean of her." +2
+Choice 3: "Tell me?" +3 / "I'm afraid to know." +2
+Choice 4: "Good idea." +3 / "How exactly?" +2
+Choice 5: "Good luck with that." +3
+Rank 5:
+Impactful conversation choices for this rank:
+Choice 1: "Give it up." +2
+Choice 2: "She's amazing, huh..." +2
+Choice 3: "It had grace." +2
+Unlocks the Crocodile Tears ability, which gives Ann the chance to lower a demon's demands during demon negotiation.
+Rank 6:
+Impactful conversation choices for this rank:
+Choice 1: "It seems that way." +3  /  "If it's a friend, yeah." +2
+Choice 4: "Show her your strength." +3 / "Comfort her." +3 / "Listen to what she has to say." +2
+Unlocks the Harisen Recovery ability, which gives Ann the chance to step in and heal status ailments on party members when in the party.
+Rank 7:
+Impactful conversation choices for this rank:
+Choice 1: "She admires you." +2
+Choice 4: "Go get 'em, tiger." +2
+Unlocks the Sexy Technique ability, which gives Ann the chance to seduce demons during demon negotiation.
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "You have some real guts." +3  /  "You're beautiful as-is." +2
+Choice 2: All give +3
+Choice 4: All give +3
+Unlocks the Endure ability, giving Ann a chance to withstand a blow in combat that would usually kill.
+Rank 9:
+This is the point when a romance with Ann Takamaki becomes available.
+Impactful conversation choices for this rank:
+Choice 3: All give +3
+Choice 4:
+Romance - "You have me."
+Friendship - "You have the others."
+Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks Second Awakening, evolving Ann's Persona to its final form, Ishtar.
