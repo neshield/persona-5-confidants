@@ -1,0 +1,54 @@
+Arcana: Emperor
+Name: Yusuke
+Location: Shibuya Station Underground Walkway
+
+Rank 1:
+On 6/18 there will be an umissable event with Yusuke. Talk to him at the train station's underground passageway afterwards.  
+Unlocks Novice Duplication, a skill that allows Yusuke to produce low-level skill cards for you. These can be used to teach your Persona moves.
+Rank 2:
+Impactful Conversation Choices for this Rank:
+Choice 1: "It's novel." +2 / "It's enigmatic." +2
+Choice 2: "I can't wait." +3 / "I hope you're right." +3
+Unlocks Baton Pass ability, letting you pass Yusuke's turn to other Baton Pass users in battle after a 1 More.
+Rank 3:
+Impactful conversation choices for this rank:
+Choice 1: "Don't let it bother you." +2
+Choice 3: "This isn't like you." +3 / "You're really giving up?" +2
+Choice 4: Both give +2
+Unlocks the Follow Up ability, giving Yusuke the chance to attack an enemy after Joker as a follow-up.
+Unlocks the Ueno Museum location.
+Rank 4:
+Impactful conversation choices for this rank:
+Choice 1: "Why are we in a boat?" +2 / "I should bring a girl here." +2
+Choice 2: "Love comes in all forms." +3 / "Maybe you should train more." +2
+Unlocks the Artist Talk ability, giving Yusuke the chance to step in on a failed demon negotiation.
+Unlocks the Inokashira Park location.
+Rank 5:
+Impactful conversation choices for this rank:
+Choice 1: "Do you want me to strip?" +3 / "I dunno if I can do it..." +2
+Choice 2: "I'm sure you will." +3 / "It doesn't look like it." +3 / "Do you want to give up?" +2
+Unlocks the Adept Duplication skill, which allows Yusuke to create medium-level skill cards on your request.
+Unlocks the Kanda Church location.
+Rank 6:
+Requires rank 4 Proficiency.
+Impactful conversation choices for this rank:
+Choice 1: "It feels nostalgic." +2
+Unlocks the Harisen Recovery ability, which gives Yusuke the chance to step in and heal status ailments on party members when in the party.
+Rank 7:
+Impactful conversation choices for this rank:
+Choice 1: "What do you mean?" +2
+Choice 2: "The truth is within you." +3
+Unlocks the Master Duplication ability, which allows Yusuke to create skill cards for high-end skills..
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "It has to be Ann." +2
+Choice 2: "You've really grown, Yusuke." +3
+Unlocks the Endure ability, giving Yusuke a chance to withstand a blow in combat that would usually kill.
+Rank 9:
+Impactful conversation choices for this rank:
+Choice 1: "Her love for her son." +3 / "The pain of separation." +3
+Choice 2: "You've really changed, Yusuke." +3
+Unlocks the Protect ability, giving Yusuke the ability to shield Joker from an attack that would be fatal.
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks Second Awakening, evolving Makoto's Persona to its final form.

@@ -1,0 +1,57 @@
+Arcana: Tower
+Name: Shinya
+Location: Shibuya Arcade
+Rank 1:
+On 9/4 Mishima will text you details about a new side quest, Winners Don't Use Cheats. Pursue this sidequest - through the course of the sidequest you will meet Shinya, the Tower Arcana cooperation.
+Unlocks Down Shot, an ability that lets you spend an entire magazine to guarantee a knock down on an enemy.
+Bonus: Kindness Up
+Rank 2:
+Impactful Conversation Choices for this Rank:
+Choice 1: "Don't compare me to you." +3 / "Sorry." +2
+Choice 2: "What a rude employee." +2
+Choice 3: "Do you admire them?" +2
+Choice 4: "So do I." +3 / "I'll let them know." +3
+Unlocks Bullet Hail, which gives you a chance to enter a gun all-out-attack after an ambush.
+Bonus: Kindness Up
+Rank 3:
+Impactful conversation choices for this rank:
+Choice 2: "That's the spirit." +2
+Unlocks Warning Shot, a way to frighten enemies with a threat during demon negotiations to get them to your side.
+Bonus: Kindness Up
+Rank 4
+Impactful conversation choices for this rank:
+Choice 1: "Dr. Takemi will help." +2
+Choice 2: "You seem happy." +3 / "You're so kind." +2 / "Why free?" +2
+Bonus: Kindness Up
+Rank 5:
+Impactful conversation choices for this rank:
+Choice 1: "Yeah, you tell him!" +2
+Choice 2: "Get your revenge." +2
+Unlocks Ammo Pouch, boosting your maximum bullet capacity for each weapon.
+Bonus: Kindness Up
+Rank 6:
+Impactful conversation choices for this rank:
+Choice 3: "I believe in you." +3 / "That's good." +2
+Choice 4: "Not at all." +3
+Unlocks Cheap Shot, reducing the bullets required for a Down Shot.
+Bonus: Kindness Up
+Rank 7:
+Impactful conversation choices for this rank:
+None! That was easy.
+Bonus: Kindness Up
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "No, she's not." +2 / "Is that what you think?" +2
+Choice 2: "I believe in them" +3 / "It'll all work out." +2
+After this a sidequest / request for Mementos is unlocked: A Mother's Aggression.
+Unlocks Electric Slug, boosting the damage inflicted by Bullet Hail.
+Bonus: Kindness Up
+Rank 9:
+To initiate this rank you must have completed the A Mother's Aggression side quest.
+Impactful conversation choices for this rank:
+Choice 1: "I'm glad to hear that." +3 / "Thank the Phantom Thieves." +2
+Choice 2: "It means you've matured." +3 / "No, that makes sense." +3 / "A little bit, yeah." +2
+Choice 3: "He wants to win at all costs."
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks Oda Special, allowing Joker's attacks to ignore resistances to hit resistant enemies.

@@ -1,0 +1,49 @@
+Arcana: Strength
+Name: Twin Wardens
+Location: Velvet Room
+Rank 1:
+Unlocked automatically on 5/18.
+For rank 1, the twins want to see a Jack Frost with Mabufu.
+Jack Frost learns this ability at level 12, and with Morgana's cooperation arcana burst you should be able to make one that hits this level easily.
+To make Jack Frost, fuse Berith (Hierophant) with Apsaras (Priestess). These Persona are available in the first palace and in early areas of mementos.
+Unlocks the Group Guillotine, a new fusing method that lets you fuse three Persona at once.
+Rank 2:
+For rank 2 the twins want to see a Shiissa with Frei.
+To get a Shiissa with Frei you'll need to fuse Jack Frost (Magician) with Makami (Temperance). Makami will have Frei, and so you can choose for the resulting Shiissa to inherit the skill.
+Rank 3:
+For rank 3 Caroline and Justine demand a Matador with Magaru.
+To get a Matador with Magaru you should combine Mokoi (Death) with Regent, a rare Treasure Persona - then select Magaru as an inherited skill.
+You could also achieve this persona by fusing Nekomata (Magician) with Obariyon (Fool) and inherit Magaru.
+Grants the Lockdown ability within the Velvet Room, allowing you to leave a Persona with the twins for training in attribute resistance.
+Rank 4
+For their 4th rank the twins want a Flauros with Tarukaja.
+To get this Persona you need to do a group guillotine fusion: Berith (Hierophant), Andras (Devil) & Eligor (Emperor). Andras will learn Tarukaja when it levels up via Arcana Burst if you've done the Reporter cooperation some, or naturally through a bit of combat.
+Rank 5:
+For rank 5, Caroline and Justine challenge you to fuse a Ame-no-Uzume with Dodge Psy.
+The Dodge Psy ability can be a bit elusive, but we found it by fusing Kin-Ki (Chariot) with Sui-Ki (Moon). Kin-Ki learns Dodge Psy at Level 27, so get it to that level and then select dodge psy as an inherited ability.
+Your reward as well as a rank up is the Guillotine Booster, an increase to the range of group fusions you can do.
+Rank 6:
+Your relationship deepens, and the twin jailers next demand you fuse a Neko Shogun with Dekaja.
+Anzu (Hierophant) learns Dekaja at level 28. Get this Persona to this level then perform an advanced fusion of Kodama (Star), Sudama (Hermit) and Anzu (Hierophant) - select Dekaja as an inherited ability.
+Rank 7:
+To get to the 7th rank Igor's deputies ask for a Lachesis with Tetraja.
+To fuse this Persona, there are stages:
+Fuse Lamia (Empress) and Sandman (Magician) to create Principality (Justice) with Tetraja. 
+Fuse Principality (Justice) with Yaksini (Empress) to create Ame no Uzume (Lovers) - have it inherit Tetraja.
+Fuse Ame no Uzume (Lovers) with Isis (Priestess) to create Lachesis - don't forget to inherit Tetraja as a skill.
+Rank 8:
+Close to the end, things get harder - Caroline and Justine want to see a Hecatoncheires with Masukunda.
+The quickest path to this persona is Unicorn (Hierophant) fused with Lilim (Devil), then inherit Masukunda.
+You can also fuse Clotho (Fortune) with Red Rider (Tower) or Belphegor (Tower).
+Unlocks Isolation, a new Velvet Room facility that improves Lockdown.
+Rank 9:
+For rank 9 the twins want to see a Bugs with Samarecarm.
+Bugs requires an advanced fusion of three persona - combine Pixie (Lovers) with Pisaca (Death) and Hariti (Empress). Hariti learns Samarecarm at level 41, so boost it there then inherit it from this fusion.
+Rank 10:
+Caroline and Justine present their ultimate challenge - the twin jailers want you to bring them a Seth with High Counter.
+Getting Seth will require multiple steps once again:
+You'll gain a skill card from the Mementos Mission The Killer Laughs in the Garbage Can, a request gained on 10/14. This skill card is for High Counter. Save it.
+First, combine Hecatoncheir (Hanged) with Kushinada-Hime (Lovers) to get yourself a Horus (Sun) with the skill you need.
+Then combine Isis (Priestess), Thoth (Emperor), Anubis (Judgment) and Horus (Sun) in order to create Seth.
+Use the ability card to teach Seth High Counter.
+Unlocks Special Treatment, allowing you to pay cash to break the rules and fuse Persona above your level.

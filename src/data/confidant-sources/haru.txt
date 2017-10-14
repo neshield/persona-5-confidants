@@ -1,0 +1,66 @@
+Arcana: Empress
+Name: Haru
+Location: School rooftop. Not available on Sunday or when it rains.
+Rank 1:
+After 10/30, find and chat to her on the school rooftop. On Sundays, she hangs out at the school gates. (Go home, girl!) 
+Unlocks Cultivation, which allows you to grow vegetables on the roof.
+Rank 2:
+Requires Rank 5 (Transcendent) Proficiency.
+Impactful Conversation Choices for this Rank:
+Choice 1: "Are you opening a cafe?" +3 / "Are you starting a farm?" +3 / "You like coffee?" +2
+Choice 2: "He sounds suspicious." +2
+Choice 3: "This is a complex issue." +3 / "You might be wrong." +2 / "Maybe you should fire him." +2
+Unlocks Baton Pass ability, letting you pass Haru's turn to other Baton Pass users in battle after a 1 More.
+Rank 3:
+Impactful conversation choices for this rank:
+Choice 3: "Not yet." +3 / "I have." +2 / "Too many times to count." +2
+Choice 2: "I don't want to go with you." +2
+Choice 1: "It'll be okay, I promise." +3 / "They won't find out." +3 / "A phantom thief wouldn't worry." +2
+Unlocks the Follow Up ability, giving Haru the chance to attack an enemy after Joker as a follow-up.
+Rank 4:
+Impactful conversation choices for this rank:
+Choice 1: "That's pricey." +3 / "It must be amazing." +3
+Choice 2: All give +3
+Choice 3: All give +3
+Choice 4: "Let's ask him." +3
+Choice 5: "I'm not really sure." +3
+Unlocks the Celeb Talk ability, giving Haru the chance to step in on a failed demon negotiation.
+Rank 5:
+Impactful conversation choices for this rank:
+Choice 1: "Somebody's telling the truth." +3 / "Trust no one." +3
+Choice 2: "There has to be another way." +3
+Choice 3: "That doesn't matter now." +3 / "I don't think so." +3
+Unlocks Selective Breeding, which improves vegetable crop outcome.
+Rank 6:
+Impactful conversation choices for this rank:
+Choice 1: "That's fascinating." +3 / "You're so studious." +3 / "Can you make some for me?" +3
+Choice 2: "I had no idea." +3
+Choice 3: "That would be bad." +3 / "Black like coffee?" +3
+Choice 5: "Be strong, Haru." +3
+Unlocks the Harisen Recovery ability, which gives Haru the chance to step in and heal status ailments on party members when in the party.
+Rank 7:
+[This rank is translated from Japanese - we haven't reached it in English yet.]
+Impactful conversation choices for this rank:
+Choice 2: "That sounds really tough..." +3 / "What do you want to do?" +3
+Choice 3: All are +3
+Choice 4: Both are +3
+Unlocks the Soil Improvement ability, which reduces the time a crop takes to grow.
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "The soil?" +3
+Choice 2: All are +3
+Choice 3: All are +3
+Unlocks the Endure ability, giving Makoto a chance to withstand a blow in combat that would usually kill.
+Rank 9:
+[This rank is translated from Japanese - we haven't reached it in English yet.]
+This is the point when a romance with Haru Okumura becomes available.
+Impactful conversation choices for this rank:
+Choice 2: All are +3
+Choice 3: "You're very welcome." +3 / "You did amazing." +3
+Choice 4: 
+Relationship - "I like you too, Haru."
+Friendship - "He saw us as good friends."
+Unlocks the Protect ability, giving Haru the ability to shield Joker from an attack that would be fatal.
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks Second Awakening, evolving Haru's Persona to its final form.

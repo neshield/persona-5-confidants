@@ -1,0 +1,57 @@
+Arcana: Hierophant
+Name: Sojiro
+Location: LeBlanc Cafe at night
+Rank 1:
+As the story progresses, you'll unlock the ability to befriend Sojiro.   
+Rank 2:
+Impactful Conversation Choices for this rank:
+Choice 1: "Making coffee." +2
+Choice 2: "That guy seemed suspicious." +2
+Choice 3: "I want the ladies to love me." +2
+Unlocks Coffee Basics, a new ability that lets you create a coffee item that can restore SP in battle using LeBlanc's coffee brewing facilities.
+Kindness +3.
+Rank 3:
+Before you start this rank, you'll have to make coffee with Sojiro once. Afterwards, you'll be able to talk further.
+Impactful conversation choices for this rank:
+Choice 1: "Medium-fine." +2
+Choice 3: "Is it trouble?" +2
+Rank 4:
+Impactful conversation choices for this rank:
+Choice 1: "Tell me more." +3
+Choice 2: "Call Sojiro's phone." +3
+Unlocks the Leblanc Curry ability - this skill lets ytou create a curry item that can restore SP using LeBlanc's kitchen.
+Kindness +3
+Rank 5:
+Available only after 8/22.
+Impactful conversation choices for this rank:
+Choice 1: "I think I'm addicted!" +3 / "It wasn't bad." +2
+Choice 2: "She wasn't normal, huh?" +3 / "She was like Futaba?" +2
+Choice 3: "It really paid off in the end." +2
+Kindness +3
+Rank 6:
+Impactful conversation choices for this rank:
+Choice 1: "To each his own." +2
+Choice 2: "Shut your mouth." +3 / "You're wrong." +2
+Choice 3: "Saving Futaba was no mistake." +2
+Unlocks the Coffee Mastery ability, enhancing your coffee-making ability to allow for better items.
+Kindness +3
+Rank 7:
+Requires rank 5 (angelic) kindness.
+Impactful conversation choices for this rank:
+Choice 1: "You might be right." +2
+Kindness +3
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "Something with curry." +3 / "You want my suggestion?" +2
+Choice 2: "I was just protecting Futaba." +2
+Unlocks the Mementos Mission Request: "The Money-Grubbing Uncle. Futaba and Sojiro Cooperations locked until this is complete.
+Rank 9:
+You must complete "The Money-Grubbing Uncle" sidequest in order to start this rank.
+Impactful conversation choices for this rank:
+Choice 1: "It's great." +3 / "It's a bit of a nag." +2
+Choice 2: "You have a great daughter." +3 / "Congrats." +3
+Unlocks the Curry Tips skill, which enhances the quality of the curry you can make.
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks the Kanda Church location. 
+Unlocks Curry Mastery, making the curry you make fantastic at restoring your whole party's SP.

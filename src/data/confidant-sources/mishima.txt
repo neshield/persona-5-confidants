@@ -1,0 +1,48 @@
+Arcana: Moon
+Name: Mishima
+Location: Shinjuku or Shibuya, generally at night
+Rank 1:
+This cooperation kicks off on 5/6 automatically as part of the main story.
+Unlocks Mishima's Support, a very useful side ability that allows back-up party members to still earn a little EXP, albeit at a reduced rate.
+Rank 2:
+Automatically triggered as a story progression moment on 5/8.
+Impactful Conversation Choices for this Rank:
+None! Take it easy.
+Rank 3:
+Impactful conversation choices for this rank:
+Choice 1: "Great idea." +3 / "I'm already taken." +2
+Choice 2: "We're part of... the Phandom?" +2 / "Let's tell the truth." +2
+Choice 3: "It's not your fault." +2
+Unlocks Mishima's Enthusiasm, increasing the EXP earned from battles.
+Rank 4
+Impactful conversation choices for this rank:
+Choice 1: "Steak sounds good." +3 / "I love desserts." +2
+Choice 2: "You're amazing." +2
+Unlocks Mishima's Desperation, which boosts the EXP back-up party members recieve from Mishima's Support.
+Rank 5:
+Impactful conversation choices for this rank:
+Choice 1: "Is it for me?" +3 / "Why was it so expensive?" +2
+Choice 2: "That's a good idea." +2
+Rank 6:
+Impactful conversation choices for this rank:
+Choice 1: "Just tell me already." +2 / "You sure are fired up..." +2
+Choice 2: "Rumors are wrong all the time..." +2 / "It's none of our business." +2
+Choice 4: "Absolutely. Nice job." +2
+Unlocks the Inokashira Park location
+Rank 7:
+Impactful conversation choices for this rank:
+Choice 1: "You're so reliable." +3 / "And what exactly will we win?" +2
+Choice 2: "Sounds pretty twisted." +2 / "You need to chill." +2
+Once this is done, meet with your team and then go into mementos and find the target. Talk to them. Later, Mishima will get in touch to talk:
+Choice 3: "Maybe the Phansite?" +3 / "I'm sure there is." +2
+Unlocks Phanboy, drastically increasing the EXP you gain from battle.
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "I'm not leaving." +3 / "You should run too." +2
+Choice 3: "Wait, that was all an act?" +3 / "You were super cool." +3 / "Totally." +2
+Rank 9:
+Impactful conversation choices for this rank:
+Choice 1: "You showed some real courage." +3 / "I'm glad you're still alive." +2
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks Salvation Wish, allowing back-up party members to gain full EXP from battles.

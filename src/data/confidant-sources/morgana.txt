@@ -1,0 +1,32 @@
+Arcana: Magician
+Name: Morgana
+Rank 1:
+Automatically on 4/15.
+Unlocks Infiltration Tools ability, allowing you to spend time in your room crafting infiltration tools like lockpicks.
+Rank 2:
+Automatically after you steal your first treasure.
+Unlocks Baton Pass ability, letting you pass Morgana's turn to other Baton Pass users after a 1 More.
+Rank 3:
+Automatically after you raid your second palace.
+Unlocks the Follow Up ability, where Morgana has a chance to perform a follow-up attack after Joker.
+Rank 4:
+Automatically on 6/20
+Unlocks the Kitty Talk ability, giving Morgana the chance to step in and rescue a failed demon negotiation.
+Rank 5:
+Automatically after the third palace.
+Unlocks the Pickpocket ability, which gives you the chance to obtain an item with landed melee attacks.
+Rank 6:
+Automatically on 7/25.
+Unlocks the Ace Tools ability, which lets you craft all types of infiltration tools.
+Rank 7:
+Automatically on 8/29.
+Unlocks the Harisen Recovery ability, which gives Morgana the chance to step in and heal status ailments on party members when in the party.
+Rank 8:
+Automatically on 9/17.
+Unlocks the Endure ability, giving Morgana a chance to withstand a blow that would usually kill.
+Rank 9:
+After the fifth palace.
+Unlocks the Protect ability, giving Morgana the ability to shield Joker from an attack that would be fatal.
+Rank 10:
+Automatically on 11/23.
+Unlocks Second Awakening, evolving Morgana's Persona to its final form.

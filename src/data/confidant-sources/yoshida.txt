@@ -1,0 +1,42 @@
+Arcana: Sun
+Name: Yoshida
+Location: Shibuya Station Square at night
+Rank 1:
+This cooperation can be picked up from 5/6 onwards, but is entirely optional and easy to miss for months. Yoshida can be found in Station Square, but if you listen to his political preaching you'll learn that he frequents a nearby Beef Bowl Shop.
+You can apply to work there via the leaflets in the train station. Work there twice and you'll meet Yoshida, starting off this confidant cooperation.
+Rank 2:
+Impactful Conversation Choices for this Rank:
+Choice 1: "I want to improve my speech." +2
+Choice 2: "One with conviction." +2 / "I don't know yet." +2
+Choice 3: "That was helpful." +2
+Unlocks Diplomacy, a useful ability that lets you get more money or items from demon negotiation.
+Rank 3:
+Impactful conversation choices for this rank:
+Choice 2: "His message." +2 / "His speaking skills." +2
+Unlocks Fundraising, which allows you to demand a lot more money during demon negotiation.
+Rank 4
+Impactful conversation choices for this rank:
+Choice 4: "I couldn't help myself." +2
+Rank 5:
+Impactful conversation choices for this rank:
+Choice 1: "That media doesn't matter." +3 / "I think so." +2
+Unlocks Manipulation, a skill that raises the chance enemies will give up rare items.
+Rank 6:
+Impactful conversation choices for this rank:
+Choice 1: "I don't really care." +3 / "I'm for them." +2
+Choice 2: "I'd decline." +3 / "I'd leave it to chance." +2
+Rank 7:
+Impactful conversation choices for this rank:
+Choice 1: "You should decline." +2
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "That's a difficult decision." +2
+Choice 3: "Stick to your beliefs." +2
+Unlocks Mind Control, an ability that sometimes lets you skip demon negotiation entirely.
+Rank 9:
+Impactful conversation choices for this rank:
+Choice 1: "Do your best." +3 / "I'm getting nervous." +2
+Choice 2: "You had a change of heart." +2
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks Charismatic Speech, allowing for contracts to be forged with higher-level Persona more easily.

@@ -1,0 +1,23 @@
+Arcana: Judgement
+Name: Sae
+Rank 1:
+Automatically on 7/9
+Rank 2:
+Automatically on 7/24.
+Rank 3:
+Automatically on 8/22.
+Rank 4:
+Automatically on 9/23.
+Rank 5:
+Automatically on 10/12.
+Rank 6:
+Automatically on 10/28.
+Rank 7:
+Automatically on 11/20.
+Rank 8:
+Automatically on 11/20.
+Rank 9:
+Automatically on 11/20.
+Rank 10:
+Automatically on 11/20.
+Unlocks True Judgement.

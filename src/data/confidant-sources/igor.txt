@@ -1,0 +1,31 @@
+Arcana: Fool
+Name: Igor
+Location: Velvet Room
+Rank 1:
+Automatically on 4/12.
+Unlocks Wild Talk ability, allowing for negotiation with Shadows during a Hold Up.
+Unlocks Arcana Burst, gifting Bonus EXP to Persona of this Arcana based on this Confidant's rank.
+Rank 2:
+Automatically after you infiltrate the first palace.
+Unlocks Third Eye ability, letting you see things more clearly with L1/L2.
+Rank 3:
+Automatically on 5/5.
+Unlocks Power Stock ability, increasing your Persona stock to 8.
+Rank 4:
+After the second palace
+Rank 5:
+Automatically on 6/11.
+Unlocks Super Stock ability, increasing your Persona stock to 10.
+Rank 6:
+After the fourth palace.
+Unlocks High Arcana Burst ability, granting further bonus EXP based on Confidant rank.
+Rank 7:
+Automatically on 8/22.
+Rank 8:
+Automatically on 8/31.
+Unlocks the Ultra Stock ability, increasing your Persona stock to 12.
+Rank 9:
+Automatically on 10/11.
+Rank 10:
+Automatically on 12/24.
+Unlocks the Max Arcana Burst, greatly raising bonus EXP for Fool Persona fusion.

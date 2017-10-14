@@ -1,0 +1,58 @@
+Arcana: Devil
+Name: Ichiko
+Location: Crossroads Bar in Shinjuku at night
+Gift: Cameras, Fans
+Rank 1:
+Once you gain access to Shinjuku, visit the Crossroads bar and talk to her. You'll have met her earlier in the story at this point.
+Unlocks Rumor-filled Scoop, which means Palace Alert levels won't increase so quickly and will decrease a little overnight.
+Rank 2:
+Impactful Conversation Choices for this Rank:
+Choice 1: "Mishima might..." +2
+Choice 3: "It's for the article." +2
+Bonus: Charm Up
+Rank 3:
+Impactful conversation choices for this rank:
+Choice 1: "You shouldn't make assumptions." +2
+Choice 4: "Was she falsely accused?" +2
+Bonus: Charm Up
+Rank 4
+Impactful conversation choices for this rank:
+Choice 2: Both worth +2
+Grants the Shocking Scoop ability, which improves the effect of Rumor-filled scoop.
+Bonus: Charm Up
+Rank 5:
+Impactful conversation choices for this rank:
+Choice 4: "That's unforgivable." +3 / "That sounds like defamation." +2
+Bonus: Charm Up
+Rank 6:
+Impactful conversation choices for this rank:
+Choice 2: "He must not like you." +2
+Choice 3: "You should trust in her." +2
+Choice 4: "You're a great journalist." +2 / "That's the spirit." +2
+Bonus: Charm Up
+Rank 7:
+Impactful conversation choices for this rank:
+Choice 2: "Let's think of another way." +3 / "Don't let him provoke you." +3 / "Calm down." +2
+Choice 3: "You're charming as you are." +3 / "You should work on that." +2
+Unlocks Outrageous Scoop, improving the effects of Rumor-filled Scoop further still.
+Bonus: Charm Up
+Rank 8:
+Impactful conversation choices for this rank:
+Choice 1: "You seem tired." +2
+After this a sidequest / request for Mementos is unlocked: Fighting for Truth in Journalism.
+Complete the Fighting for Truth in Journalism sidequest, then return to Ichiko to rank up.
+Bonus: Charm Up
+Rank 9:
+This is the point when a romance with Ichiko Ohya becomes available.
+Impactful conversation choices for this rank:
+Choice 2: "You're not giving up, are you?" +2
+Choice 3: "I can't leave you." +3 / "I want to help." +3
+Choice 5:
+Romance - "I took it seriously."
+Friendship - "I didn't take it seriously."
+Choice 5:
+Romance - "I love you, Ichiko."
+Friendship - "I'm just kidding."
+Rank 10:
+Any choices you make will be irrelevant, since this is the max rank.
+Unlocks Legendary Scoop, eliminating Palace security level increases.
