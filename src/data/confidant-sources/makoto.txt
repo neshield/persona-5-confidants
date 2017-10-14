@@ -1,5 +1,6 @@
-Arcana: Empress
+Arcana: Priestess
 Name: Makoto
+Location: In front of the Student Council Office, or at the school gates.
 Rank 1:
 After clearing the Bank Palace dungeon in the story, find Makoto in front of the Student Council Office at school. 
 Rank 3 (Scholarly) Knowledge is required.
