@@ -1,15 +1,6 @@
 import React, { Component } from 'react'
 import '../index.css'
 import Dropdown from 'react-dropdown'
-// import confidantNames from '../data/confidant-names'
-// import utils from '../utils'
-
-// const labels = confidantNames.map((name) => {
-//   return {
-//     value: name,
-//     label: utils.upFirstLetter(name)
-//   }
-// })
 
 class ConfidantDropdown extends Component {
   constructor (props) {
