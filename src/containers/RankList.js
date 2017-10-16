@@ -4,8 +4,8 @@ import './RankList.css'
 
 class RankList extends Component {
   render () {
-    // console.log('props in rank list: ' + JSON.stringify(this.props))
-    // console.log('confidant in RAnkList: ' + JSON.stringify(this.props.confidant))
+    // TODO: style text for abilities
+    // TODO: choices
     return (
       <div className='RankList'>
         <ul>

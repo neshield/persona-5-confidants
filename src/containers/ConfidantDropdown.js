@@ -1,19 +1,28 @@
 import React, { Component } from 'react'
 import '../index.css'
 import Dropdown from 'react-dropdown'
+// import confidantNames from '../data/confidant-names'
+// import utils from '../utils'
+
+// const labels = confidantNames.map((name) => {
+//   return {
+//     value: name,
+//     label: utils.upFirstLetter(name)
+//   }
+// })
 
 class ConfidantDropdown extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      options: props.names
+      options: this.props.labels
     }
     this._onSelect = this._onSelect.bind(this)
   }
 
   _onSelect (option) {
-    console.log('You selected: ' + option.label)
-    this.props.parent.handleChange(option.label)
+    console.log('Selected confidant: ' + option.label)
+    this.props.parent.handleChange(option.value)
   }
 
   render () {
@@ -24,8 +33,5 @@ class ConfidantDropdown extends Component {
     )
   }
 }
-        // onChange={() => this.props.onChange(this.option.label, this.state.parent)}
-
-        // onChange={this.state.onChange}
 
 export default ConfidantDropdown
