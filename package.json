@@ -1,11 +1,13 @@
 {
   "name": "confidants",
+  "homepage": "https://neshield.github.io/persona-5-confidants",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bluebird": "3.5.1",
     "express": "4.16.2",
     "fs-extra": "4.0.2",
+    "gh-pages": "^1.0.0",
     "json-loader": "0.5.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -13,6 +15,8 @@
     "react-scripts": "1.0.14"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
