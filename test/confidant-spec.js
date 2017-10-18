@@ -23,15 +23,6 @@ describe('Confidant Object', function () {
     })
   })
 
-  // it('Handles names with spaces', function() {
-  //   const lines = [
-  //     'Name: a b c'
-  //   ]
-
-  //         const confidant = new Confidant(lines)
-  //     assert.equal(confidant.name, '')
-  // })
-
   describe('Ranks', function () {
     it('Sets rank value correctly', function () {
       const lines = [
