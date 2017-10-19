@@ -16,7 +16,7 @@ Rank 3:
 Impactful conversation choices for this rank:
 Choice 1: "I was about to come find you." +3
 Choice 2: "Good to see you again." +3 / "You're the one who appeared." +2
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "Let's do this together." +3 / "Nope." +2
 Choice 3: "I think it's cute." +3 / "Everyone does it." +2 / "Not at all." +2

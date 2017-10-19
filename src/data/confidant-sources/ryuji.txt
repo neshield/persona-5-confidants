@@ -13,7 +13,7 @@ Impactful conversation choices for this rank:
 Choice 1: "Let's not fight." +2
 Choice 2: "Calm down, Ryuji." +3 / "Just endure it." +2
 Unlocks the Follow Up ability, giving Ryuji the chance to attack an enemy after Joker as a follow-up.
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "Are you worried about him?" +3
 Choice 2: "I know how you feel." +3 / "But you're doing great." +3 / "It's not so bad." +2

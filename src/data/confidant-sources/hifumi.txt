@@ -16,7 +16,7 @@ Choice 1: "Describes you perfectly." +2
 Choice 2: "Having a difficult time?" +2
 Unlocks Uchikomi, giving your non-present allies a chance to drop in for an extra attack after an enemy is downed.
 Bonus: Knowledge Up
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "I didn't mind." +2 / "Must've been the katsu curry." +2
 Choice 2: "They're cool." +2

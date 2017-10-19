@@ -15,7 +15,7 @@ Choice 2: "I always knew you were a thug." +3 / "Y-Yakuza?!" +2
 Choice 3: "We made a deal, didn't we?" +3
 Unlocks Medium Customization of your firearms.
 Bonus: Proficency Up
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 4: "Where's my reward?" +3 / "You two should play nice." +2
 Bonus: Proficency Up

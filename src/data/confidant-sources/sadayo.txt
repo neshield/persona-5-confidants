@@ -15,7 +15,7 @@ Impactful conversation choices for this rank:
 Choice 1: "Yeah, they do." +2 / "Do some real cooking." +2
 Choice 3: "I'll request you more often." +3
 Unlocks Housekeeping - Kawakami can make coffee or handle laundry for you.
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 2: "How rude." +2
 Choice 3: "You need to love yourself." +3 / "Yes, you do." +2

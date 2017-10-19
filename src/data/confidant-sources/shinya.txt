@@ -18,7 +18,7 @@ Impactful conversation choices for this rank:
 Choice 2: "That's the spirit." +2
 Unlocks Warning Shot, a way to frighten enemies with a threat during demon negotiations to get them to your side.
 Bonus: Kindness Up
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "Dr. Takemi will help." +2
 Choice 2: "You seem happy." +3 / "You're so kind." +2 / "Why free?" +2

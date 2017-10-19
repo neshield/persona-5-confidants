@@ -15,7 +15,7 @@ Impactful conversation choices for this rank:
 Choice 1: "You shouldn't make assumptions." +2
 Choice 4: "Was she falsely accused?" +2
 Bonus: Charm Up
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 2: Both worth +2
 Grants the Shocking Scoop ability, which improves the effect of Rumor-filled scoop.
@@ -50,7 +50,7 @@ Choice 3: "I can't leave you." +3 / "I want to help." +3
 Choice 5:
 Romance - "I took it seriously."
 Friendship - "I didn't take it seriously."
-Choice 5:
+Choice 6:
 Romance - "I love you, Ichiko."
 Friendship - "I'm just kidding."
 Rank 10:

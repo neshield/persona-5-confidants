@@ -14,7 +14,7 @@ Choice 1: "Great idea." +3 / "I'm already taken." +2
 Choice 2: "We're part of... the Phandom?" +2 / "Let's tell the truth." +2
 Choice 3: "It's not your fault." +2
 Unlocks Mishima's Enthusiasm, increasing the EXP earned from battles.
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "Steak sounds good." +3 / "I love desserts." +2
 Choice 2: "You're amazing." +2

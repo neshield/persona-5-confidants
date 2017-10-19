@@ -14,7 +14,7 @@ Rank 3:
 Impactful conversation choices for this rank:
 Choice 2: "His message." +2 / "His speaking skills." +2
 Unlocks Fundraising, which allows you to demand a lot more money during demon negotiation.
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 4: "I couldn't help myself." +2
 Rank 5:

@@ -2,15 +2,6 @@ import React, { Component } from 'react'
 import '../index.css'
 
 class RankItem extends Component {
-  // renderChoices(choices) {
-  //   return (
-  //     {choices ? (
-  //       <span> found choices</span>
-  //       ) : null}
-
-  //   )
-  // }
-
   renderChoice (choice) {
     return (
       <li>
@@ -23,29 +14,30 @@ class RankItem extends Component {
     return (
       <div>
         {choices ? (
-          <ul>
-            {choices.map((choice) => {
-              return this.renderChoice(choice)
-            })}
-          </ul>
+          <div className='Choices'>
+            <span><strong>Important conversation choices</strong></span>
+            <ul>
+              {choices.map((choice) => {
+                return this.renderChoice(choice)
+              })}
+            </ul>
+          </div>
         ) : null}
       </div>
     )
   }
 
-        //   {this.props.rank.choices ? (
-        //     <span> found choices</span>
-        // ) : null}
-
   render () {
     // TODO: style text for abilities
-    // TODO: choices
+    let text = this.props.rank.text
+    let mask = 'Impactful Conversation Choices for this Rank:'
+
+    text = text.replace(new RegExp(mask, 'ig'), '')
+
     return (
       <div className='RankItem'>
-        <div className='Choices'>
-          {this.renderChoices(this.props.rank.choices)}
-        </div>
-        <span><strong>Rank {this.props.rank.rank}</strong><br />{this.props.rank.text}</span>
+        <span><strong>Rank {this.props.rank.rank}</strong><br />{text}</span>
+        {this.renderChoices(this.props.rank.choices)}
       </div>
     )
   }

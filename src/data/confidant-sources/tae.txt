@@ -14,7 +14,7 @@ Rank 3:
 Impactful conversation choices for this rank:
 Choice 3: "I don't mind." +2 / "I need the medicine." +2
 Unlocks Sterilization, adding even more items to the clinic shop.
-Rank 4
+Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "Dr. Takemi will help." +2
 Choice 2: "You seem happy." +3 / "You're so kind." +2 / "Why free?" +2

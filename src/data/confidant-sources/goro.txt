@@ -6,7 +6,7 @@ Rank 2:
 Unlocked automatically via the story on 7/24.
 Rank 3:
 Story progress triggers this rank on 8/28.
-Rank 4
+Rank 4:
 This rank will occur on 10/24.
 Rank 5:
 In quick succession this rank will happen on 10/26.
@@ -24,4 +24,4 @@ Rank 9:
 Unlocks throughout the course of the sixth palace.
 Rank 10:
 Unlocks as you progress through the sixth palace.
-Unlocks Second Awakening, evolving Makoto's Persona to its final form, Metatron.
+Unlocks Second Awakening, evolving Goro's Persona to its final form.
