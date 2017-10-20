@@ -44,9 +44,13 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
+        {this.renderConfidantDropdown(this.state.labels)}
         <h2 className='ConfidantHeader'>{utils.upFirstLetter(this.state.confidant)}</h2>
         <h3 className='ConfidantHeader'>{utils.upFirstLetter(confidants.get(this.state.confidant).arcana)}</h3>
-        {this.renderConfidantDropdown(this.state.labels)}
+        <h3>Location: {confidants.get(this.state.confidant).location}</h3>
+        {confidants.get(this.state.confidant).gift ? (
+          <h3>Good Gifts: {confidants.get(this.state.confidant).gift}</h3>
+          ) : null}
         {this.renderRankList()}
       </div>
     )

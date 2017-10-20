@@ -32,7 +32,7 @@ Rank 7:
 Impactful conversation choices for this rank:
 Choice 1: "Don't pay them." +3 / "Don't strain yourself." +2
 Choice 2: "Think this through more." +3
-Unlocks a Super Housekeeping - Now Kawakami can make curry or infiltration tools for you.
+Unlocks Super Housekeeping - Now Kawakami can make curry or infiltration tools for you.
 Rank 8:
 Impactful conversation choices for this rank:
 Choice 1: "Is this what you really want?" +3
