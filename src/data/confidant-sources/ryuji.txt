@@ -51,4 +51,4 @@ Choice 4: "I agree." +2
 Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.
 Rank 10:
 Any choices you make will be irrelevant, since this is the max rank.
-Unlocks Second Awakening, evolving Makoto's Persona to its final form, Chi You.
+Unlocks Second Awakening, evolving Ryujis's Persona to its final form.

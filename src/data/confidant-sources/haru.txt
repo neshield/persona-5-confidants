@@ -2,7 +2,7 @@ Arcana: Empress
 Name: Haru
 Location: School rooftop. Not available on Sunday or when it rains.
 Rank 1:
-After 10/30, find and chat to her on the school rooftop. On Sundays, she hangs out at the school gates. (Go home, girl!) 
+After 10/30, find and chat to her on the school rooftop. On Sundays, she hangs out at the school gates.
 Unlocks Cultivation, which allows you to grow vegetables on the roof.
 Rank 2:
 Requires Rank 5 (Transcendent) Proficiency.
@@ -13,9 +13,9 @@ Choice 3: "This is a complex issue." +3 / "You might be wrong." +2 / "Maybe you 
 Unlocks Baton Pass ability, letting you pass Haru's turn to other Baton Pass users in battle after a 1 More.
 Rank 3:
 Impactful conversation choices for this rank:
-Choice 3: "Not yet." +3 / "I have." +2 / "Too many times to count." +2
-Choice 2: "I don't want to go with you." +2
 Choice 1: "It'll be okay, I promise." +3 / "They won't find out." +3 / "A phantom thief wouldn't worry." +2
+Choice 2: "I don't want to go with you." +2
+Choice 3: "Not yet." +3 / "I have." +2 / "Too many times to count." +2
 Unlocks the Follow Up ability, giving Haru the chance to attack an enemy after Joker as a follow-up.
 Rank 4:
 Impactful conversation choices for this rank:
@@ -52,7 +52,6 @@ Choice 2: All are +3
 Choice 3: All are +3
 Unlocks the Endure ability, giving Makoto a chance to withstand a blow in combat that would usually kill.
 Rank 9:
-[This rank is translated from Japanese - we haven't reached it in English yet.]
 This is the point when a romance with Haru Okumura becomes available.
 Impactful conversation choices for this rank:
 Choice 2: All are +3
