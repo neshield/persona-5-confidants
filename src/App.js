@@ -1,6 +1,6 @@
+import './App.css'
 import React, { Component } from 'react'
 import RankList from './containers/RankList'
-import './App.css'
 import confidants from './data/confidants'
 import ConfidantDropdown from './containers/ConfidantDropdown'
 import confidantLabels from './data/confidant-labels'
@@ -12,7 +12,7 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      confidant: 'makoto',
+      confidant: 'ann',
       labels: confidantLabels
     }
   }
@@ -44,8 +44,8 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
-        <h2>{utils.upFirstLetter(this.state.confidant)}</h2>
-        <h3>{utils.upFirstLetter(confidants.get(this.state.confidant).arcana)}</h3>
+        <h2 className='ConfidantHeader'>{utils.upFirstLetter(this.state.confidant)}</h2>
+        <h3 className='ConfidantHeader'>{utils.upFirstLetter(confidants.get(this.state.confidant).arcana)}</h3>
         {this.renderConfidantDropdown(this.state.labels)}
         {this.renderRankList()}
       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../index.css'
+import './ConfidantDropdown.css'
 import Dropdown from 'react-dropdown'
 
 class ConfidantDropdown extends Component {
@@ -18,7 +19,7 @@ class ConfidantDropdown extends Component {
 
   render () {
     return (
-      <Dropdown options={this.state.options}
+      <Dropdown className='ConfidantDropdown' options={this.state.options}
         onChange={this._onSelect}
         placeholder='Select a Confidant' />
     )
