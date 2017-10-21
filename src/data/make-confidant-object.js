@@ -29,7 +29,7 @@ function makeConfidantObjects () {
   }).then((confidants) => {
     return Promise.map(confidants, (confidant) => {
       return fse.writeFile(getJsonFilename(confidant.name.replace(/\s+/g, '-')),
-        JSON.stringify(confidant), 'utf8')
+        JSON.stringify(confidant, null, '\t'), 'utf8')
     })
   })
 }

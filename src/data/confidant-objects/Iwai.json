@@ -1,81 +1,81 @@
 {
-  "ranks": [
-    {
-      "text": "After 5/6 and once you see the event in the airsoft shop with the 'package' you have to hold, talk to Iwai with rank 4 (dauntless) guts to start this cooperation.Unlocks Starter Customization, allowing you to tweak your guns for battle.",
-      "rank": "1"
-    },
-    {
-      "text": "Impactful Conversation Choices for this Rank:Bonus: Proficency Up",
-      "rank": "2",
-      "choices": [
-        "Choice 1: \"That's probably the signal.\" to call him.",
-        "Choice 3: \"How's your cold?\" +2 / \"What should I do now?\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Unlocks Medium Customization of your firearms.Bonus: Proficency Up",
-      "rank": "3",
-      "choices": [
-        "Choice 2: \"I always knew you were a thug.\" +3 / \"Y-Yakuza?!\" +2",
-        "Choice 3: \"We made a deal, didn't we?\" +3"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Bonus: Proficency Up",
-      "rank": "4",
-      "choices": [
-        "Choice 4: \"Where's my reward?\" +3 / \"You two should play nice.\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Unlocks a Discount for gun customization.Bonus: Proficency Up",
-      "rank": "5",
-      "choices": [
-        "Choice 2: \"You're pathetic.\" +3",
-        "Choice 3: \"That's right.\" +3 / \"I'll stick around for the guns.\" +3"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:",
-      "rank": "6",
-      "choices": [
-        "Choice 3: \"Girls.\" +3 / \"That's a secret.\" +3 / \"Our futures.\" +2",
-        "Choice 4: \"You should buy is something.\" +3 / \"Right.\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Unlocks Advanced Customization for your guns.Bonus: Proficency Up",
-      "rank": "7",
-      "choices": [
-        "Choice 1: \"Absolutely.\" +3 / \"I guess he likes guns.\" +2",
-        "Choice 2: \"He's clever.\" +3 / \"What a crafty bastard.\" +2"
-      ]
-    },
-    {
-      "text": "Requires rank 5 guts.Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked.Complete the quest, then return to Iwai.Bonus: Proficency Up",
-      "rank": "8",
-      "choices": [
-        "Choice 1: \"I did it all for Iwai.\" +3 / \"It most definitely was.\" +2",
-        "Choice 2: \"I will.\" +2 / \"I want to help you.\" +2",
-        "Choice 1: \"I dunno.\" +2",
-        "Choice 2: \"I guess I could consider it.\" +3 / \"If you pay me well.\" +3 / \"I'm back, baby.\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:",
-      "rank": "9",
-      "choices": [
-        "Choice 1: \"Are you sure he's alive?\" +3 / \"That's great news.\" +2",
-        "Choice 5: \"Tell him the truth.\" +3 / \"You need to trust your son.\" +3",
-        "Choice 6: \"He's a cool kid, huh?\" +3 / \"Karou is really strong willed.\" +3"
-      ]
-    },
-    {
-      "text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Special Customization, the maximum type of gun type weapon customization.Bonus: Proficency Up",
-      "rank": "10"
-    }
-  ],
-  "arcana": "Hanged Man",
-  "name": "Iwai",
-  "location": "Airsoft Shop"
+	"ranks": [
+		{
+			"text": "After 5/6 and once you see the event in the airsoft shop with the 'package' you have to hold, talk to Iwai with rank 4 (dauntless) guts to start this cooperation.Unlocks Starter Customization, allowing you to tweak your guns for battle.",
+			"rank": "1"
+		},
+		{
+			"text": "Impactful Conversation Choices for this Rank:Bonus: Proficency Up",
+			"rank": "2",
+			"choices": [
+				"Choice 1: \"That's probably the signal.\" to call him.",
+				"Choice 3: \"How's your cold?\" +2 / \"What should I do now?\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Unlocks Medium Customization of your firearms.Bonus: Proficency Up",
+			"rank": "3",
+			"choices": [
+				"Choice 2: \"I always knew you were a thug.\" +3 / \"Y-Yakuza?!\" +2",
+				"Choice 3: \"We made a deal, didn't we?\" +3"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Bonus: Proficency Up",
+			"rank": "4",
+			"choices": [
+				"Choice 4: \"Where's my reward?\" +3 / \"You two should play nice.\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Unlocks a Discount for gun customization.Bonus: Proficency Up",
+			"rank": "5",
+			"choices": [
+				"Choice 2: \"You're pathetic.\" +3",
+				"Choice 3: \"That's right.\" +3 / \"I'll stick around for the guns.\" +3"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:",
+			"rank": "6",
+			"choices": [
+				"Choice 3: \"Girls.\" +3 / \"That's a secret.\" +3 / \"Our futures.\" +2",
+				"Choice 4: \"You should buy is something.\" +3 / \"Right.\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Unlocks Advanced Customization for your guns.Bonus: Proficency Up",
+			"rank": "7",
+			"choices": [
+				"Choice 1: \"Absolutely.\" +3 / \"I guess he likes guns.\" +2",
+				"Choice 2: \"He's clever.\" +3 / \"What a crafty bastard.\" +2"
+			]
+		},
+		{
+			"text": "Requires rank 5 guts.Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked.Complete the quest, then return to Iwai.Bonus: Proficency Up",
+			"rank": "8",
+			"choices": [
+				"Choice 1: \"I did it all for Iwai.\" +3 / \"It most definitely was.\" +2",
+				"Choice 2: \"I will.\" +2 / \"I want to help you.\" +2",
+				"Choice 1: \"I dunno.\" +2",
+				"Choice 2: \"I guess I could consider it.\" +3 / \"If you pay me well.\" +3 / \"I'm back, baby.\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:",
+			"rank": "9",
+			"choices": [
+				"Choice 1: \"Are you sure he's alive?\" +3 / \"That's great news.\" +2",
+				"Choice 5: \"Tell him the truth.\" +3 / \"You need to trust your son.\" +3",
+				"Choice 6: \"He's a cool kid, huh?\" +3 / \"Karou is really strong willed.\" +3"
+			]
+		},
+		{
+			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Special Customization, the maximum type of gun type weapon customization.Bonus: Proficency Up",
+			"rank": "10"
+		}
+	],
+	"arcana": "Hanged Man",
+	"name": "Iwai",
+	"location": "Airsoft Shop"
 }

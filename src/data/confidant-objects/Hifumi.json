@@ -1,81 +1,81 @@
 {
-  "ranks": [
-    {
-      "text": "After 6/25, visit Kanda Church and talk to the girl towards the front. To start the cooperation you'll need at least rank 3 (suave) charm, otherwise she'll just ignore you.Unlocks Koma Sabaki, which lets you swap out party members on the fly mid-battle whenever it's Joker's turn.",
-      "rank": "1"
-    },
-    {
-      "text": "Impactful Conversation Choices for this Rank:Bonus: Knowledge Up",
-      "rank": "2",
-      "choices": [
-        "Choice 1: \"That's interesting.\" +2",
-        "Choice 3: \"But you don't want to, right?\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Unlocks Uchikomi, giving your non-present allies a chance to drop in for an extra attack after an enemy is downed.Bonus: Knowledge Up",
-      "rank": "3",
-      "choices": [
-        "Choice 1: \"Describes you perfectly.\" +2",
-        "Choice 2: \"Having a difficult time?\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Bonus: Knowledge UpUnlocks the Book Town location.",
-      "rank": "4",
-      "choices": [
-        "Choice 1: \"I didn't mind.\" +2 / \"Must've been the katsu curry.\" +2",
-        "Choice 2: \"They're cool.\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Unlocks Kakoi Kuzushi, which allows you to attempt to escape from battle even when enemies have you surrounded.Bonus: Knowledge Up",
-      "rank": "5",
-      "choices": [
-        "Choice 1: \"She's scary.\" +2",
-        "Choice 2: \"You should stop then.\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Bonus: Knowledge UpUnlocks the Sky Tower Location.",
-      "rank": "6",
-      "choices": [
-        "Choice 1: \"Is that frustrating?\" +2",
-        "Choice 2: \"Do what you love.\" +2 / \"Do you still like shogi?\" +2"
-      ]
-    },
-    {
-      "text": "Impactful conversation choices for this rank:Unlocks Narikin, a chance to get double money if you win the battle in one full party turn after an ambush.Bonus: Knowledge Up",
-      "rank": "7",
-      "choices": [
-        "Choice 1: \"It may all come down to luck.\" +3 / \"That's almost a relief.\" +2",
-        "Choice 2: \"I believe in you.\" +3 / \"Give it your all.\" +2"
-      ]
-    },
-    {
-      "text": "Requires rank 5 (erudite) knowledge.Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: Upstaging the Stage Mother.Complete the Upstaging the Stage Mother sidequest, then return to Hifumi:Bonus: Knowledge Up",
-      "rank": "8",
-      "choices": [
-        "Choice 2: \"That won't work.\" +2",
-        "Choice 1: \"I'm glad her heart changed.\" +3 / \"Maybe...\" +2"
-      ]
-    },
-    {
-      "text": "This is the point when a romance with Hifumi Togo becomes available.Impactful conversation choices for this rank:Romance - \"I want to stay by your side.\"Friendship - \"I want to become stronger.\"Romance - \"I want us to date.\"Friendship - \"We'll be friends forever.\"Unlocks Touryou, removing the need to wait before you can escape from battle.",
-      "rank": "9",
-      "choices": [
-        "Choice 1: \"A very queenly decision.\" +3",
-        "Choice 2:",
-        "Choice 3:"
-      ]
-    },
-    {
-      "text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Togo System, allowing you to switch in and out party members during any party member's turn.",
-      "rank": "10"
-    }
-  ],
-  "arcana": "Star",
-  "name": "Hifumi",
-  "location": "Kanda Church",
-  "gift": "Fountain Pen, Book Cover, Fan"
+	"ranks": [
+		{
+			"text": "After 6/25, visit Kanda Church and talk to the girl towards the front. To start the cooperation you'll need at least rank 3 (suave) charm, otherwise she'll just ignore you.Unlocks Koma Sabaki, which lets you swap out party members on the fly mid-battle whenever it's Joker's turn.",
+			"rank": "1"
+		},
+		{
+			"text": "Impactful Conversation Choices for this Rank:Bonus: Knowledge Up",
+			"rank": "2",
+			"choices": [
+				"Choice 1: \"That's interesting.\" +2",
+				"Choice 3: \"But you don't want to, right?\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Unlocks Uchikomi, giving your non-present allies a chance to drop in for an extra attack after an enemy is downed.Bonus: Knowledge Up",
+			"rank": "3",
+			"choices": [
+				"Choice 1: \"Describes you perfectly.\" +2",
+				"Choice 2: \"Having a difficult time?\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Bonus: Knowledge UpUnlocks the Book Town location.",
+			"rank": "4",
+			"choices": [
+				"Choice 1: \"I didn't mind.\" +2 / \"Must've been the katsu curry.\" +2",
+				"Choice 2: \"They're cool.\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Unlocks Kakoi Kuzushi, which allows you to attempt to escape from battle even when enemies have you surrounded.Bonus: Knowledge Up",
+			"rank": "5",
+			"choices": [
+				"Choice 1: \"She's scary.\" +2",
+				"Choice 2: \"You should stop then.\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Bonus: Knowledge UpUnlocks the Sky Tower Location.",
+			"rank": "6",
+			"choices": [
+				"Choice 1: \"Is that frustrating?\" +2",
+				"Choice 2: \"Do what you love.\" +2 / \"Do you still like shogi?\" +2"
+			]
+		},
+		{
+			"text": "Impactful conversation choices for this rank:Unlocks Narikin, a chance to get double money if you win the battle in one full party turn after an ambush.Bonus: Knowledge Up",
+			"rank": "7",
+			"choices": [
+				"Choice 1: \"It may all come down to luck.\" +3 / \"That's almost a relief.\" +2",
+				"Choice 2: \"I believe in you.\" +3 / \"Give it your all.\" +2"
+			]
+		},
+		{
+			"text": "Requires rank 5 (erudite) knowledge.Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: Upstaging the Stage Mother.Complete the Upstaging the Stage Mother sidequest, then return to Hifumi:Bonus: Knowledge Up",
+			"rank": "8",
+			"choices": [
+				"Choice 2: \"That won't work.\" +2",
+				"Choice 1: \"I'm glad her heart changed.\" +3 / \"Maybe...\" +2"
+			]
+		},
+		{
+			"text": "This is the point when a romance with Hifumi Togo becomes available.Impactful conversation choices for this rank:Romance - \"I want to stay by your side.\"Friendship - \"I want to become stronger.\"Romance - \"I want us to date.\"Friendship - \"We'll be friends forever.\"Unlocks Touryou, removing the need to wait before you can escape from battle.",
+			"rank": "9",
+			"choices": [
+				"Choice 1: \"A very queenly decision.\" +3",
+				"Choice 2:",
+				"Choice 3:"
+			]
+		},
+		{
+			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Togo System, allowing you to switch in and out party members during any party member's turn.",
+			"rank": "10"
+		}
+	],
+	"arcana": "Star",
+	"name": "Hifumi",
+	"location": "Kanda Church",
+	"gift": "Fountain Pen, Book Cover, Fan"
 }
