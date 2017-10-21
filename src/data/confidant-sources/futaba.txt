@@ -23,7 +23,6 @@ Choice 3: "I think it's cute." +3 / "Everyone does it." +2 / "Not at all." +2
 Unlocks the Position Hack skill - with this, Futaba can arrange for you to sometimes open a battle with a hold-up.
 Rank 5:
 Impactful conversation choices for this rank:
-Choice 1: "That must have been a shock." +3 / "Are you happy?" +2
 Choice 2: "I think you're right." +3 / "Your... what?" +2
 Choice 3: "He's the protagonist." +3 / "What's an NPC?" +2
 Rank 6:

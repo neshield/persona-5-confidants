@@ -1,1 +1,78 @@
-{"ranks":[{"text":"From 6/22 on, you can interact with Chihaya in  Shibuya. Her booth is located down the side street at night. Getting this cooperation started has a few steps:Talk to her and ask for a prediction. This scene triggers an event back home.Go back to speak to her another day and purchase the Holy Stone for ¥100,000 Yen. (Yes, that much.) This triggers another event once you get home.Go see Chihaya a third time about the Holy Stone. You'll get a mission for mementos: Ending the Boyfriend's Abuse.Complete the Ending the Boyfriend's Abuse mission in Mementos, then go back to see Chihaya. This triggers rank 1 of this confidant relationship.Unlocks Luck Reading, where a sitting with Chihaya temporarily boosts gains to one social stat.","rank":"1"},{"text":"Impactful Conversation Choices for this Rank:","rank":"2","choices":["Choice 1: \"Encourage her.\"","Choice 2: \"Overturn your fate.\"","Choice 3: \"Open your mind to change.\" +2"]},{"text":"Impactful conversation choices for this rank:Unlocks Money Reading allowing Chihaya to boost money gains in battle temporarily after a reading.","rank":"3","choices":["Choice 1: \"Follow his heart.\"","Choice 2: \"Thieves may steal her away.\""]},{"text":"Impactful conversation choices for this rank:","rank":"4","choices":["Choice 2: \"Strengthen your will.\""]},{"text":"Impactful conversation choices for this rank:Unlocks Fate Reading, which reveals upcoming abilities for confidants... not that you need that with this guide!","rank":"5","choices":["Choice 1: \"You're such a hard worker.\" +3 / \"You must have a lot of free time.\" +2"]},{"text":"Impactful conversation choices for this rank:","rank":"6","choices":["Choice 4: \"You're just Chihaya to me.\" +3"]},{"text":"Impactful conversation choices for this rank:Unlocks the Affinity Reading ability, which boosts your relationship with a chosen confidant.","rank":"7","choices":["Choice 1: \"I don't think so.\" +3 / \"You shouldn't have tricked them.\" +2"]},{"text":"Rank 8 comes in two parts. For the first part, say whatever you want. This will give you a mementos sidequest/mission: Debunking the Psychic.Once you've completed the Debunking the Psychic request in Mementos, return to Chihaya for more meaningful conversation.Impactful conversation choices for this rank:","rank":"8","choices":["Choice 1: \"I know.\" +3  /  \"I had no idea.\" +2","Choice 2: All give +3","Choice 4: \"Hell yeah, I am.\" +3"]},{"text":"This is the point when a romance with Chihaya Hifune becomes available.Impactful conversation choices for this rank:Romance - \"So I can be with you.\"Friendship - \"I like having my fortune read.\"Returns the ¥100,000 Yen spent to start this cooperation to you.","rank":"9","choices":["Choice 2: \"Well, fate can be changed.\" +3 / \"That's all in the past now.\" +2","Choice 4:"]},{"text":"Any choices you make will be irrelevant, since this is the max rank.Unlocks Special Fate Reading, which previews all of the abilities that can be unlocked for any confidant you choose.","rank":"10"}],"arcana":"Fortune","name":"Chihaya","location":"Shinjuku at night when not raining","gift":"Star-shaped Hand Mirror, Flower Basket or Sponge Cake."}
+{
+  "ranks": [
+    {
+      "text": "From 6/22 on, you can interact with Chihaya in  Shibuya. Her booth is located down the side street at night. Getting this cooperation started has a few steps:Talk to her and ask for a prediction. This scene triggers an event back home.Go back to speak to her another day and purchase the Holy Stone for ¥100,000 Yen. (Yes, that much.) This triggers another event once you get home.Go see Chihaya a third time about the Holy Stone. You'll get a mission for mementos: Ending the Boyfriend's Abuse.Complete the Ending the Boyfriend's Abuse mission in Mementos, then go back to see Chihaya. This triggers rank 1 of this confidant relationship.Unlocks Luck Reading, where a sitting with Chihaya temporarily boosts gains to one social stat.",
+      "rank": "1"
+    },
+    {
+      "text": "Impactful Conversation Choices for this Rank:",
+      "rank": "2",
+      "choices": [
+        "Choice 1: \"Encourage her.\"",
+        "Choice 2: \"Overturn your fate.\"",
+        "Choice 3: \"Open your mind to change.\" +2"
+      ]
+    },
+    {
+      "text": "Impactful conversation choices for this rank:Unlocks Money Reading allowing Chihaya to boost money gains in battle temporarily after a reading.",
+      "rank": "3",
+      "choices": [
+        "Choice 1: \"Follow his heart.\"",
+        "Choice 2: \"Thieves may steal her away.\""
+      ]
+    },
+    {
+      "text": "Impactful conversation choices for this rank:",
+      "rank": "4",
+      "choices": [
+        "Choice 2: \"Strengthen your will.\""
+      ]
+    },
+    {
+      "text": "Impactful conversation choices for this rank:Unlocks Fate Reading, which reveals upcoming abilities for confidants... not that you need that with this guide!",
+      "rank": "5",
+      "choices": [
+        "Choice 1: \"You're such a hard worker.\" +3 / \"You must have a lot of free time.\" +2"
+      ]
+    },
+    {
+      "text": "Impactful conversation choices for this rank:",
+      "rank": "6",
+      "choices": [
+        "Choice 4: \"You're just Chihaya to me.\" +3"
+      ]
+    },
+    {
+      "text": "Impactful conversation choices for this rank:Unlocks the Affinity Reading ability, which boosts your relationship with a chosen confidant.",
+      "rank": "7",
+      "choices": [
+        "Choice 1: \"I don't think so.\" +3 / \"You shouldn't have tricked them.\" +2"
+      ]
+    },
+    {
+      "text": "Rank 8 comes in two parts. For the first part, say whatever you want. This will give you a mementos sidequest/mission: Debunking the Psychic.Once you've completed the Debunking the Psychic request in Mementos, return to Chihaya for more meaningful conversation.Impactful conversation choices for this rank:",
+      "rank": "8",
+      "choices": [
+        "Choice 1: \"I know.\" +3  /  \"I had no idea.\" +2",
+        "Choice 2: All give +3",
+        "Choice 4: \"Hell yeah, I am.\" +3"
+      ]
+    },
+    {
+      "text": "This is the point when a romance with Chihaya Hifune becomes available.Impactful conversation choices for this rank:Romance - \"So I can be with you.\"Friendship - \"I like having my fortune read.\"Returns the ¥100,000 Yen spent to start this cooperation to you.",
+      "rank": "9",
+      "choices": [
+        "Choice 2: \"Well, fate can be changed.\" +3 / \"That's all in the past now.\" +2",
+        "Choice 4:"
+      ]
+    },
+    {
+      "text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Special Fate Reading, which previews all of the abilities that can be unlocked for any confidant you choose.",
+      "rank": "10"
+    }
+  ],
+  "arcana": "Fortune",
+  "name": "Chihaya",
+  "location": "Shinjuku at night when not raining",
+  "gift": "Star-shaped Hand Mirror, Flower Basket or Sponge Cake."
+}

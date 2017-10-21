@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html {
-  background-color: #f9f9f9;
+  background-color: #dbdbdb;
 }
 
 .App{
@@ -10,6 +10,11 @@ html {
   font-family: Roboto;
 }
 
-.ConfidantHeader{
+.Centered{
   text-align: center;
+}
+
+footer{
+  margin-top: 5%;
+  margin-bottom: 3%;
 }

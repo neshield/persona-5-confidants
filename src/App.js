@@ -45,13 +45,14 @@ class App extends Component {
     return (
       <div className='App'>
         {this.renderConfidantDropdown(this.state.labels)}
-        <h2 className='ConfidantHeader'>{utils.upFirstLetter(this.state.confidant)}</h2>
-        <h3 className='ConfidantHeader'>{utils.upFirstLetter(confidants.get(this.state.confidant).arcana)}</h3>
+        <h2 className='Centered'>{utils.upFirstLetter(this.state.confidant)}</h2>
+        <h3 className='Centered'>{utils.upFirstLetter(confidants.get(this.state.confidant).arcana)}</h3>
         <h3>Location: {confidants.get(this.state.confidant).location}</h3>
         {confidants.get(this.state.confidant).gift ? (
           <h3>Good Gifts: {confidants.get(this.state.confidant).gift}</h3>
           ) : null}
         {this.renderRankList()}
+        <footer className='Centered'>Information gathered from: <a target='_blank' href='https://www.rpgsite.net/feature/5479-persona-5-confidant-guide-all-conversation-choices-answers-romance-options-gifts-skill-unlocks'>RPGSite Persona 5 Confidant Guide</a></footer>
       </div>
     )
   }
