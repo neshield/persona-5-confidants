@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Grants the Shocking Scoop ability, which improves the effect of Rumor-filled scoop. Bonus: Charm Up",
+			"text": "Impactful conversation choices for this rank:Grants the Shocking Scoop ability, improving the effect of Rumor-filled scoop. Bonus: Charm Up",
 			"rank": "4",
 			"choices": [
 				"Choice 2: Both worth +2"
@@ -44,7 +44,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Outrageous Scoop, improving the effects of Rumor-filled Scoop further still. Bonus: Charm Up",
+			"text": "Impactful conversation choices for this rank:Unlocks Outrageous Scoop, improving the effect of Shocking Scoop. Bonus: Charm Up",
 			"rank": "7",
 			"choices": [
 				"Choice 2: \"Let's think of another way.\" +3 / \"Don't let him provoke you.\" +3 / \"Calm down.\" +2",

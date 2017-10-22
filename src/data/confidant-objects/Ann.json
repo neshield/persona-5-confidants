@@ -5,7 +5,7 @@
 			"rank": "1"
 		},
 		{
-			"text": "Requires rank 2 kindness. The date must also be after 5/6. Impactful Conversation Choices for this Rank:Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed demon negotiation.",
+			"text": "Requires rank 2 kindness. The date must also be after 5/6. Impactful Conversation Choices for this Rank:Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed shadow negotiation.",
 			"rank": "2",
 			"choices": [
 				"Choice 1: \"She's so strong.\" +3 / \"Are you feeling better now?\" +3 / \"So are you friends again?\" +2",
@@ -34,7 +34,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Crocodile Tears ability, which gives Ann the chance to lower a demon's demands during demon negotiation.",
+			"text": "Impactful conversation choices for this rank:Unlocks the Crocodile Tears ability, which gives Ann the chance to lower a shadow's demands during shadow negotiation.",
 			"rank": "5",
 			"choices": [
 				"Choice 1: \"Give it up.\" +2",
@@ -51,7 +51,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Sexy Technique ability, which gives Ann the chance to seduce demons during demon negotiation.",
+			"text": "Impactful conversation choices for this rank:Unlocks the Sexy Technique ability, which gives Ann the chance to seduce shadows during shadow negotiation.",
 			"rank": "7",
 			"choices": [
 				"Choice 1: \"She admires you.\" +2",

@@ -11,7 +11,7 @@ Automatically after you raid your second palace.
 Unlocks the Follow Up ability, where Morgana has a chance to perform a follow-up attack after Joker.
 Rank 4:
 Automatically on 6/20
-Unlocks the Kitty Talk ability, giving Morgana the chance to step in and rescue a failed demon negotiation.
+Unlocks the Kitty Talk ability, giving Morgana the chance to step in and rescue a failed shadow negotiation.
 Rank 5:
 Automatically after the third palace.
 Unlocks the Pickpocket ability, which gives you the chance to obtain an item with landed melee attacks.

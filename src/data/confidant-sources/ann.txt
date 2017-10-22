@@ -11,7 +11,7 @@ Impactful Conversation Choices for this Rank:
 Choice 1: "She's so strong." +3 / "Are you feeling better now?" +3 / "So are you friends again?" +2
 Choice 2: "You might be right." +3 / "You can't blame yourself?" +2 / "Kamoshida had the upper hand." +2
 Choice 3: Both give +3
-Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed demon negotiation.
+Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed shadow negotiation.
 Rank 3:
 Impactful conversation choices for this rank:
 Choice 5: "Can we stop yet?" +3 / "I love you." +2 / "I like you." +2
@@ -31,7 +31,7 @@ Impactful conversation choices for this rank:
 Choice 1: "Give it up." +2
 Choice 2: "She's amazing, huh..." +2
 Choice 3: "It had grace." +2
-Unlocks the Crocodile Tears ability, which gives Ann the chance to lower a demon's demands during demon negotiation.
+Unlocks the Crocodile Tears ability, which gives Ann the chance to lower a shadow's demands during shadow negotiation.
 Rank 6:
 Impactful conversation choices for this rank:
 Choice 1: "It seems that way." +3  /  "If it's a friend, yeah." +2
@@ -41,7 +41,7 @@ Rank 7:
 Impactful conversation choices for this rank:
 Choice 1: "She admires you." +2
 Choice 4: "Go get 'em, tiger." +2
-Unlocks the Sexy Technique ability, which gives Ann the chance to seduce demons during demon negotiation.
+Unlocks the Sexy Technique ability, which gives Ann the chance to seduce shadows during shadow negotiation.
 Rank 8:
 Impactful conversation choices for this rank:
 Choice 1: "You have some real guts." +3  /  "You're beautiful as-is." +2

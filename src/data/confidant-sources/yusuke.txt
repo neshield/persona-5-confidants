@@ -4,7 +4,7 @@ Location: Shibuya Station Underground Walkway
 
 Rank 1:
 On 6/18 there will be an umissable event with Yusuke. Talk to him at the train station's underground passageway afterwards.  
-Unlocks Novice Duplication, a skill that allows Yusuke to produce low-level skill cards for you. These can be used to teach your Persona moves.
+Unlocks Novice Duplication, a skill that allows Yusuke to produce low-level skill cards for you.
 Rank 2:
 Impactful Conversation Choices for this Rank:
 Choice 1: "It's novel." +2 / "It's enigmatic." +2
@@ -21,13 +21,13 @@ Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "Why are we in a boat?" +2 / "I should bring a girl here." +2
 Choice 2: "Love comes in all forms." +3 / "Maybe you should train more." +2
-Unlocks the Artist Talk ability, giving Yusuke the chance to step in on a failed demon negotiation.
+Unlocks the Artist Talk ability, giving Yusuke the chance to step in on a failed shadow negotiation.
 Unlocks the Inokashira Park location.
 Rank 5:
 Impactful conversation choices for this rank:
 Choice 1: "Do you want me to strip?" +3 / "I dunno if I can do it..." +2
 Choice 2: "I'm sure you will." +3 / "It doesn't look like it." +3 / "Do you want to give up?" +2
-Unlocks the Adept Duplication skill, which allows Yusuke to create medium-level skill cards on your request.
+Unlocks the Adept Duplication skill, which allows Yusuke to create medium-level skill cards.
 Unlocks the Kanda Church location.
 Rank 6:
 Requires rank 4 Proficiency.
@@ -38,7 +38,7 @@ Rank 7:
 Impactful conversation choices for this rank:
 Choice 1: "What do you mean?" +2
 Choice 2: "The truth is within you." +3
-Unlocks the Master Duplication ability, which allows Yusuke to create skill cards for high-end skills..
+Unlocks the Master Duplication ability, which allows Yusuke to create high-level skill cards.
 Rank 8:
 Impactful conversation choices for this rank:
 Choice 1: "It has to be Ann." +2
@@ -51,4 +51,4 @@ Choice 2: "You've really changed, Yusuke." +3
 Unlocks the Protect ability, giving Yusuke the ability to shield Joker from an attack that would be fatal.
 Rank 10:
 Any choices you make will be irrelevant, since this is the max rank.
-Unlocks Second Awakening, evolving Makoto's Persona to its final form.
+Unlocks Second Awakening, evolving Yusuke's Persona to its final form, Kamu Susano-o.

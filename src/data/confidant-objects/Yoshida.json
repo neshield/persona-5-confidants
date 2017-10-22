@@ -5,7 +5,7 @@
 			"rank": "1"
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Unlocks Diplomacy, a useful ability that lets you get more money or items from demon negotiation.",
+			"text": "Impactful Conversation Choices for this Rank:Unlocks Diplomacy, a useful ability that lets you get more money or items from shadow negotiation.",
 			"rank": "2",
 			"choices": [
 				"Choice 1: \"I want to improve my speech.\" +2",
@@ -14,7 +14,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Fundraising, which allows you to demand a lot more money during demon negotiation.",
+			"text": "Impactful conversation choices for this rank:Unlocks Fundraising, which allows you to demand a lot more money during shadow negotiation.",
 			"rank": "3",
 			"choices": [
 				"Choice 2: \"His message.\" +2 / \"His speaking skills.\" +2"
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Mind Control, an ability that sometimes lets you skip demon negotiation entirely.",
+			"text": "Impactful conversation choices for this rank:Unlocks Mind Control, an ability that sometimes lets you skip shadow negotiation entirely.",
 			"rank": "8",
 			"choices": [
 				"Choice 1: \"That's a difficult decision.\" +2",

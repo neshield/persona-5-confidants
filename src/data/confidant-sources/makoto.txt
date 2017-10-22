@@ -14,7 +14,7 @@ Rank 3:
 Impactful conversation choices for this rank:
 Choice 2: "You can change." +3  /  "Don't let it get to you." +2
 Choice 1: "You have the wrong idea." +2
-Unlocks the Brainiac Talk ability, giving Makoto the chance to step in and rescue a failed demon negotiation.
+Unlocks the Brainiac Talk ability, giving Makoto the chance to step in and rescue a failed shadow negotiation.
 Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "That's unlike you." +2

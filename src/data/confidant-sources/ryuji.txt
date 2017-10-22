@@ -17,7 +17,7 @@ Rank 4:
 Impactful conversation choices for this rank:
 Choice 1: "Are you worried about him?" +3
 Choice 2: "I know how you feel." +3 / "But you're doing great." +3 / "It's not so bad." +2
-Unlocks the Punk Talk ability, giving Ryuji the chance to step in and rescue a failed demon negotiation.
+Unlocks the Punk Talk ability, giving Ryuji the chance to step in and rescue a failed shadow negotiation.
 Unlocks the Ogikubo Ramen location.
 Rank 5:
 Impactful conversation choices for this rank:
@@ -48,7 +48,7 @@ Choice 1: "Are you satisfied now?" +3 / "Not running?" +2
 Choice 2: "Don't do it." +3 / "What did you say?" +2 / "Do you have any time for that?" +2
 Choice 3: All give +3
 Choice 4: "I agree." +2
-Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.
+Unlocks the Protect ability, giving Ryuji the ability to shield Joker from an attack that would be fatal.
 Rank 10:
 Any choices you make will be irrelevant, since this is the max rank.
-Unlocks Second Awakening, evolving Ryujis's Persona to its final form.
+Unlocks Second Awakening, evolving Ryujis's Persona to its final form, Seiten Taisei.

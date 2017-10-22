@@ -9,11 +9,11 @@ Impactful Conversation Choices for this Rank:
 Choice 1: "I want to improve my speech." +2
 Choice 2: "One with conviction." +2 / "I don't know yet." +2
 Choice 3: "That was helpful." +2
-Unlocks Diplomacy, a useful ability that lets you get more money or items from demon negotiation.
+Unlocks Diplomacy, a useful ability that lets you get more money or items from shadow negotiation.
 Rank 3:
 Impactful conversation choices for this rank:
 Choice 2: "His message." +2 / "His speaking skills." +2
-Unlocks Fundraising, which allows you to demand a lot more money during demon negotiation.
+Unlocks Fundraising, which allows you to demand a lot more money during shadow negotiation.
 Rank 4:
 Impactful conversation choices for this rank:
 Choice 4: "I couldn't help myself." +2
@@ -32,7 +32,7 @@ Rank 8:
 Impactful conversation choices for this rank:
 Choice 1: "That's a difficult decision." +2
 Choice 3: "Stick to your beliefs." +2
-Unlocks Mind Control, an ability that sometimes lets you skip demon negotiation entirely.
+Unlocks Mind Control, an ability that sometimes lets you skip shadow negotiation entirely.
 Rank 9:
 Impactful conversation choices for this rank:
 Choice 1: "Do your best." +3 / "I'm getting nervous." +2

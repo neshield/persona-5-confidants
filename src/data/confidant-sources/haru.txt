@@ -24,7 +24,7 @@ Choice 2: All give +3
 Choice 3: All give +3
 Choice 4: "Let's ask him." +3
 Choice 5: "I'm not really sure." +3
-Unlocks the Celeb Talk ability, giving Haru the chance to step in on a failed demon negotiation.
+Unlocks the Celeb Talk ability, giving Haru the chance to step in on a failed shadow negotiation.
 Rank 5:
 Impactful conversation choices for this rank:
 Choice 1: "Somebody's telling the truth." +3 / "Trust no one." +3
@@ -62,4 +62,4 @@ Friendship - "He saw us as good friends."
 Unlocks the Protect ability, giving Haru the ability to shield Joker from an attack that would be fatal.
 Rank 10:
 Any choices you make will be irrelevant, since this is the max rank.
-Unlocks Second Awakening, evolving Haru's Persona to its final form.
+Unlocks Second Awakening, evolving Haru's Persona to its final form, Astarte.

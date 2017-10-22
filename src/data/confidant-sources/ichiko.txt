@@ -18,7 +18,7 @@ Bonus: Charm Up
 Rank 4:
 Impactful conversation choices for this rank:
 Choice 2: Both worth +2
-Grants the Shocking Scoop ability, which improves the effect of Rumor-filled scoop.
+Grants the Shocking Scoop ability, improving the effect of Rumor-filled scoop.
 Bonus: Charm Up
 Rank 5:
 Impactful conversation choices for this rank:
@@ -34,7 +34,7 @@ Rank 7:
 Impactful conversation choices for this rank:
 Choice 2: "Let's think of another way." +3 / "Don't let him provoke you." +3 / "Calm down." +2
 Choice 3: "You're charming as you are." +3 / "You should work on that." +2
-Unlocks Outrageous Scoop, improving the effects of Rumor-filled Scoop further still.
+Unlocks Outrageous Scoop, improving the effect of Shocking Scoop.
 Bonus: Charm Up
 Rank 8:
 Impactful conversation choices for this rank:
