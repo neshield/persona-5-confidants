@@ -52,7 +52,8 @@ class App extends Component {
           <h3>Good Gifts: {confidants.get(this.state.confidant).gift}</h3>
           ) : null}
         {this.renderRankList()}
-        <footer className='Centered'>Information gathered from: <a target='_blank' href='https://www.rpgsite.net/feature/5479-persona-5-confidant-guide-all-conversation-choices-answers-romance-options-gifts-skill-unlocks'>RPGSite Persona 5 Confidant Guide</a></footer>
+        <footer className='Centered'>Information gathered from: <a target='_blank' rel='noopener noreferrer'
+          href='https://www.rpgsite.net/feature/5479-persona-5-confidant-guide-all-conversation-choices-answers-romance-options-gifts-skill-unlocks'>RPGSite Persona 5 Confidant Guide</a></footer>
       </div>
     )
   }
