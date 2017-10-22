@@ -1,11 +1,11 @@
 {
 	"ranks": [
 		{
-			"text": "On 4/15 as part of the story your cooperation with Ann will begin.Unlocks Baton Pass ability, letting you pass Ann's turn to other Baton Pass users in battle after a 1 More.",
+			"text": "On 4/15 as part of the story your cooperation with Ann will begin. Unlocks Baton Pass ability, letting you pass Ann's turn to other Baton Pass users in battle after a 1 More.",
 			"rank": "1"
 		},
 		{
-			"text": "Requires rank 2 (considerate) kindness. The date must also be after 5/6.Impactful Conversation Choices for this Rank:Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed demon negotiation.",
+			"text": "Requires rank 2 (considerate) kindness. The date must also be after 5/6. Impactful Conversation Choices for this Rank:Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed demon negotiation.",
 			"rank": "2",
 			"choices": [
 				"Choice 1: \"She's so strong.\" +3 / \"Are you feeling better now?\" +3 / \"So are you friends again?\" +2",
@@ -14,7 +14,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Ann the chance to attack an enemy after Joker as a follow-up.Unlocks the Inokashira Park location.",
+			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Ann the chance to attack an enemy after Joker as a follow-up. Unlocks the Inokashira Park location.",
 			"rank": "3",
 			"choices": [
 				"Choice 5: \"Can we stop yet?\" +3 / \"I love you.\" +2 / \"I like you.\" +2",
@@ -68,7 +68,7 @@
 			]
 		},
 		{
-			"text": "This is the point when a romance with Ann Takamaki becomes available.Impactful conversation choices for this rank:Romance - \"You have me.\"Friendship - \"You have the others.\"Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.",
+			"text": "This is the point when a romance with Ann Takamaki becomes available. Impactful conversation choices for this rank:Romance - \"You have me.\"Friendship - \"You have the others.\"Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.",
 			"rank": "9",
 			"choices": [
 				"Choice 3: All give +3",
@@ -76,7 +76,7 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Second Awakening, evolving Ann's Persona to its final form, Hecate.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Ann's Persona to its final form, Hecate.",
 			"rank": "10"
 		}
 	],

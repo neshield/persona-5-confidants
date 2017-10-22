@@ -1,11 +1,11 @@
 {
 	"ranks": [
 		{
-			"text": "After 10/30, find and chat to her on the school rooftop. On Sundays, she hangs out at the school gates.Unlocks Cultivation, which allows you to grow vegetables on the roof.",
+			"text": "After 10/30, find her on the school rooftop. On Sundays, she hangs out at the school gates. Unlocks Cultivation, which allows you to grow vegetables on the roof.",
 			"rank": "1"
 		},
 		{
-			"text": "Requires Rank 5 (Transcendent) Proficiency.Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Haru's turn to other Baton Pass users in battle after a 1 More.",
+			"text": "Requires Rank 5 (Transcendent) Proficiency. Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Haru's turn to other Baton Pass users in battle after a 1 More.",
 			"rank": "2",
 			"choices": [
 				"Choice 1: \"Are you opening a cafe?\" +3 / \"Are you starting a farm?\" +3 / \"You like coffee?\" +2",
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"text": "This is the point when a romance with Haru Okumura becomes available.Impactful conversation choices for this rank:Relationship - \"I like you too, Haru.\"Friendship - \"He saw us as good friends.\"Unlocks the Protect ability, giving Haru the ability to shield Joker from an attack that would be fatal.",
+			"text": "This is the point when a romance with Haru Okumura becomes available. Impactful conversation choices for this rank:Relationship - \"I like you too, Haru.\"Friendship - \"He saw us as good friends.\"Unlocks the Protect ability, giving Haru the ability to shield Joker from an attack that would be fatal.",
 			"rank": "9",
 			"choices": [
 				"Choice 2: All are +3",
@@ -80,7 +80,7 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Second Awakening, evolving Haru's Persona to its final form.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Haru's Persona to its final form.",
 			"rank": "10"
 		}
 	],

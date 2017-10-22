@@ -11,10 +11,16 @@ function Confidant (lines) {
   const confidant = {ranks: []}
 
   function fixSpaces (text) {
-    // let punctuationRegex = new RegExp('\\.(\\S)', 'ig')
-    // console.log(punctuationRegex.exec(text))
-    // let fixedText = text.replace(punctuationRegex, )
-    return text
+    let fixedText
+    const punctuationRegex = new RegExp('\\.(\\w)', 'g')
+    const match = punctuationRegex.exec(text)
+    if (match) {
+      fixedText = text.replace(punctuationRegex, `. ${match[1]}`)
+    } else {
+      fixedText = text
+    }
+
+    return fixedText
   }
 
   if (!lines) {
@@ -54,6 +60,11 @@ function Confidant (lines) {
       rankObj.text += line.replace(/^\s+|\s+$/g, ' ')
     }
   })
+
+  const finalRankText = confidant.ranks[confidant.ranks.length - 1].text
+  if (finalRankText) {
+    confidant.ranks[confidant.ranks.length - 1].text = fixSpaces(finalRankText)
+  }
 
   return confidant
 }

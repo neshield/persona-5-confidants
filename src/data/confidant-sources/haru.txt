@@ -2,7 +2,7 @@ Arcana: Empress
 Name: Haru
 Location: School rooftop. Not available on Sunday or when it rains.
 Rank 1:
-After 10/30, find and chat to her on the school rooftop. On Sundays, she hangs out at the school gates.
+After 10/30, find her on the school rooftop. On Sundays, she hangs out at the school gates.
 Unlocks Cultivation, which allows you to grow vegetables on the roof.
 Rank 2:
 Requires Rank 5 (Transcendent) Proficiency.

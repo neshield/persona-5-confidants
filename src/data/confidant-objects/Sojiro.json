@@ -5,7 +5,7 @@
 			"rank": "1"
 		},
 		{
-			"text": "Impactful Conversation Choices for this rank:Unlocks Coffee Basics, a new ability that lets you create a coffee item that can restore SP in battle using LeBlanc's coffee brewing facilities.Kindness +3.",
+			"text": "Impactful Conversation Choices for this rank:Unlocks Coffee Basics, a new ability that lets you create a coffee item that can restore SP in battle using LeBlanc's coffee brewing facilities. Kindness +3.",
 			"rank": "2",
 			"choices": [
 				"Choice 1: \"Making coffee.\" +2",
@@ -14,7 +14,7 @@
 			]
 		},
 		{
-			"text": "Before you start this rank, you'll have to make coffee with Sojiro once. Afterwards, you'll be able to talk further.Impactful conversation choices for this rank:",
+			"text": "Before you start this rank, you'll have to make coffee with Sojiro once. Afterwards, you'll be able to talk further. Impactful conversation choices for this rank:",
 			"rank": "3",
 			"choices": [
 				"Choice 1: \"Medium-fine.\" +2",
@@ -22,7 +22,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Leblanc Curry ability - this skill lets ytou create a curry item that can restore SP using LeBlanc's kitchen.Kindness +3",
+			"text": "Impactful conversation choices for this rank:Unlocks the Leblanc Curry ability - this skill lets ytou create a curry item that can restore SP using LeBlanc's kitchen. Kindness +3",
 			"rank": "4",
 			"choices": [
 				"Choice 1: \"Tell me more.\" +3",
@@ -30,7 +30,7 @@
 			]
 		},
 		{
-			"text": "Available only after 8/22.Impactful conversation choices for this rank:Kindness +3",
+			"text": "Available only after 8/22. Impactful conversation choices for this rank:Kindness +3",
 			"rank": "5",
 			"choices": [
 				"Choice 1: \"I think I'm addicted!\" +3 / \"It wasn't bad.\" +2",
@@ -39,7 +39,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Coffee Mastery ability, enhancing your coffee-making ability to allow for better items.Kindness +3",
+			"text": "Impactful conversation choices for this rank:Unlocks the Coffee Mastery ability, enhancing your coffee-making ability to allow for better items. Kindness +3",
 			"rank": "6",
 			"choices": [
 				"Choice 1: \"To each his own.\" +2",
@@ -48,7 +48,7 @@
 			]
 		},
 		{
-			"text": "Requires rank 5 (angelic) kindness.Impactful conversation choices for this rank:Kindness +3",
+			"text": "Requires rank 5 (angelic) kindness. Impactful conversation choices for this rank:Kindness +3",
 			"rank": "7",
 			"choices": [
 				"Choice 1: \"You might be right.\" +2"
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"text": "You must complete \"The Money-Grubbing Uncle\" sidequest in order to start this rank.Impactful conversation choices for this rank:Unlocks the Curry Tips skill, which enhances the quality of the curry you can make.",
+			"text": "You must complete \"The Money-Grubbing Uncle\" sidequest in order to start this rank. Impactful conversation choices for this rank:Unlocks the Curry Tips skill, which enhances the quality of the curry you can make.",
 			"rank": "9",
 			"choices": [
 				"Choice 1: \"It's great.\" +3 / \"It's a bit of a nag.\" +2",
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks the Kanda Church location.Unlocks Curry Mastery, making the curry you make fantastic at restoring your whole party's SP.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks the Kanda Church location. Unlocks Curry Mastery, making the curry you make fantastic at restoring your whole party's SP.",
 			"rank": "10"
 		}
 	],

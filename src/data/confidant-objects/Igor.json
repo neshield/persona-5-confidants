@@ -1,15 +1,15 @@
 {
 	"ranks": [
 		{
-			"text": "Automatically on 4/12.Unlocks the Wild Talk ability, allowing for negotiation with Shadows during a Hold Up.Unlocks the Arcana Burst, gifting Bonus EXP to Persona of this Arcana based on this Confidant's rank.",
+			"text": "Automatically on 4/12. Unlocks the Wild Talk ability, allowing for negotiation with Shadows during a Hold Up. Unlocks the Arcana Burst, gifting Bonus EXP to Persona of this Arcana based on this Confidant's rank.",
 			"rank": "1"
 		},
 		{
-			"text": "Automatically after you infiltrate the first palace.Unlocks the Third Eye ability, letting you see things more clearly with L1/L2.",
+			"text": "Automatically after you infiltrate the first palace. Unlocks the Third Eye ability, letting you see things more clearly with L1/L2.",
 			"rank": "2"
 		},
 		{
-			"text": "Automatically on 5/5.Unlocks the Power Stock ability, increasing your Persona stock to 8.",
+			"text": "Automatically on 5/5. Unlocks the Power Stock ability, increasing your Persona stock to 8.",
 			"rank": "3"
 		},
 		{
@@ -17,11 +17,11 @@
 			"rank": "4"
 		},
 		{
-			"text": "Automatically on 6/11.Unlocks the Super Stock ability, increasing your Persona stock to 10.",
+			"text": "Automatically on 6/11. Unlocks the Super Stock ability, increasing your Persona stock to 10.",
 			"rank": "5"
 		},
 		{
-			"text": "After the fourth palace.Unlocks the High Arcana Burst ability, granting further bonus EXP based on Confidant rank.",
+			"text": "After the fourth palace. Unlocks the High Arcana Burst ability, granting further bonus EXP based on Confidant rank.",
 			"rank": "6"
 		},
 		{
@@ -29,7 +29,7 @@
 			"rank": "7"
 		},
 		{
-			"text": "Automatically on 8/31.Unlocks the Ultra Stock ability, increasing your Persona stock to 12.",
+			"text": "Automatically on 8/31. Unlocks the Ultra Stock ability, increasing your Persona stock to 12.",
 			"rank": "8"
 		},
 		{
@@ -37,7 +37,7 @@
 			"rank": "9"
 		},
 		{
-			"text": "Automatically on 12/24.Unlocks the Max Arcana Burst ability, greatly raising bonus EXP for Fool Persona fusion.",
+			"text": "Automatically on 12/24. Unlocks the Max Arcana Burst ability, greatly raising bonus EXP for Fool Persona fusion.",
 			"rank": "10"
 		}
 	],

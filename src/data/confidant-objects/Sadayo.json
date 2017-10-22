@@ -1,7 +1,7 @@
 {
 	"ranks": [
 		{
-			"text": "On 5/24 a story event will take place. Ryuji will be looking to hire a maid. Go to this event. After the event is over, talk to Kawakami in front of the Faculty Lounge at school to get her phone number.Once you have her phone number, call her from the phone at Leblanc. You'll need rank 3 (staunch) guts to do so. She costs 5000 yen each time you want to hang out with her.Unlocks Slack Off, which lets you spend class time performing activities such as making infiltration tools.",
+			"text": "On 5/24 a story event will take place. Ryuji will be looking to hire a maid. Go to this event. After the event is over, talk to Kawakami in front of the Faculty Lounge at school to get her phone number. Once you have her phone number, call her from the phone at Leblanc. You'll need rank 3 (staunch) guts to do so. She costs 5000 yen each time you want to hang out with her. Onlocks Slack Off, which lets you spend class time performing activities such as making infiltration tools.",
 			"rank": "1"
 		},
 		{
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"text": "This is the point when a romance with Sadayo Kawakami becomes available.You must have completed the A Teacher Maid to Suffer sidequest / request.Impactful conversation choices for this rank:Romance - \"I want to keep seeing you.\"Friendship - \"Not really.\"Romance - \"I mean what I say.\"Friendship - \"Got it.\"Romance - \"I'm a man, you're a woman.\"Friendship - \"I'm a master, you're a maid.\"",
+			"text": "This is the point when a romance with Sadayo Kawakami becomes available. You must have completed the A Teacher Maid to Suffer sidequest / request. Ympactful conversation choices for this rank:Romance - \"I want to keep seeing you.\"Friendship - \"Not really.\"Romance - \"I mean what I say.\"Friendship - \"Got it.\"Romance - \"I'm a man, you're a woman.\"Friendship - \"I'm a master, you're a maid.\"",
 			"rank": "9",
 			"choices": [
 				"Choice 1: \"Nonsense.\" +3",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Special Massage, a massage that'll let you go out at night after exploring the metaverse/shadow world.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Special Massage, a massage that'll let you go out at night after exploring the metaverse/shadow world.",
 			"rank": "10"
 		}
 	],

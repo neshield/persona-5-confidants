@@ -1,11 +1,11 @@
 {
 	"ranks": [
 		{
-			"text": "On 9/4 Mishima will text you details about a new side quest, Winners Don't Use Cheats. Pursue this sidequest - through the course of the sidequest you will meet Shinya, the Tower Arcana cooperation.Unlocks Down Shot, an ability that lets you spend an entire magazine to guarantee a knock down on an enemy.Bonus: Kindness Up",
+			"text": "On 9/4 Mishima will text you details about a new side quest, Winners Don't Use Cheats. Pursue this sidequest - through the course of the sidequest you will meet Shinya, the Tower Arcana cooperation. Unlocks Down Shot, an ability that lets you spend an entire magazine to guarantee a knock down on an enemy. Uonus: Kindness Up",
 			"rank": "1"
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Unlocks Bullet Hail, which gives you a chance to enter a gun all-out-attack after an ambush.Bonus: Kindness Up",
+			"text": "Impactful Conversation Choices for this Rank:Unlocks Bullet Hail, which gives you a chance to enter a gun all-out-attack after an ambush. Bonus: Kindness Up",
 			"rank": "2",
 			"choices": [
 				"Choice 1: \"Don't compare me to you.\" +3 / \"Sorry.\" +2",
@@ -15,7 +15,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Warning Shot, a way to frighten enemies with a threat during demon negotiations to get them to your side.Bonus: Kindness Up",
+			"text": "Impactful conversation choices for this rank:Unlocks Warning Shot, a way to frighten enemies with a threat during demon negotiations to get them to your side. Bonus: Kindness Up",
 			"rank": "3",
 			"choices": [
 				"Choice 2: \"That's the spirit.\" +2"
@@ -30,7 +30,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Ammo Pouch, boosting your maximum bullet capacity for each weapon.Bonus: Kindness Up",
+			"text": "Impactful conversation choices for this rank:Unlocks Ammo Pouch, boosting your maximum bullet capacity for each weapon. Bonus: Kindness Up",
 			"rank": "5",
 			"choices": [
 				"Choice 1: \"Yeah, you tell him!\" +2",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Cheap Shot, reducing the bullets required for a Down Shot.Bonus: Kindness Up",
+			"text": "Impactful conversation choices for this rank:Unlocks Cheap Shot, reducing the bullets required for a Down Shot. Bonus: Kindness Up",
 			"rank": "6",
 			"choices": [
 				"Choice 3: \"I believe in you.\" +3 / \"That's good.\" +2",
@@ -46,11 +46,11 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:None! That was easy.Bonus: Kindness Up",
+			"text": "Impactful conversation choices for this rank:None! That was easy. Bonus: Kindness Up",
 			"rank": "7"
 		},
 		{
-			"text": "Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: A Mother's Aggression.Unlocks Electric Slug, boosting the damage inflicted by Bullet Hail.Bonus: Kindness Up",
+			"text": "Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: A Mother's Aggression. Unlocks Electric Slug, boosting the damage inflicted by Bullet Hail. Uonus: Kindness Up",
 			"rank": "8",
 			"choices": [
 				"Choice 1: \"No, she's not.\" +2 / \"Is that what you think?\" +2",
@@ -58,7 +58,7 @@
 			]
 		},
 		{
-			"text": "To initiate this rank you must have completed the A Mother's Aggression side quest.Impactful conversation choices for this rank:",
+			"text": "To initiate this rank you must have completed the A Mother's Aggression side quest. Impactful conversation choices for this rank:",
 			"rank": "9",
 			"choices": [
 				"Choice 1: \"I'm glad to hear that.\" +3 / \"Thank the Phantom Thieves.\" +2",
@@ -67,7 +67,7 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Oda Special, allowing Joker's attacks to ignore resistances to hit resistant enemies.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Oda Special, allowing Joker's attacks to ignore resistances to hit resistant enemies.",
 			"rank": "10"
 		}
 	],

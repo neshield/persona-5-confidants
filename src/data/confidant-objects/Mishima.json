@@ -1,11 +1,11 @@
 {
 	"ranks": [
 		{
-			"text": "This cooperation kicks off on 5/6 automatically as part of the main story.Unlocks Mishima's Support, a very useful side ability that allows back-up party members to still earn a little EXP, albeit at a reduced rate.",
+			"text": "This cooperation kicks off on 5/6 automatically as part of the main story. Unlocks Mishima's Support, a very useful side ability that allows back-up party members to still earn a little EXP, albeit at a reduced rate.",
 			"rank": "1"
 		},
 		{
-			"text": "Automatically triggered as a story progression moment on 5/8.Impactful Conversation Choices for this Rank:None! Take it easy.",
+			"text": "Automatically triggered as a story progression moment on 5/8. Impactful Conversation Choices for this Rank:None! Take it easy.",
 			"rank": "2"
 		},
 		{
@@ -67,7 +67,7 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank.Unlocks Salvation Wish, allowing back-up party members to gain full EXP from battles.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Salvation Wish, allowing back-up party members to gain full EXP from battles.",
 			"rank": "10"
 		}
 	],
