@@ -29,7 +29,7 @@ Impactful conversation choices for this rank:
 Choice 1: "We can train at my place." +3  /  "Let's stay here." +2 / "How about Protein Lovers?" +2
 Choice 2: "You guys should trust Nakaoka." +3 / "There is no time for arguing." +3
 Choice 3: "Absolutely." +3 / "More or less." +3
-Unlocks the Harisen Recovery ability, which gives Ryuji the chance to step in and heal status ailments on party members when in the party.
+Unlocks the Harisen Recovery ability, which gives Ryuji the chance to remove status ailments from party members when in the party.
 Rank 7:
 Ryuji will text you to initiate this rank naturally. Agree to meet him.
 Impactful conversation choices for this rank:

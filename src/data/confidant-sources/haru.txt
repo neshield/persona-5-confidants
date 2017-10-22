@@ -37,7 +37,7 @@ Choice 1: "That's fascinating." +3 / "You're so studious." +3 / "Can you make so
 Choice 2: "I had no idea." +3
 Choice 3: "That would be bad." +3 / "Black like coffee?" +3
 Choice 5: "Be strong, Haru." +3
-Unlocks the Harisen Recovery ability, which gives Haru the chance to step in and heal status ailments on party members when in the party.
+Unlocks the Harisen Recovery ability, which gives Haru the chance to remove status ailments from party members when in the party.
 Rank 7:
 [This rank is translated from Japanese - we haven't reached it in English yet.]
 Impactful conversation choices for this rank:
