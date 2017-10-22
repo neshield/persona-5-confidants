@@ -10,6 +10,13 @@ const arcanaRegExp = new RegExp('Arcana: (.+)')
 function Confidant (lines) {
   const confidant = {ranks: []}
 
+  function fixSpaces (text) {
+    // let punctuationRegex = new RegExp('\\.(\\S)', 'ig')
+    // console.log(punctuationRegex.exec(text))
+    // let fixedText = text.replace(punctuationRegex, )
+    return text
+  }
+
   if (!lines) {
     return confidant
   }
@@ -32,6 +39,8 @@ function Confidant (lines) {
     } else if (arcanaMatch && confidant.arcana === undefined) {
       confidant.arcana = arcanaMatch[1]
     } else if (rankMatch) {
+      // Fix occasionally no spaces after periods
+      rankObj.text = fixSpaces(rankObj.text)
       rankObj = JSON.parse(JSON.stringify({}))
       confidant.ranks.push(rankObj)
       rankObj.text = ''
@@ -42,7 +51,7 @@ function Confidant (lines) {
       }
       rankObj.choices.push(line)
     } else {
-      rankObj.text += line
+      rankObj.text += line.replace(/^\s+|\s+$/g, ' ')
     }
   })
 

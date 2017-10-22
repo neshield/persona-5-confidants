@@ -30,9 +30,10 @@ class RankItem extends Component {
   render () {
     // TODO: style text for abilities
     let text = this.props.rank.text
-    let mask = 'Impactful Conversation Choices for this Rank:'
+    let impactfulChoicesRegex = new RegExp('Impactful Conversation Choices for this Rank:', 'ig')
+    let punctuationRegex = new RegExp()
 
-    text = text.replace(new RegExp(mask, 'ig'), '')
+    text = text.replace(impactfulChoicesRegex, '')
 
     return (
       <div className='RankItem'>

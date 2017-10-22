@@ -4,7 +4,8 @@ import utils from '../utils'
 const confidantLabels = confidantNames.map((name) => {
   return {
     value: name,
-    label: utils.upFirstLetter(name)
+    // Specifically fix twin-wardens
+    label: utils.upFirstLetter(name).replace('-w', ' W')
   }
 })
 
