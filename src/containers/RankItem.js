@@ -11,6 +11,19 @@ class RankItem extends Component {
     )
   }
 
+  renderRomance (choice) {
+    return (
+      <li>
+        <span>{choice.choice}</span>
+        <ul>
+          <li>Romance: {choice.romance}</li>
+          <li>Friendship: {choice.friendship}</li>
+        </ul>
+      </li>
+
+    )
+  }
+
   renderChoices (choices) {
     return (
       <div>
@@ -19,7 +32,11 @@ class RankItem extends Component {
             <span><strong>Important conversation choices</strong></span>
             <ul>
               {choices.map((choice) => {
-                return this.renderChoice(choice)
+                if (typeof choice === 'object') {
+                  return this.renderRomance(choice)
+                } else {
+                  return this.renderChoice(choice)
+                }
               })}
             </ul>
           </div>
@@ -58,7 +75,6 @@ class RankItem extends Component {
   }
 
   render () {
-    // TODO: style text for abilities
     const requires = this.props.rank.requires
     const choices = this.props.rank.choices
     const available = this.props.rank.available

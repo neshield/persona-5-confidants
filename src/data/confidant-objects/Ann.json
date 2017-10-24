@@ -17,7 +17,7 @@
       "available": "5/6",
       "requires": {
         "rank": 2,
-        "stat": "kindness"
+        "stat": "Kindness"
       },
       "choices": [
         "Choice 1: \"She's so strong.\" +3 / \"Are you feeling better now?\" +3 / \"So are you friends again?\" +2",
@@ -112,16 +112,20 @@
       "unlocks": {
         "ability": {
           "name": "Endure",
-          "description": "Chance to survive an attack that would otherwise kill with 1 HP."
+          "description": "Chance to survive an attack that would otherwise kill."
         }
       }
     },
     {
-      "text": "This is the point when a romance with Ann Takamaki becomes available. Impactful conversation choices for this rank:Romance - \"You have me.\"Friendship - \"You have the others.\"Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.",
+      "text": "Romance becomes available at this rank.Romance - \"You have me.\"Friendship - \"You have the others.\"Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.",
       "rank": "9",
       "choices": [
         "Choice 3: All give +3",
-        "Choice 4:"
+        {
+          "choice": "Choice 4:",
+          "romance": "\"You have me.\"",
+          "friendship": "\"You have the others.\""
+        }
       ],
       "unlocks": {
         "ability": {
