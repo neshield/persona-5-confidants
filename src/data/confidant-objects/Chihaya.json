@@ -8,61 +8,181 @@
 			"text": "Impactful Conversation Choices for this Rank:",
 			"rank": "2",
 			"choices": [
-				"Choice 1: \"Encourage her.\"",
-				"Choice 2: \"Overturn your fate.\"",
-				"Choice 3: \"Open your mind to change.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Encourage her.\"",
+							"points": "0"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Overturn your fate.\"",
+							"points": "0"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"Open your mind to change.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Money Reading allowing Chihaya to boost money gains in battle temporarily after a reading.",
 			"rank": "3",
 			"choices": [
-				"Choice 1: \"Follow his heart.\"",
-				"Choice 2: \"Thieves may steal her away.\""
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Follow his heart.\"",
+							"points": "0"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Thieves may steal her away.\"",
+							"points": "0"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
-				"Choice 2: \"Strengthen your will.\""
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Strengthen your will.\"",
+							"points": "0"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Fate Reading, which reveals upcoming abilities for confidants... not that you need that with this guide!",
 			"rank": "5",
 			"choices": [
-				"Choice 1: \"You're such a hard worker.\" +3 / \"You must have a lot of free time.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"You're such a hard worker.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You must have a lot of free time.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
-				"Choice 4: \"You're just Chihaya to me.\" +3"
+				{
+					"choice": "Choice 4:",
+					"options": [
+						{
+							"dialogue": "\"You're just Chihaya to me.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Affinity Reading ability, which boosts your relationship with a chosen confidant.",
 			"rank": "7",
 			"choices": [
-				"Choice 1: \"I don't think so.\" +3 / \"You shouldn't have tricked them.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"I don't think so.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You shouldn't have tricked them.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Rank 8 comes in two parts. For the first part, say whatever you want. This will give you a mementos sidequest/mission: Debunking the Psychic. Once you've completed the Debunking the Psychic request in Mementos, return to Chihaya for more meaningful conversation. Ompactful conversation choices for this rank:",
 			"rank": "8",
 			"choices": [
-				"Choice 1: \"I know.\" +3  /  \"I had no idea.\" +2",
-				"Choice 2: All give +3",
-				"Choice 4: \"Hell yeah, I am.\" +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"I know.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I had no idea.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "All give",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 4:",
+					"options": [
+						{
+							"dialogue": "\"Hell yeah, I am.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "This is the point when a romance with Chihaya Hifune becomes available. Impactful conversation choices for this rank:Romance - \"So I can be with you.\"Friendship - \"I like having my fortune read.\"Returns the ¥100,000 Yen spent to start this cooperation to you.",
 			"rank": "9",
 			"choices": [
-				"Choice 2: \"Well, fate can be changed.\" +3 / \"That's all in the past now.\" +2",
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Well, fate can be changed.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"That's all in the past now.\"",
+							"points": "2"
+						}
+					]
+				},
 				{
 					"choice": "Choice 4:",
 					"romance": "\"So I can be with you.\"",

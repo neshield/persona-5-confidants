@@ -8,61 +8,189 @@
 			"text": "Impactful Conversation Choices for this Rank:Unlocks Diplomacy, a useful ability that lets you get more money or items from shadow negotiation.",
 			"rank": "2",
 			"choices": [
-				"Choice 1: \"I want to improve my speech.\" +2",
-				"Choice 2: \"One with conviction.\" +2 / \"I don't know yet.\" +2",
-				"Choice 3: \"That was helpful.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"I want to improve my speech.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"One with conviction.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"I don't know yet.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"That was helpful.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Fundraising, which allows you to demand a lot more money during shadow negotiation.",
 			"rank": "3",
 			"choices": [
-				"Choice 2: \"His message.\" +2 / \"His speaking skills.\" +2"
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"His message.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"His speaking skills.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
-				"Choice 4: \"I couldn't help myself.\" +2"
+				{
+					"choice": "Choice 4:",
+					"options": [
+						{
+							"dialogue": "\"I couldn't help myself.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Manipulation, a skill that raises the chance enemies will give up rare items.",
 			"rank": "5",
 			"choices": [
-				"Choice 1: \"That media doesn't matter.\" +3 / \"I think so.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"That media doesn't matter.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I think so.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
-				"Choice 1: \"I don't really care.\" +3 / \"I'm for them.\" +2",
-				"Choice 2: \"I'd decline.\" +3 / \"I'd leave it to chance.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"I don't really care.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'm for them.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I'd decline.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'd leave it to chance.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "7",
 			"choices": [
-				"Choice 1: \"You should decline.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"You should decline.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Mind Control, an ability that sometimes lets you skip shadow negotiation entirely.",
 			"rank": "8",
 			"choices": [
-				"Choice 1: \"That's a difficult decision.\" +2",
-				"Choice 3: \"Stick to your beliefs.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"That's a difficult decision.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"Stick to your beliefs.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "9",
 			"choices": [
-				"Choice 1: \"Do your best.\" +3 / \"I'm getting nervous.\" +2",
-				"Choice 2: \"You had a change of heart.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Do your best.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'm getting nervous.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"You had a change of heart.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{

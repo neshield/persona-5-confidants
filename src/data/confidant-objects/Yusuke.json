@@ -8,64 +8,228 @@
 			"text": "Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Yusuke's turn to other Baton Pass users in battle after a 1 More.",
 			"rank": "2",
 			"choices": [
-				"Choice 1: \"It's novel.\" +2 / \"It's enigmatic.\" +2",
-				"Choice 2: \"I can't wait.\" +3 / \"I hope you're right.\" +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"It's novel.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"It's enigmatic.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I can't wait.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I hope you're right.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Yusuke the chance to attack an enemy after Joker as a follow-up. Unlocks the Ueno Museum location.",
 			"rank": "3",
 			"choices": [
-				"Choice 1: \"Don't let it bother you.\" +2",
-				"Choice 3: \"This isn't like you.\" +3 / \"You're really giving up?\" +2",
-				"Choice 4: Both give +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Don't let it bother you.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"This isn't like you.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You're really giving up?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 4:",
+					"options": [
+						{
+							"dialogue": "Both give",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Artist Talk ability, giving Yusuke the chance to step in on a failed shadow negotiation. Unlocks the Inokashira Park location.",
 			"rank": "4",
 			"choices": [
-				"Choice 1: \"Why are we in a boat?\" +2 / \"I should bring a girl here.\" +2",
-				"Choice 2: \"Love comes in all forms.\" +3 / \"Maybe you should train more.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Why are we in a boat?\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"I should bring a girl here.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Love comes in all forms.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Maybe you should train more.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Adept Duplication skill, which allows Yusuke to create medium-level skill cards. Unlocks the Kanda Church location.",
 			"rank": "5",
 			"choices": [
-				"Choice 1: \"Do you want me to strip?\" +3 / \"I dunno if I can do it...\" +2",
-				"Choice 2: \"I'm sure you will.\" +3 / \"It doesn't look like it.\" +3 / \"Do you want to give up?\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Do you want me to strip?\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I dunno if I can do it...\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I'm sure you will.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"It doesn't look like it.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Do you want to give up?\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Requires rank 4 Proficiency. Impactful conversation choices for this rank:Unlocks the Harisen Recovery ability, which gives Yusuke the chance to remove status ailments from party members when in the party.",
 			"rank": "6",
 			"choices": [
-				"Choice 1: \"It feels nostalgic.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"It feels nostalgic.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Master Duplication ability, which allows Yusuke to create high-level skill cards.",
 			"rank": "7",
 			"choices": [
-				"Choice 1: \"What do you mean?\" +2",
-				"Choice 2: \"The truth is within you.\" +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"What do you mean?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"The truth is within you.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Endure ability, giving Yusuke a chance to withstand a blow in combat that would usually kill.",
 			"rank": "8",
 			"choices": [
-				"Choice 1: \"It has to be Ann.\" +2",
-				"Choice 2: \"You've really grown, Yusuke.\" +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"It has to be Ann.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"You've really grown, Yusuke.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Protect ability, giving Yusuke the ability to shield Joker from an attack that would be fatal.",
 			"rank": "9",
 			"choices": [
-				"Choice 1: \"Her love for her son.\" +3 / \"The pain of separation.\" +3",
-				"Choice 2: \"You've really changed, Yusuke.\" +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Her love for her son.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"The pain of separation.\"",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"You've really changed, Yusuke.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{

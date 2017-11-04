@@ -8,65 +8,269 @@
 			"text": "Requires rank 4 (selfless) kindness. The date must also be after 9/2. Impactful Conversation Choices for this Rank:Unlocks the Mementos Scan ability. With this, Futaba has a chance of fully mapping out a floor of Mementos on arrival.",
 			"rank": "2",
 			"choices": [
-				"Choice 1: \"That's a great idea.\" +2",
-				"Choice 2: \"If we work together.\" +3 / \"Want me to help?\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"That's a great idea.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"If we work together.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Want me to help?\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "3",
 			"choices": [
-				"Choice 1: \"I was about to come find you.\" +3",
-				"Choice 2: \"Good to see you again.\" +3 / \"You're the one who appeared.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"I was about to come find you.\"",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Good to see you again.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You're the one who appeared.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Position Hack skill - with this, Futaba can arrange for you to sometimes open a battle with a hold-up.",
 			"rank": "4",
 			"choices": [
-				"Choice 1: \"Let's do this together.\" +3 / \"Nope.\" +2",
-				"Choice 3: \"I think it's cute.\" +3 / \"Everyone does it.\" +2 / \"Not at all.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Let's do this together.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Nope.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"I think it's cute.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Everyone does it.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"Not at all.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "5",
 			"choices": [
-				"Choice 2: \"I think you're right.\" +3 / \"Your... what?\" +2",
-				"Choice 3: \"He's the protagonist.\" +3 / \"What's an NPC?\" +2"
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I think you're right.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Your... what?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"He's the protagonist.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"What's an NPC?\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Active Support ability. With this, Moral Support can sometimes charge and recover SP too.",
 			"rank": "6",
 			"choices": [
-				"Choice 1: \"That must have been a shock.\" +3  /  \"Are you happy?\" +2",
-				"Choice 2: \"You didn't know any better.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"That must have been a shock.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Are you happy?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"You didn't know any better.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Treasure Reboot ability. Unlocks the Daughter's Just a Meal Ticket sidequest / request for Mementos. This must be completed before the next rank can be started.",
 			"rank": "7",
 			"choices": [
-				"Choice 1: \"What horrible parents.\" +2 / \"We have to put a stop to this.\" +2",
-				"Choice 2: \"I'll do it, for you.\" +3 / \"We'll show them the truth.\" +3 / \"Give me some time.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"What horrible parents.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"We have to put a stop to this.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I'll do it, for you.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"We'll show them the truth.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Give me some time.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "To initiate, complete the Daughter's Just a Meal Ticket sidequest/request in mementos. Impactful conversation choices for this rank:",
 			"rank": "8",
 			"choices": [
-				"Choice 1: \"That's incredible.\" +3  /  \"I'm glad to hear that.\" +3 / \"Did you stutter at all?\" +2",
-				"Choice 2: \"You worked really hard, too.\" +3 / \"You're making me blush...\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"That's incredible.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'm glad to hear that.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Did you stutter at all?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"You worked really hard, too.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You're making me blush...\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "This is the point when a romance with Futaba Sakura becomes available. Impactful conversation choices for this rank:Romance - \"Because I love you.\"Friendship - \"Because we're teammates.\"Unlocks the Emergency Shift ability, giving Futaba the ability to potentially swap out some party members when two or more are KOed.",
 			"rank": "9",
 			"choices": [
-				"Choice 1: \"You've really matured.\" +3 / \"What if you get bullied again?\" +2",
-				"Choice 2: \"Are you OK, Futaba?\" +3 / \"You're imagining things.\" +2",
-				"Choice 3: \"If you want.\" +2 / \"No way.\" +2",
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"You've really matured.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"What if you get bullied again?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Are you OK, Futaba?\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You're imagining things.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"If you want.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"No way.\"",
+							"points": "2"
+						}
+					]
+				},
 				{
 					"choice": "Choice 4:",
 					"romance": "\"Because I love you.\"",

@@ -8,66 +8,242 @@
 			"text": "Impactful Conversation Choices for this Rank:",
 			"rank": "2",
 			"choices": [
-				"Choice 1: It does.\" +2",
-				"Choice 2: \"Absolutely not!\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "It does.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Absolutely not!\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Housekeeping - Kawakami can make coffee or handle laundry for you.",
 			"rank": "3",
 			"choices": [
-				"Choice 1: \"Yeah, they do.\" +2 / \"Do some real cooking.\" +2",
-				"Choice 3: \"I'll request you more often.\" +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Yeah, they do.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"Do some real cooking.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"I'll request you more often.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
-				"Choice 2: \"How rude.\" +2",
-				"Choice 3: \"You need to love yourself.\" +3 / \"Yes, you do.\" +2"
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"How rude.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"You need to love yourself.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Yes, you do.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Free Time, which lets you slack off even more often at school.",
 			"rank": "5",
 			"choices": [
-				"Choice 1: \"It's fun.\" +2 / \"Who's the Master here?\" +2",
-				"Choice 2: \"How terrible...\" +2 / \"So, did you stop?\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"It's fun.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"Who's the Master here?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"How terrible...\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"So, did you stop?\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
-				"Choice 1: \"Want to rest a bit?\" +2",
-				"Choice 2: \"Are you alright?\" +3 / \"You should go home.\" +3 / \"Have you seen a doctor?\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Want to rest a bit?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Are you alright?\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You should go home.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Have you seen a doctor?\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Super Housekeeping - Now Kawakami can make curry or infiltration tools for you.",
 			"rank": "7",
 			"choices": [
-				"Choice 1: \"Don't pay them.\" +3 / \"Don't strain yourself.\" +2",
-				"Choice 2: \"Think this through more.\" +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Don't pay them.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Don't strain yourself.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Think this through more.\"",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:After this, you'll be called to see Kawakami during the next school day. You'll get a request / sidequest: A Teacher Maid to Suffer.",
 			"rank": "8",
 			"choices": [
-				"Choice 1: \"Is this what you really want?\" +3",
-				"Choice 2: \"If that's what you've decided.\" +3 / \"You're running away.\" +2",
-				"Choice 5: All give +3",
-				"Choice 6: All give +3"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Is this what you really want?\"",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"If that's what you've decided.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You're running away.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 5:",
+					"options": [
+						{
+							"dialogue": "All give",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 6:",
+					"options": [
+						{
+							"dialogue": "All give",
+							"points": "3"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "This is the point when a romance with Sadayo Kawakami becomes available. You must have completed the A Teacher Maid to Suffer sidequest / request. Impactful conversation choices for this rank:Romance - \"I want to keep seeing you.\"Friendship - \"Not really.\"Romance - \"I mean what I say.\"Friendship - \"Got it.\"Romance - \"I'm a man, you're a woman.\"Friendship - \"I'm a master, you're a maid.\"",
 			"rank": "9",
 			"choices": [
-				"Choice 1: \"Nonsense.\" +3",
-				"Choice 2: Both +3",
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Nonsense.\"",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "Both",
+							"points": "3"
+						}
+					]
+				},
 				{
 					"choice": "Choice 3:",
 					"romance": "\"I want to keep seeing you.\"",

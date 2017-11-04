@@ -8,62 +8,230 @@
 			"text": "Requires rank 2 (bold) guts. Impactful Conversation Choices for this Rank:",
 			"rank": "2",
 			"choices": [
-				"Choice 1: \"I have a bad heart.\" +2",
-				"Choice 2: \"I agree.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"I have a bad heart.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I agree.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Sterilization, adding even more items to the clinic shop.",
 			"rank": "3",
 			"choices": [
-				"Choice 3: \"I don't mind.\" +2 / \"I need the medicine.\" +2"
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"I don't mind.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"I need the medicine.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
-				"Choice 1: \"Dr. Takemi will help.\" +2",
-				"Choice 2: \"You seem happy.\" +3 / \"You're so kind.\" +2 / \"Why free?\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Dr. Takemi will help.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"You seem happy.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You're so kind.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"Why free?\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Immunization, adding support items to the clinic shop.",
 			"rank": "5",
 			"choices": [
-				"Choice 3: \"That's good.\" +3 / \"When will it be done?\" +2"
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"That's good.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"When will it be done?\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
-				"Choice 3: \"It suits you.\" +3 / \"You're not honest.\" +2"
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"It suits you.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You're not honest.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks a Discount, reducing the cost of clinic items significantly.",
 			"rank": "7",
 			"choices": [
-				"Choice 1: \"This is harrassment.\" +2 / \"She's a great doctor.\" +2",
-				"Choice 3: \"Just rest for today.\" +2 / \"Anything I can do?\" +2",
-				"Choice 4: \"We all do sometimes.\" +3 / \"I'm glad you did.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"This is harrassment.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"She's a great doctor.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"Just rest for today.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"Anything I can do?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 4:",
+					"options": [
+						{
+							"dialogue": "\"We all do sometimes.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'm glad you did.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Requires rank 4 (charismatic) charm. Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: Bad Medicine. Iomplete the Bad Medicine sidequest, then return to Tae:",
 			"rank": "8",
 			"choices": [
-				"Choice 2: \"I'm your ally.\" +2",
-				"Choice 2: \"Let's get to work, doctor.\" +3 / \"It's not over yet.\" +3 / \"You should hurry.\" +2",
-				"Choice 3: \"It's for you.\" +3 / \"It's for Miwa-chan.\" +3 / \"It's for my exams.\" +2"
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I'm your ally.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Let's get to work, doctor.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"It's not over yet.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You should hurry.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"It's for you.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"It's for Miwa-chan.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"It's for my exams.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "This is the point when a romance with Tae Takemi becomes available. Impactful conversation choices for this rank:Romance - \"I wanted to see you\"Friendship - \"It was for my exams.\"Romance - \"I love you.\"Friendship - \"What do you think?\"Romance - \"It isn't a joke.\"Friendship - \"That sounds good.\"",
 			"rank": "9",
 			"choices": [
-				"Choice 1: \"It was rough.\" +3 / \"Don't worry about it.\" +2 / \"It was for my exams.\" +2",
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"It was rough.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Don't worry about it.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"It was for my exams.\"",
+							"points": "2"
+						}
+					]
+				},
 				{
 					"choice": "Choice 3:",
 					"romance": "\"I wanted to see you.\"",

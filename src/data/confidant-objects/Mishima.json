@@ -12,58 +12,238 @@
 			"text": "Impactful conversation choices for this rank:Unlocks Mishima's Enthusiasm, increasing the EXP earned from battles.",
 			"rank": "3",
 			"choices": [
-				"Choice 1: \"Great idea.\" +3 / \"I'm already taken.\" +2",
-				"Choice 2: \"We're part of... the Phandom?\" +2 / \"Let's tell the truth.\" +2",
-				"Choice 3: \"It's not your fault.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Great idea.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'm already taken.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"We're part of... the Phandom?\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"Let's tell the truth.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"It's not your fault.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Mishima's Desperation, which boosts the EXP back-up party members recieve from Mishima's Support.",
 			"rank": "4",
 			"choices": [
-				"Choice 1: \"Steak sounds good.\" +3 / \"I love desserts.\" +2",
-				"Choice 2: \"You're amazing.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Steak sounds good.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I love desserts.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"You're amazing.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "5",
 			"choices": [
-				"Choice 1: \"Is it for me?\" +3 / \"Why was it so expensive?\" +2",
-				"Choice 2: \"That's a good idea.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Is it for me?\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Why was it so expensive?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"That's a good idea.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Inokashira Park location",
 			"rank": "6",
 			"choices": [
-				"Choice 1: \"Just tell me already.\" +2 / \"You sure are fired up...\" +2",
-				"Choice 2: \"Rumors are wrong all the time...\" +2 / \"It's none of our business.\" +2",
-				"Choice 4: \"Absolutely. Nice job.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"Just tell me already.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"You sure are fired up...\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Rumors are wrong all the time...\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"It's none of our business.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 4:",
+					"options": [
+						{
+							"dialogue": "\"Absolutely. Nice job.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Once this is done, meet with your team and then go into mementos and find the target. Talk to them. Later, Mishima will get in touch to talk:Unlocks Phanboy, drastically increasing the EXP you gain from battle.",
 			"rank": "7",
 			"choices": [
-				"Choice 1: \"You're so reliable.\" +3 / \"And what exactly will we win?\" +2",
-				"Choice 2: \"Sounds pretty twisted.\" +2 / \"You need to chill.\" +2",
-				"Choice 3: \"Maybe the Phansite?\" +3 / \"I'm sure there is.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"You're so reliable.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"And what exactly will we win?\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"Sounds pretty twisted.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"You need to chill.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"Maybe the Phansite?\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'm sure there is.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "8",
 			"choices": [
-				"Choice 1: \"I'm not leaving.\" +3 / \"You should run too.\" +2",
-				"Choice 3: \"Wait, that was all an act?\" +3 / \"You were super cool.\" +3 / \"Totally.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"I'm not leaving.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You should run too.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"Wait, that was all an act?\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"You were super cool.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"Totally.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{
 			"text": "Impactful conversation choices for this rank:",
 			"rank": "9",
 			"choices": [
-				"Choice 1: \"You showed some real courage.\" +3 / \"I'm glad you're still alive.\" +2"
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"You showed some real courage.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"I'm glad you're still alive.\"",
+							"points": "2"
+						}
+					]
+				}
 			]
 		},
 		{

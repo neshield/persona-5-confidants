@@ -38,7 +38,6 @@ function handleChoices (choiceStr) {
   const choiceObj = {}
   const choiceRegex = new RegExp('(Choice \\d:)(.*)')
   const choiceMatch = choiceRegex.exec(choiceStr)
-  console.log(choiceMatch)
   choiceObj.choice = choiceMatch[1]
 
   const options = choiceMatch[2].split('/')
@@ -46,7 +45,6 @@ function handleChoices (choiceStr) {
     const optObj = {}
     const optRegex = new RegExp('(.*)\\+(\\d)')
     const optMatch = optRegex.exec(opt.trim())
-
     optObj.dialogue = optMatch[1].trim()
     optObj.points = optMatch[2]
 
@@ -67,6 +65,8 @@ function makeConfidantObjects () {
     })
   }).then((confidants) => {
     return Promise.map(confidants, (confidant) => {
+      console.log('Writing confidant...')
+      console.log(confidant)
       return fse.writeFile(getJsonFilename(confidant.name.replace(/\s+/g, '-')),
         JSON.stringify(confidant, null, '\t'), 'utf8')
     })
@@ -80,6 +80,12 @@ makeConfidantObjects().then(() => {
   console.error(err)
   process.exit(1)
 })
+
+// convertToConfidantObject(path.join(__dirname, 'confidant-objects', 'Twin-Wardens.json')).then((data) => {
+//   console.log(JSON.stringify(data, null, '\t'))
+// }).catch((err) => {
+//   console.error(err)
+// })
 
 // function makeConfidantObjects () {
 //   return fse.readdir(path.join(__dirname, 'confidant-sources')).then((filenames) => {
