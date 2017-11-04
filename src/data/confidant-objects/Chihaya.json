@@ -63,7 +63,11 @@
 			"rank": "9",
 			"choices": [
 				"Choice 2: \"Well, fate can be changed.\" +3 / \"That's all in the past now.\" +2",
-				"Choice 4:"
+				{
+					"choice": "Choice 4:",
+					"romance": "\"So I can be with you.\"",
+					"friendship": "\"I like having my fortune read.\""
+				}
 			]
 		},
 		{

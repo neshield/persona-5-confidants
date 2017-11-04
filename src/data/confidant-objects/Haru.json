@@ -76,7 +76,11 @@
 			"choices": [
 				"Choice 2: All are +3",
 				"Choice 3: \"You're very welcome.\" +3 / \"You did amazing.\" +3",
-				"Choice 4:"
+				{
+					"choice": "Choice 4:",
+					"romance": "\"I like you too, Haru.\"",
+					"friendship": "\"He saw us as good friends.\""
+				}
 			]
 		},
 		{

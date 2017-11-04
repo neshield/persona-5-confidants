@@ -64,8 +64,16 @@
 			"choices": [
 				"Choice 2: \"You're not giving up, are you?\" +2",
 				"Choice 3: \"I can't leave you.\" +3 / \"I want to help.\" +3",
-				"Choice 5:",
-				"Choice 6:"
+				{
+					"choice": "Choice 5:",
+					"romance": "\"I took it seriously.\"",
+					"friendship": "\"I didn't take it seriously.\""
+				},
+				{
+					"choice": "Choice 6:",
+					"romance": "\"I love you, Ichiko.\"",
+					"friendship": "\"I'm just kidding.\""
+				}
 			]
 		},
 		{
