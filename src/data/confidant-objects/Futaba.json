@@ -67,7 +67,11 @@
 				"Choice 1: \"You've really matured.\" +3 / \"What if you get bullied again?\" +2",
 				"Choice 2: \"Are you OK, Futaba?\" +3 / \"You're imagining things.\" +2",
 				"Choice 3: \"If you want.\" +2 / \"No way.\" +2",
-				"Choice 4:"
+				{
+					"choice": "Choice 4:",
+					"romance": "\"Because I love you.\"",
+					"friendship": "\"Because we're teammates.\""
+				}
 			]
 		},
 		{

@@ -69,8 +69,16 @@
 				"Choice 2: All result in +2",
 				"Choice 3: \"That was the right move.\" +2",
 				"Choice 4: \"I'm a regular here.\" +3  /  \"It's a popular meeting spot.\" +3  /  \"Not as much as you.\" +2",
-				"Choice 5:",
-				"Choice 6:"
+				{
+					"choice": "Choice 5:",
+					"romance": "\"I'll be your study partner.\"",
+					"friendship": "\"You'll find someone someday.\" +3"
+				},
+				{
+					"choice": "Choice 6:",
+					"romance": "\"I do.\"",
+					"friendship": "\"That's not what I meant.\""
+				}
 			]
 		},
 		{

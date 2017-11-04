@@ -68,9 +68,21 @@
 			"choices": [
 				"Choice 1: \"Nonsense.\" +3",
 				"Choice 2: Both +3",
-				"Choice 3:",
-				"Choice 4:",
-				"Choice 5:"
+				{
+					"choice": "Choice 3:",
+					"romance": "\"I want to keep seeing you.\"",
+					"friendship": "\"Not really.\""
+				},
+				{
+					"choice": "Choice 4:",
+					"romance": "\"I mean what I say.\"",
+					"friendship": "\"Got it.\""
+				},
+				{
+					"choice": "Choice 5:",
+					"romance": "\"I'm a man, you're a woman.\"",
+					"friendship": "\"I'm a master, you're a maid.\""
+				}
 			]
 		},
 		{
