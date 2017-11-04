@@ -37,6 +37,15 @@
 			"rank": "3",
 			"choices": [
 				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"You have the wrong idea.\"",
+							"points": "2"
+						}
+					]
+				},
+				{
 					"choice": "Choice 2:",
 					"options": [
 						{
@@ -45,15 +54,6 @@
 						},
 						{
 							"dialogue": "\"Don't let it get to you.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"You have the wrong idea.\"",
 							"points": "2"
 						}
 					]

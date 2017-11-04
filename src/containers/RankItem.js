@@ -3,21 +3,28 @@ import '../index.css'
 import './RankItem.css'
 
 class RankItem extends Component {
-  renderChoice (choice) {
+  renderChoice (choiceObj) {
     return (
       <li>
-        <span>{choice}</span>
+        <span>{choiceObj.choice}</span>
+        <ul>
+          {choiceObj.options.map((opt) => {
+            return (
+              <li>{opt.dialogue} +{opt.points}</li>
+            )
+          })}
+        </ul>
       </li>
     )
   }
 
-  renderRomance (choice) {
+  renderRomance (choiceObj) {
     return (
       <li>
-        <span>{choice.choice}</span>
+        <span>{choiceObj.choice}</span>
         <ul>
-          <li>Romance: {choice.romance}</li>
-          <li>Friendship: {choice.friendship}</li>
+          <li>Romance: {choiceObj.romance}</li>
+          <li>Friendship: {choiceObj.friendship}</li>
         </ul>
       </li>
 
@@ -31,11 +38,11 @@ class RankItem extends Component {
           <div className='Choices'>
             <span><strong>Important conversation choices</strong></span>
             <ul>
-              {choices.map((choice) => {
-                if (typeof choice === 'object') {
-                  return this.renderRomance(choice)
+              {choices.map((choiceObj) => {
+                if (choiceObj.romance) {
+                  return this.renderRomance(choiceObj)
                 } else {
-                  return this.renderChoice(choice)
+                  return this.renderChoice(choiceObj)
                 }
               })}
             </ul>
