@@ -1,0 +1,38 @@
+{
+  "batonPass": {
+    "name": "Baton Pass",
+    "description": "Pass turn to another after 1 More, increasing their attack and recovery."
+  },
+  "shadowTalk": {
+    "name": "{0} Talk",
+    "description": "Chance to step in and save a failed shadow negotiation."
+  },
+  "followUp": {
+    "name": "Follow Up",
+    "description": "Chance to follow up after Joker's attack."
+  },
+  "harisenRecovery": {
+    "name": "Harisen Recovery",
+    "description": "Chance to remove status ailments from party members when in the party."
+  },
+  "endure": {
+    "name": "Endure",
+    "description": "Chance to survive an attack that would otherwise kill."
+  },
+  "protect": {
+    "name": "Protect",
+    "description": "Will take a blow that would otherwise kill Joker."
+  },
+  "secondAwakening": {
+    "name": "Second Awakening",
+    "description": "Evolve {0}'s Persona to {1}."
+  },
+  "crocodileTears": {
+    "name": "Crocodile Tears",
+    "description": "Chance to further lower demands during shadow negotiation."
+  },
+  "sexyTechnique": {
+    "name": "Sexy Technique",
+    "description": "Chance to further lower demands during shadow negotiation"
+  }
+}

@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
+import abilities from '../data/abilities.json'
 import '../index.css'
 import './RankItem.css'
 
 class RankItem extends Component {
+  // TODO: Add keys to li
   renderChoice (choiceObj) {
     return (
       <li>
@@ -10,7 +12,7 @@ class RankItem extends Component {
         <ul>
           {choiceObj.options.map((opt) => {
             return (
-              <li>{opt.dialogue} +{opt.points}</li>
+              <li key={opt.dialogue}>{opt.dialogue} +{opt.points}</li>
             )
           })}
         </ul>
@@ -52,6 +54,43 @@ class RankItem extends Component {
     )
   }
 
+  renderAbility (ability) {
+    if (ability && !ability.name) {
+      const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
+      const secondAwakeningRegex = new RegExp('(secondAwakening):(.+):(.+)')
+      const shadowTalkMatch = shadowTalkRegex.exec(ability)
+      const secondAwakeningMatch = secondAwakeningRegex.exec(ability)
+
+      let name
+      let description
+
+      // Handle shadowTalk
+      if (shadowTalkMatch) {
+        ({name, description} = abilities[shadowTalkMatch[1]])
+        name = String.format(name, shadowTalkMatch[2])
+      } else if (secondAwakeningMatch) {
+        ({name, description} = abilities[secondAwakeningMatch[1]])
+        description = String.format(description, secondAwakeningMatch[2], secondAwakeningMatch[3])
+      } else {
+        ({name, description} = abilities[ability])
+      }
+
+      return (
+        <li>
+          <span><strong>Ability: {name}</strong>: {description}</span>
+        </li>
+      )
+    } else if (ability && ability.name) {
+      return (
+        <li>
+          <span><strong>Ability: {ability.name}</strong>: {ability.description}</span>
+        </li>
+      )
+    } else {
+      return null
+    }
+  }
+
   renderUnlocks (unlocks) {
     return (
       <div>
@@ -59,11 +98,7 @@ class RankItem extends Component {
           <div className='unlocks'>
             <span><strong>Unlocks</strong></span>
             <ul>
-              {unlocks.ability ? (
-                <li>
-                  <span><strong>Ability: {unlocks.ability.name}</strong>: {unlocks.ability.description}</span>
-                </li>
-                ) : null}
+              {this.renderAbility(unlocks.ability)}
               {unlocks.location ? (
                 <li>
                   <span><strong>Location: {unlocks.location}</strong></span>

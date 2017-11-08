@@ -5,10 +5,7 @@
 			"rank": "1",
 			"available": "4/15",
 			"unlocks": {
-				"ability": {
-					"name": "Baton Pass",
-					"description": "Pass turn to another after 1 More, increasing their attack and recovery."
-				}
+				"ability": "batonPass"
 			}
 		},
 		{
@@ -65,10 +62,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": {
-					"name": "Girl Talk",
-					"description": "Chance to step in and save a failed shadow negotiation"
-				}
+				"ability": "shadowTalk:Girl"
 			}
 		},
 		{
@@ -116,10 +110,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": {
-					"name": "Follow Up",
-					"description": "Chance to follow up after Joker's attack."
-				},
+				"ability": "followUp",
 				"location": "Inokashira Park"
 			}
 		},
@@ -223,10 +214,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": {
-					"name": "Crocodile Tears",
-					"description": "Chance to lower demands during shadow negotiation."
-				}
+				"ability":"crocodileTears"
 			}
 		},
 		{
@@ -265,10 +253,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": {
-					"name": "Harisen Recovery",
-					"description": "Chance to remove status ailments from party members when in the party."
-				}
+				"ability": "harisenRecovery"
 			}
 		},
 		{
@@ -295,10 +280,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": {
-					"name": "Sexy Technique",
-					"description": "Chance to further lower demands during shadow negotiation"
-				}
+				"ability": "sexyTechnique"
 			}
 		},
 		{
@@ -338,10 +320,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": {
-					"name": "Endure",
-					"description": "Chance to survive an attack that would otherwise kill."
-				}
+				"ability": "endure"
 			}
 		},
 		{
@@ -364,20 +343,14 @@
 				}
 			],
 			"unlocks": {
-				"ability": {
-					"name": "Protect",
-					"description": "Will take a blow that would otherwise kill Joker."
-				}
+				"ability": "protect"
 			}
 		},
 		{
 			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Ann's Persona to its final form, Hecate.",
 			"rank": "10",
 			"unlocks": {
-				"ability": {
-					"name": "Second Awakening",
-					"description": "Evolve Ann's Persona to Hecate."
-				},
+				"ability": "secondAwakening:Ann:Hecate",
 				"fusion": "Ishtar"
 			}
 		}

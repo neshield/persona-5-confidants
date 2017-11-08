@@ -1,8 +1,19 @@
 {
 	"ranks": [
 		{
-			"text": "After clearing the Bank Palace dungeon in the story, find Makoto in front of the Student Council Office at school. Rank 3 (Scholarly) Knowledge is required. Rnlocks Shadow Calculus ability, allowing you to see the potential drops from enemies on the analyse screen.",
-			"rank": "1"
+			"text": "Find Makoto in front of the Student Council Office at school.",
+			"rank": "1",
+			"available": "After the third Palace.",
+			"requires": {
+				"rank": 2,
+				"stat": "knowledge"
+			},
+			"unlocks": {
+				"ability": {
+					"name":"Shadow Calculus",
+					"description": "See potential item drops of enemies from the analyze screen."
+				}
+			}
 		},
 		{
 			"text": "Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Makoto's turn to other Baton Pass users in battle after a 1 More.",
