@@ -116,16 +116,22 @@ class RankItem extends Component {
     )
   }
 
+  cleanText (text) {
+    let result = ''
+    if (text) {
+      let impactfulChoicesRegex = new RegExp('Impactful Conversation Choices for this Rank:', 'ig')
+      result = text.replace(impactfulChoicesRegex, '')
+    }
+
+    return result
+  }
+
   render () {
     const requires = this.props.rank.requires
     const choices = this.props.rank.choices
     const available = this.props.rank.available
     const unlocks = this.props.rank.unlocks
-    let text = this.props.rank.text
-    let impactfulChoicesRegex = new RegExp('Impactful Conversation Choices for this Rank:', 'ig')
-
-    text = text.replace(impactfulChoicesRegex, '')
-
+    let text = this.cleanText(this.props.rank.text)
     return (
       <div className='RankItem'>
         <span><strong>Rank {this.props.rank.rank}</strong><br /></span>

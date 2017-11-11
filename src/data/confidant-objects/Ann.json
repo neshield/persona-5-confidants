@@ -9,7 +9,6 @@
 			}
 		},
 		{
-			"text": "Requires rank 2 kindness. The date must also be after 5/6. Impactful Conversation Choices for this Rank:Unlocks the Girl Talk ability, giving Ann the chance to step in and rescue a failed shadow negotiation.",
 			"rank": "2",
 			"available": "5/6",
 			"requires": {
@@ -66,7 +65,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Ann the chance to attack an enemy after Joker as a follow-up. Unlocks the Inokashira Park location.",
 			"rank": "3",
 			"choices": [
 				{
@@ -115,7 +113,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
 				{
@@ -182,7 +179,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Crocodile Tears ability, which gives Ann the chance to lower a shadow's demands during shadow negotiation.",
 			"rank": "5",
 			"choices": [
 				{
@@ -218,7 +214,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Harisen Recovery ability, which gives Ann the chance to remove status ailments from party members when in the party.",
 			"rank": "6",
 			"choices": [
 				{
@@ -257,7 +252,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Sexy Technique ability, which gives Ann the chance to seduce shadows during shadow negotiation.",
 			"rank": "7",
 			"choices": [
 				{
@@ -284,7 +278,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Endure ability, giving Ann a chance to withstand a blow in combat that would usually kill.",
 			"rank": "8",
 			"choices": [
 				{
@@ -324,7 +317,7 @@
 			}
 		},
 		{
-			"text": "Romance becomes available at this rank.Romance - \"You have me.\"Friendship - \"You have the others.\"Unlocks the Protect ability, giving Ann the ability to shield Joker from an attack that would be fatal.",
+			"text": "A romance with Ann becomes available at this rank.",
 			"rank": "9",
 			"choices": [
 				{
@@ -347,7 +340,7 @@
 			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Ann's Persona to its final form, Hecate.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
 			"rank": "10",
 			"unlocks": {
 				"ability": "secondAwakening:Ann:Hecate",

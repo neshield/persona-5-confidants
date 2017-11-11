@@ -34,5 +34,13 @@
   "sexyTechnique": {
     "name": "Sexy Technique",
     "description": "Chance to further lower demands during shadow negotiation"
+  },
+  "luckReading": {
+    "name": "Luck Reading",
+    "description": "Pay 5000 Yes to increase your chance of increasing a chosen social stat for the rest of the day."
+  },
+  "affinityReading": {
+    "name": "Affinity Reading",
+    "description": "Pay 5000 Yen to boost your relationship with a chosen confidant. +3 if you have a matching persona, +2 otherwise."
   }
 }
