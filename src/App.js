@@ -23,7 +23,7 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      confidant: 'goro',
+      confidant: 'haru',
       labels: confidantLabels
     }
   }

@@ -78,6 +78,18 @@
   "finalGuard": {
     "name": "Final Guard",
     "description": "Chance to block attacks that would a KO party member(s)."
+  },
+  "cultivation": {
+    "name": "Cultivation",
+    "description": "Haru can grow SP recovering vegetables on the roof of Shujin Academy."
+  },
+  "selectiveBreeding": {
+    "name": "Selective Breeding",
+    "description": "Crops produce an extra vegetable."
+  },
+  "soilImprovement": {
+    "name": "Soil Improvement",
+    "description": "Reduce the time it takes vegetables to grow."
   }
 
 }

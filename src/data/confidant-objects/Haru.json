@@ -1,11 +1,18 @@
 {
 	"ranks": [
 		{
+			"available": "10/30",
 			"text": "After 10/30, find her on the school rooftop. On Sundays, she hangs out at the school gates. Unlocks Cultivation, which allows you to grow vegetables on the roof.",
-			"rank": "1"
+			"rank": "1",
+			"unlocks": {
+				"abilities": ["cultivation"]
+			}
 		},
 		{
-			"text": "Requires Rank 5 (Transcendent) Proficiency. Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Haru's turn to other Baton Pass users in battle after a 1 More.",
+			"requires": {
+				"rank": 5,
+				"stat": "Proficiency"
+			},
 			"rank": "2",
 			"choices": [
 				{
@@ -51,10 +58,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["batonPass"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Haru the chance to attack an enemy after Joker as a follow-up.",
 			"rank": "3",
 			"choices": [
 				{
@@ -100,7 +109,10 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["followUp"]
+			}
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Celeb Talk ability, giving Haru the chance to step in on a failed shadow negotiation.",
@@ -155,10 +167,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["shadowTalk:Celeb"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Selective Breeding, which improves vegetable crop outcome.",
 			"rank": "5",
 			"choices": [
 				{
@@ -196,7 +210,10 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["selectiveBreeding"]
+			}
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Harisen Recovery ability, which gives Haru the chance to remove status ailments from party members when in the party.",
@@ -250,10 +267,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["harisenRecovery"]
+			}
 		},
 		{
-			"text": "[This rank is translated from Japanese - we haven't reached it in English yet.]Impactful conversation choices for this rank:Unlocks the Soil Improvement ability, which reduces the time a crop takes to grow.",
 			"rank": "7",
 			"choices": [
 				{
@@ -287,7 +306,10 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["soilImprovement"]
+			}
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Endure ability, giving Makoto a chance to withstand a blow in combat that would usually kill.",
@@ -320,10 +342,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["endure"]
+			}
 		},
 		{
-			"text": "This is the point when a romance with Haru Okumura becomes available. Impactful conversation choices for this rank:Relationship - \"I like you too, Haru.\"Friendship - \"He saw us as good friends.\"Unlocks the Protect ability, giving Haru the ability to shield Joker from an attack that would be fatal.",
+			"text": "A romance with Haru becomes available at this rank.",
 			"rank": "9",
 			"choices": [
 				{
@@ -353,11 +378,18 @@
 					"romance": "\"I like you too, Haru.\"",
 					"friendship": "\"He saw us as good friends.\""
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["protect"]
+			}
 		},
 		{
 			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Haru's Persona to its final form, Astarte.",
-			"rank": "10"
+			"rank": "10",
+			"unlocks": {
+				"fusion": "Mother Harlot",
+				"secondAwakening":"Haru:Astarte"
+			}
 		}
 	],
 	"arcana": "Empress",
