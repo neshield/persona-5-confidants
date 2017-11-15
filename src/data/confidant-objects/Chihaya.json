@@ -1,7 +1,7 @@
 {
 	"ranks": [
 		{
-			"text": "You can find Chihaya at her fortune telling booth in Shinkuku at night, located down the side street. It takes a few steps to get this cooperation started. First, talk to her and ask for a prediction. This scene triggers an event back home. Go back to speak to her another day and purchase the Holy Stone for ¥100,000 Yen (it's worth it in the end). This triggers another event once you get home. Go see Chihaya a third time and you'll get a mission for Mementos: \"Ending the Boyfriend's Abuse.\" Complete the mission and go talk to Chihaya again to finally get rank 1!",
+			"text": "You can find Chihaya at her fortune telling booth in Shinkuku at night, located down the side street. It takes a few steps to get this cooperation started. First, talk to her and ask for a prediction. This scene triggers an event back home. Go back to speak to her another day and purchase the Holy Stone for ¥100,000 Yen (you get it back several ranks later). This triggers another event once you get home. Go see Chihaya a third time and you'll get a request for Mementos: \"Ending the Boyfriend's Abuse.\" Complete the mission and go talk to Chihaya again to finally get rank 1!",
 			"available": "6/22",
 			"rank": "1",
 			"unlocks" : {
@@ -41,7 +41,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Money Reading allowing Chihaya to boost money gains in battle temporarily after a reading.",
 			"rank": "3",
 			"choices": [
 				{
@@ -65,7 +64,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
 				{
@@ -80,7 +78,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Fate Reading, which reveals upcoming abilities for confidants... not that you need that with this guide!",
 			"rank": "5",
 			"choices": [
 				{
@@ -96,10 +93,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"ability": "fateReading"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
 				{
@@ -114,7 +113,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Affinity Reading ability, which boosts your relationship with a chosen confidant.",
 			"rank": "7",
 			"choices": [
 				{
@@ -136,9 +134,9 @@
 			}
 		},
 		{
-			"text": "Rank 8 comes in two parts. For the first part, say whatever you want. This will give you a mementos sidequest/mission: Debunking the Psychic. Once you've completed the Debunking the Psychic request in Mementos, return to Chihaya for more meaningful conversation. Ompactful conversation choices for this rank:",
+			"text": "Rank 8 comes in two parts. Your choices for the first part don't matter. This will give you a Mementos request: Debunking the Psychic. Return to Chihaya after finishing the request.",
 			"rank": "8",
-			"choices": [
+			"afterMementos": [
 				{
 					"choice": "Choice 1:",
 					"options": [
@@ -173,7 +171,7 @@
 			]
 		},
 		{
-			"text": "This is the point when a romance with Chihaya Hifune becomes available. Impactful conversation choices for this rank:Romance - \"So I can be with you.\"Friendship - \"I like having my fortune read.\"Returns the ¥100,000 Yen spent to start this cooperation to you.",
+			"text": "A romance with Chihaya becomes available at this rank. She will also return the ¥100,000 Yen spent to start this cooperation to you.",
 			"rank": "9",
 			"choices": [
 				{
@@ -197,8 +195,12 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Special Fate Reading, which previews all of the abilities that can be unlocked for any confidant you choose.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+				"ability": "specialFateReading",
+				"fusion": "Lakshmi"
+			}
 		}
 	],
 	"arcana": "Fortune",

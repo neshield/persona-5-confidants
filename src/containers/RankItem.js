@@ -54,6 +54,27 @@ class RankItem extends Component {
     )
   }
 
+  renderAfterMementos (choices) {
+    return (
+      <div>
+        {choices ? (
+          <div className='Choices'>
+            <span><strong>Important conversation choices after Mementos quest</strong></span>
+            <ul>
+              {choices.map((choiceObj) => {
+                if (choiceObj.romance) {
+                  return this.renderRomance(choiceObj)
+                } else {
+                  return this.renderChoice(choiceObj)
+                }
+              })}
+            </ul>
+          </div>
+        ) : null}
+      </div>
+    )
+  }
+
   renderAbility (ability) {
     if (ability && !ability.name) {
       const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
@@ -127,10 +148,11 @@ class RankItem extends Component {
   }
 
   render () {
-    const requires = this.props.rank.requires
-    const choices = this.props.rank.choices
-    const available = this.props.rank.available
-    const unlocks = this.props.rank.unlocks
+    // const requires = this.props.rank.requires
+    // const choices = this.props.rank.choices
+    // const available = this.props.rank.available
+    // const unlocks = this.props.rank.unlocks
+    const {requires, choices, available, unlocks, afterMementos} = this.props.rank
     let text = this.cleanText(this.props.rank.text)
     return (
       <div className='RankItem'>
@@ -145,6 +167,7 @@ class RankItem extends Component {
           <span>{text}<br /></span>
         ) : null}
         {this.renderChoices(choices)}
+        {this.renderAfterMementos(afterMementos)}
         {this.renderUnlocks(unlocks)}
       </div>
     )

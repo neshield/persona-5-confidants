@@ -42,5 +42,14 @@
   "affinityReading": {
     "name": "Affinity Reading",
     "description": "Pay 5000 Yen to boost your relationship with a chosen confidant. +3 if you have a matching persona, +2 otherwise."
+  },
+  "fateReading": {
+    "name": "Fate Reading",
+    "description": "Pay 5000 Yen to reveal upcoming abilities for all confidant."    
+  },
+  "specialFateReading": {
+    "name": "Special Fate Reading",
+    "description": "Pay 5000 Yen to reveal all abilities for a chosen confidant."
   }
+
 }
