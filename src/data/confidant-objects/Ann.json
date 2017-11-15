@@ -1,7 +1,7 @@
 {
 	"ranks": [
 		{
-			"text": "Automatically begins on 4/15.",
+			"text": "Automatically unlocked on 4/15.",
 			"rank": "1",
 			"available": "4/15",
 			"unlocks": {
@@ -343,7 +343,7 @@
 			"text": "Any choices you make will be irrelevant, since this is the max rank.",
 			"rank": "10",
 			"unlocks": {
-				"ability": "secondAwakening:Ann:Hecate",
+				"secondAwakening": "Ann:Hecate",
 				"fusion": "Ishtar"
 			}
 		}

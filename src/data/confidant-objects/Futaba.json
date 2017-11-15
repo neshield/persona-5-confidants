@@ -2,7 +2,7 @@
 	"ranks": [
 		{
 			"available": "8/31",
-			"text": "Automatically beings on 8/31.",
+			"text": "Automatically unlocked on 8/31.",
 			"rank": "1",
 			"unlocks": {
 				"ability": "moralSupport",
@@ -72,7 +72,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Position Hack skill - with this, Futaba can arrange for you to sometimes open a battle with a hold-up.",
 			"rank": "4",
 			"choices": [
 				{
@@ -105,10 +104,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"ability": "positionHack"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "5",
 			"choices": [
 				{
@@ -140,7 +141,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Active Support ability. With this, Moral Support can sometimes charge and recover SP too.",
 			"rank": "6",
 			"choices": [
 				{
@@ -165,10 +165,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"ability": "activeSupport"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Treasure Reboot ability. Unlocks the Daughter's Just a Meal Ticket sidequest / request for Mementos. This must be completed before the next rank can be started.",
+			"text": "Unlocks the Daughter's Just a Meal Ticket request for Mementos. This must be completed before the next rank can be started.",
 			"rank": "7",
 			"choices": [
 				{
@@ -201,10 +204,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"ability": "treasureReboot"
+			}
 		},
 		{
-			"text": "To initiate, complete the Daughter's Just a Meal Ticket sidequest/request in mementos. Impactful conversation choices for this rank:",
+			"text": "To initiate, complete the Daughter's Just a Meal Ticket sidequest/request in Mementos.",
 			"rank": "8",
 			"choices": [
 				{
@@ -240,7 +246,7 @@
 			]
 		},
 		{
-			"text": "This is the point when a romance with Futaba Sakura becomes available. Impactful conversation choices for this rank:Romance - \"Because I love you.\"Friendship - \"Because we're teammates.\"Unlocks the Emergency Shift ability, giving Futaba the ability to potentially swap out some party members when two or more are KOed.",
+			"text": "A romance with Futaba becomes available at this rank.",
 			"rank": "9",
 			"choices": [
 				{
@@ -287,11 +293,19 @@
 					"romance": "\"Because I love you.\"",
 					"friendship": "\"Because we're teammates.\""
 				}
-			]
+			],
+			"unlocks": {
+				"ability": "emergencyShift"
+			}
 		},
 		{
 			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Final Guard, which has a chance to completely nullify an otherwise fatal attack. Unlocks Second Awakening, evolving Futaba's Persona to its final form, Ongyo-Ki.",
-			"rank": "10"
+			"rank": "10",
+			"unlocks": {
+				"ability": "finalGuard",
+				"fusion": "Ongyouki",
+				"secondAwakening": "Futaba:Prometheus"
+			}
 		}
 	],
 	"arcana": "Hermit",

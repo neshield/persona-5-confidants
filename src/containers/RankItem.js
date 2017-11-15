@@ -78,9 +78,7 @@ class RankItem extends Component {
   renderAbility (ability) {
     if (ability && !ability.name) {
       const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
-      const secondAwakeningRegex = new RegExp('(secondAwakening):(.+):(.+)')
       const shadowTalkMatch = shadowTalkRegex.exec(ability)
-      const secondAwakeningMatch = secondAwakeningRegex.exec(ability)
 
       let name
       let description
@@ -89,9 +87,6 @@ class RankItem extends Component {
       if (shadowTalkMatch) {
         ({name, description} = abilities[shadowTalkMatch[1]])
         name = String.format(name, shadowTalkMatch[2])
-      } else if (secondAwakeningMatch) {
-        ({name, description} = abilities[secondAwakeningMatch[1]])
-        description = String.format(description, secondAwakeningMatch[2], secondAwakeningMatch[3])
       } else {
         ({name, description} = abilities[ability])
       }
@@ -105,6 +100,23 @@ class RankItem extends Component {
       return (
         <li>
           <span><strong>Ability: {ability.name}</strong>: {ability.description}</span>
+        </li>
+      )
+    } else {
+      return null
+    }
+  }
+
+  renderSecondAwakening (secondAwakening) {
+    const secondAwakeningTemplate = "Evolve {0}'s Persona to {1}."
+    const secondAwakeningRegex = new RegExp('(.+):(.+)')
+    const match = secondAwakeningRegex.exec(secondAwakening)
+
+    if (match) {
+      const description = String.format(secondAwakeningTemplate, match[1], match[2])
+      return (
+        <li>
+          <span><strong>Second Awakening: {description}</strong></span>
         </li>
       )
     } else {
@@ -130,6 +142,7 @@ class RankItem extends Component {
                   <span><strong>Fusion: {unlocks.fusion}</strong></span>
                 </li>
                 ) : null}
+              {this.renderSecondAwakening(unlocks.secondAwakening)}
             </ul>
           </div>
         ) : null}

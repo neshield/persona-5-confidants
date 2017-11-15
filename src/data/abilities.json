@@ -58,6 +58,26 @@
   "mementosScan": {
     "name": "Mementos Scan",
     "description": "Chance to reveal an entire floor of Mementos on arrival."
+  },
+  "positionHack": {
+    "name": "Position Hack",
+    "description": "Chance to start a battle with a hold-up."
+  },
+  "activeSupport": {
+    "name": "Active Support",
+    "description": "Upgrades Moral Support to sometimes charge up, focus, or recover SP."
+  },
+  "treasureReboot": {
+    "name": "Treasure Reboot",
+    "description": "Chance to refresh all searchable objects in a Palace after a battle."
+  },
+  "emergencyShift": {
+    "name": "Emergency Shift",
+    "description": "Chance to automatically swap out two KOed party memebers."
+  },
+  "finalGuard": {
+    "name": "Final Guard",
+    "description": "Chance to block attacks that would a KO party member(s)."
   }
 
 }
