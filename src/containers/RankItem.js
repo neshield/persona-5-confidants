@@ -75,10 +75,43 @@ class RankItem extends Component {
     )
   }
 
+  // renderAbility (ability) {
+  //   if (ability && !ability.name) {
+  //     const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
+  //     const shadowTalkMatch = shadowTalkRegex.exec(ability)
+
+  //     let name
+  //     let description
+
+  //     // Handle shadowTalk
+  //     if (shadowTalkMatch) {
+  //       ({name, description} = abilities[shadowTalkMatch[1]])
+  //       name = String.format(name, shadowTalkMatch[2])
+  //     } else {
+  //       ({name, description} = abilities[ability])
+  //     }
+
+  //     return (
+  //       <li>
+  //         <span><strong>Ability: {name}</strong>: {description}</span>
+  //       </li>
+  //     )
+  //   } else if (ability && ability.name) {
+  //     return (
+  //       <li>
+  //         <span><strong>Ability: {ability.name}</strong>: {ability.description}</span>
+  //       </li>
+  //     )
+  //   } else {
+  //     return null
+  //   }
+  // }
   renderAbility (ability) {
     if (ability && !ability.name) {
       const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
+      const secondAwakeningRegex = new RegExp('(secondAwakening):(.+):(.+)')
       const shadowTalkMatch = shadowTalkRegex.exec(ability)
+      const secondAwakeningMatch = secondAwakeningRegex.exec(ability)
 
       let name
       let description
@@ -87,6 +120,9 @@ class RankItem extends Component {
       if (shadowTalkMatch) {
         ({name, description} = abilities[shadowTalkMatch[1]])
         name = String.format(name, shadowTalkMatch[2])
+      } else if (secondAwakeningMatch) {
+        ({name, description} = abilities[secondAwakeningMatch[1]])
+        description = String.format(description, secondAwakeningMatch[2], secondAwakeningMatch[3])
       } else {
         ({name, description} = abilities[ability])
       }
@@ -104,6 +140,11 @@ class RankItem extends Component {
       )
     } else {
       return null
+    }
+  }
+  renderAbilities (abilities) {
+    if (abilities) {
+      return abilities.map((ability) => this.renderAbility(ability))
     }
   }
 
@@ -131,7 +172,7 @@ class RankItem extends Component {
           <div className='unlocks'>
             <span><strong>Unlocks</strong></span>
             <ul>
-              {this.renderAbility(unlocks.ability)}
+              {this.renderAbilities(unlocks.abilities)}
               {unlocks.location ? (
                 <li>
                   <span><strong>Location: {unlocks.location}</strong></span>
@@ -161,10 +202,6 @@ class RankItem extends Component {
   }
 
   render () {
-    // const requires = this.props.rank.requires
-    // const choices = this.props.rank.choices
-    // const available = this.props.rank.available
-    // const unlocks = this.props.rank.unlocks
     const {requires, choices, available, unlocks, afterMementos} = this.props.rank
     let text = this.cleanText(this.props.rank.text)
     return (

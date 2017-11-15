@@ -5,7 +5,7 @@
 			"rank": "1",
 			"available": "4/15",
 			"unlocks": {
-				"ability": "batonPass"
+				"abilities": ["batonPass"]
 			}
 		},
 		{
@@ -61,7 +61,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "shadowTalk:Girl"
+				"abilities": ["shadowTalk:Girl"]
 			}
 		},
 		{
@@ -108,7 +108,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "followUp",
+				"abilities": ["followUp"],
 				"location": "Inokashira Park"
 			}
 		},
@@ -210,7 +210,7 @@
 				}
 			],
 			"unlocks": {
-				"ability":"crocodileTears"
+				"abilities": ["crocodileTears"]
 			}
 		},
 		{
@@ -248,7 +248,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "harisenRecovery"
+				"abilities": ["harisenRecovery"]
 			}
 		},
 		{
@@ -274,7 +274,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "sexyTechnique"
+				"abilities": ["sexyTechnique"]
 			}
 		},
 		{
@@ -313,7 +313,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "endure"
+				"abilities": ["endure"]
 			}
 		},
 		{
@@ -336,7 +336,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "protect"
+				"abilities": ["protect"]
 			}
 		},
 		{

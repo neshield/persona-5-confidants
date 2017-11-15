@@ -5,7 +5,7 @@
 			"text": "Automatically unlocked on 8/31.",
 			"rank": "1",
 			"unlocks": {
-				"ability": "moralSupport",
+				"abilities": ["moralSupport"],
 				"location": "Akihabara"
 			}
 		},
@@ -41,7 +41,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "mementosScan"
+				"abilities": ["mementosScan"]
 			}
 		},
 		{
@@ -106,7 +106,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "positionHack"
+				"abilities": ["positionHack"]
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "activeSupport"
+				"abilities": ["activeSupport"]
 			}
 		},
 		{
@@ -206,7 +206,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "treasureReboot"
+				"abilities": ["treasureReboot"]
 			}
 		},
 		{
@@ -295,14 +295,14 @@
 				}
 			],
 			"unlocks": {
-				"ability": "emergencyShift"
+				"abilities": ["emergencyShift"]
 			}
 		},
 		{
 			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Final Guard, which has a chance to completely nullify an otherwise fatal attack. Unlocks Second Awakening, evolving Futaba's Persona to its final form, Ongyo-Ki.",
 			"rank": "10",
 			"unlocks": {
-				"ability": "finalGuard",
+				"abilities": ["finalGuard"],
 				"fusion": "Ongyouki",
 				"secondAwakening": "Futaba:Prometheus"
 			}

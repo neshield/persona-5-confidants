@@ -5,7 +5,7 @@
 			"available": "6/22",
 			"rank": "1",
 			"unlocks" : {
-				"ability": "luckReading"
+				"abilities": ["luckReading"]
 			}
 		},
 		{
@@ -95,7 +95,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "fateReading"
+				"abilities": ["fateReading"]
 			}
 		},
 		{
@@ -130,7 +130,7 @@
 				}
 			],
 			"unlocks": {
-				"ability": "affinityReading"
+				"abilities": ["affinityReading"]
 			}
 		},
 		{
@@ -198,7 +198,7 @@
 			"text": "Any choices you make will be irrelevant, since this is the max rank.",
 			"rank": "10",
 			"unlocks": {
-				"ability": "specialFateReading",
+				"abilities": ["specialFateReading"],
 				"fusion": "Lakshmi"
 			}
 		}
