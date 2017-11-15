@@ -1,11 +1,20 @@
 {
 	"ranks": [
 		{
-			"text": "On 8/31 you'll unlock this cooperation through story progression. Unlocks the Moral Support ability, giving Futaba a chance to cast Kaja or other party-healing magic mid-battle. Unlocks the Akihabara location.",
-			"rank": "1"
+			"available": "8/31",
+			"text": "Automatically beings on 8/31.",
+			"rank": "1",
+			"unlocks": {
+				"ability": "moralSupport",
+				"location": "Akihabara"
+			}
 		},
 		{
-			"text": "Requires rank 4 (selfless) kindness. The date must also be after 9/2. Impactful Conversation Choices for this Rank:Unlocks the Mementos Scan ability. With this, Futaba has a chance of fully mapping out a floor of Mementos on arrival.",
+			"available": "9/2",
+			"requires": {
+				"rank": 4,
+				"stat": "Kindness"
+			},
 			"rank": "2",
 			"choices": [
 				{
@@ -30,10 +39,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"ability": "mementosScan"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "3",
 			"choices": [
 				{

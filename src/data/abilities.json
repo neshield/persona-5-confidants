@@ -50,6 +50,14 @@
   "specialFateReading": {
     "name": "Special Fate Reading",
     "description": "Pay 5000 Yen to reveal all abilities for a chosen confidant."
+  },
+  "moralSupport": {
+    "name": "Moral Support",
+    "description": "Chance to cast buffing magic during battle."
+  },
+  "mementosScan": {
+    "name": "Mementos Scan",
+    "description": "Chance to reveal an entire floor of Mementos on arrival."
   }
 
 }
