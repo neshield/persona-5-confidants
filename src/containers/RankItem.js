@@ -191,6 +191,18 @@ class RankItem extends Component {
     )
   }
 
+  renderBonus (bonus) {
+    return (
+      <div>
+        {bonus ? (
+          <div className='bonus'>
+            <span><strong>Bonus: </strong>{bonus.stat} +{bonus.amount}</span>
+          </div>
+        ) : null}
+      </div>
+    )
+  }
+
   cleanText (text) {
     let result = ''
     if (text) {
@@ -202,7 +214,7 @@ class RankItem extends Component {
   }
 
   render () {
-    const {requires, choices, available, unlocks, afterMementos} = this.props.rank
+    const {requires, choices, available, unlocks, afterMementos, bonus} = this.props.rank
     let text = this.cleanText(this.props.rank.text)
     return (
       <div className='RankItem'>
@@ -219,6 +231,8 @@ class RankItem extends Component {
         {this.renderChoices(choices)}
         {this.renderAfterMementos(afterMementos)}
         {this.renderUnlocks(unlocks)}
+        {this.renderBonus(bonus)}
+        <br />
       </div>
     )
   }

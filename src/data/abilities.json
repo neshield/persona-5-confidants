@@ -90,6 +90,30 @@
   "soilImprovement": {
     "name": "Soil Improvement",
     "description": "Reduce the time it takes vegetables to grow."
+  },
+  "komaSabaki": {
+    "name": "Koma Sabaki",
+    "description": "On Joker's turn, swap out any party memebers by pressing L2 and selecting \"Party\"."
+  },
+  "uchikomi": {
+    "name": "Uchikomi",
+    "description": "Chance for non-present allies to attack after an enemy is downed."
+  },
+  "kazoiKuzushi": {
+    "name": "Kazoi Kuzushi",
+    "description": "Allows attempts to escape from battle even when surrounded."
+  },
+  "nakirin": {
+    "name": "Nakirin",
+    "description": "Chance to get double money if you start a battle with an ambush, and win within one party turn."
+  },
+  "touryou": {
+    "name": "Touryou",
+    "description": "Removes the need to wait before escaping from battle."
+  },
+  "togoSystem": {
+    "name": "Togo System",
+    "description": "On any party member's turn, swap them out by pressing L2 and selecting \"Party\"."
   }
 
 }

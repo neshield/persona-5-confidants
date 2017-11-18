@@ -1,11 +1,18 @@
 {
 	"ranks": [
 		{
-			"text": "After 6/25, visit Kanda Church and talk to the girl towards the front. To start the cooperation you'll need at least rank 3 (suave) charm, otherwise she'll just ignore you. Unlocks Koma Sabaki, which lets you swap out party members on the fly mid-battle whenever it's Joker's turn.",
-			"rank": "1"
+			"available": "6/25",
+			"requires": {
+				"stat": "Charm",
+				"rank": "3"
+			},
+			"text": "After 6/25, visit Kanda Church and talk to the girl sitting near the front. To start the cooperation you'll need at least rank 3 (suave) charm, otherwise she'll just ignore you. Unlocks Koma Sabaki, which lets you swap out party members on the fly mid-battle whenever it's Joker's turn.",
+			"rank": "1",
+			"unlocks": {
+				"abilities": ["komaSabaki"]
+			}
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Bonus: Knowledge Up",
 			"rank": "2",
 			"choices": [
 				{
@@ -26,10 +33,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Knowledge",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Uchikomi, giving your non-present allies a chance to drop in for an extra attack after an enemy is downed. Bonus: Knowledge Up",
 			"rank": "3",
 			"choices": [
 				{
@@ -50,7 +60,14 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["uchikomi"]
+			},
+			"bonus": {
+				"stat": "Knowledge",
+				"amount": "1"
+			}
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Bonus: Knowledge UpUnlocks the Book Town location.",
@@ -78,10 +95,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"location": "Book Town"
+			},
+			"bonus": {
+				"stat": "Knowledge",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Kakoi Kuzushi, which allows you to attempt to escape from battle even when enemies have you surrounded. Bonus: Knowledge Up",
 			"rank": "5",
 			"choices": [
 				{
@@ -102,10 +125,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["kazoiKuzushi"]
+			},
+			"bonus": {
+				"stat": "Knowledge",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Bonus: Knowledge UpUnlocks the Sky Tower Location.",
 			"rank": "6",
 			"choices": [
 				{
@@ -130,7 +159,14 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"location": "Sky Tower"
+			},
+			"bonus": {
+				"stat": "Knowledge",
+				"amount": "1"
+			}
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks Narikin, a chance to get double money if you win the battle in one full party turn after an ambush. Bonus: Knowledge Up",
@@ -162,10 +198,20 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["nakirin"]
+			},
+			"bonus": {
+				"stat": "Knowledge",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Requires rank 5 (erudite) knowledge. Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: Upstaging the Stage Mother. Iomplete the Upstaging the Stage Mother sidequest, then return to Hifumi:Bonus: Knowledge Up",
+			"requires": {
+				"stat": "Knowledge",
+				"rank": 5
+			},
 			"rank": "8",
 			"choices": [
 				{
@@ -176,7 +222,9 @@
 							"points": "2"
 						}
 					]
-				},
+				}
+			],
+			"afterMementos": [
 				{
 					"choice": "Choice 1:",
 					"options": [
@@ -190,10 +238,14 @@
 						}
 					]
 				}
-			]
+			] ,
+			"bonus": {
+				"stat": "Knowledge",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "This is the point when a romance with Hifumi Togo becomes available. Impactful conversation choices for this rank:Romance - \"I want to stay by your side.\"Friendship - \"I want to become stronger.\"Romance - \"I want us to date.\"Friendship - \"We'll be friends forever.\"Unlocks Touryou, removing the need to wait before you can escape from battle.",
+			"text": "A romance with Hifumi becomes available at this rank.",
 			"rank": "9",
 			"choices": [
 				{
@@ -215,11 +267,18 @@
 					"romance": "\"I want us to date.\"",
 					"friendship": "\"We'll be friends forever.\""
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["touryou"]
+			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Togo System, allowing you to switch in and out party members during any party member's turn.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+				"abilities": ["togoSystem"],
+				"fusion": "Lucifer"
+			}
 		}
 	],
 	"arcana": "Star",
