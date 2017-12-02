@@ -1,224 +1,271 @@
 {
-	"ranks": [
-		{
-			"text": "Once you gain access to Shinjuku, visit the Crossroads bar and talk to her. You'll have met her earlier in the story at this point. Unlocks Rumor-filled Scoop, which means Palace Alert levels won't increase so quickly and will decrease a little overnight.",
-			"rank": "1"
-		},
-		{
-			"text": "Impactful Conversation Choices for this Rank:Bonus: Charm Up",
-			"rank": "2",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"Mishima might...\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 3:",
-					"options": [
-						{
-							"dialogue": "\"It's for the article.\"",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "Impactful conversation choices for this rank:Bonus: Charm Up",
-			"rank": "3",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"You shouldn't make assumptions.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 4:",
-					"options": [
-						{
-							"dialogue": "\"Was she falsely accused?\"",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "Impactful conversation choices for this rank:Grants the Shocking Scoop ability, improving the effect of Rumor-filled scoop. Bonus: Charm Up",
-			"rank": "4",
-			"choices": [
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "Both worth",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "Impactful conversation choices for this rank:Bonus: Charm Up",
-			"rank": "5",
-			"choices": [
-				{
-					"choice": "Choice 4:",
-					"options": [
-						{
-							"dialogue": "\"That's unforgivable.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"That sounds like defamation.\"",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "Impactful conversation choices for this rank:Bonus: Charm Up",
-			"rank": "6",
-			"choices": [
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"He must not like you.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 3:",
-					"options": [
-						{
-							"dialogue": "\"You should trust in her.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 4:",
-					"options": [
-						{
-							"dialogue": "\"You're a great journalist.\"",
-							"points": "2"
-						},
-						{
-							"dialogue": "\"That's the spirit.\"",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "Impactful conversation choices for this rank:Unlocks Outrageous Scoop, improving the effect of Shocking Scoop. Bonus: Charm Up",
-			"rank": "7",
-			"choices": [
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"Let's think of another way.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"Don't let him provoke you.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"Calm down.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 3:",
-					"options": [
-						{
-							"dialogue": "\"You're charming as you are.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"You should work on that.\"",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: Fighting for Truth in Journalism. Complete the Fighting for Truth in Journalism sidequest, then return to Ichiko to rank up. Conus: Charm Up",
-			"rank": "8",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"You seem tired.\"",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "This is the point when a romance with Ichiko Ohya becomes available. Impactful conversation choices for this rank:Romance - \"I took it seriously.\"Friendship - \"I didn't take it seriously.\"Romance - \"I love you, Ichiko.\"Friendship - \"I'm just kidding.\"",
-			"rank": "9",
-			"choices": [
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"You're not giving up, are you?\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 3:",
-					"options": [
-						{
-							"dialogue": "\"I can't leave you.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"I want to help.\"",
-							"points": "3"
-						}
-					]
-				},
-				{
-					"choice": "Choice 5:",
-					"romance": "\"I took it seriously.\"",
-					"friendship": "\"I didn't take it seriously.\""
-				},
-				{
-					"choice": "Choice 6:",
-					"romance": "\"I love you, Ichiko.\"",
-					"friendship": "\"I'm just kidding.\""
-				}
-			]
-		},
-		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Legendary Scoop, eliminating Palace security level increases.",
-			"rank": "10"
-		}
-	],
-	"arcana": "Devil",
-	"name": "Ichiko",
-	"location": "Crossroads Bar in Shinjuku at night",
-	"gift": "Cameras, Fans"
+  "ranks": [
+    {
+      "text": "Once you gain access to Shinjuku, visit the Crossroads bar and talk to her.",
+      "available": "6/22",
+      "rank": "1",
+      "unlocks": {
+        "abilities": [
+          "rumorFilledScoop"
+        ]
+      }
+    },
+    {
+      "rank": "2",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"Mishima might...\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 3:",
+          "options": [
+            {
+              "dialogue": "\"It's for the article.\"",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "stat": "Charm",
+        "amount": "3"
+      }
+    },
+    {
+      "rank": "3",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"You shouldn't make assumptions.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 4:",
+          "options": [
+            {
+              "dialogue": "\"Was she falsely accused?\"",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "stat": "Charm",
+        "amount": "3"
+      }
+    },
+    {
+      "rank": "4",
+      "choices": [
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "Both worth",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "stat": "Charm",
+        "amount": "3"
+      },
+      "unlocks": {
+        "abilities": [
+          "shockingScoop"
+        ]
+      }
+    },
+    {
+      "rank": "5",
+      "choices": [
+        {
+          "choice": "Choice 4:",
+          "options": [
+            {
+              "dialogue": "\"That's unforgivable.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"That sounds like defamation.\"",
+              "points": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rank": "6",
+      "choices": [
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"He must not like you.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 3:",
+          "options": [
+            {
+              "dialogue": "\"You should trust in her.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 4:",
+          "options": [
+            {
+              "dialogue": "\"You're a great journalist.\"",
+              "points": "2"
+            },
+            {
+              "dialogue": "\"That's the spirit.\"",
+              "points": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rank": "7",
+      "choices": [
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"Let's think of another way.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"Don't let him provoke you.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"Calm down.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 3:",
+          "options": [
+            {
+              "dialogue": "\"You're charming as you are.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"You should work on that.\"",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "stat": "Charm",
+        "amount": "3"
+      },
+      "unlocks": {
+        "abilities": [
+          "outrageousScoop"
+        ]
+      }
+    },
+    {
+      "text": "After this a sidequest / request for Mementos is unlocked: Fighting for Truth in Journalism. Complete the Fighting for Truth in Journalism sidequest, then return to Ichiko to rank up.",
+      "rank": "8",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"You seem tired.\"",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "afterMementos": [
+        {
+          "choice": "Choice 3:",
+          "options": [
+            {
+              "dialogue": "\"I'll go with you.\"",
+              "points": "3"
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "stat": "Charm",
+        "amount": "3"
+      }
+    },
+    {
+      "text": "This is the point when a romance with Ichiko becomes available.",
+      "rank": "9",
+      "choices": [
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"You're not giving up, are you?\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 3:",
+          "options": [
+            {
+              "dialogue": "\"I can't leave you.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"I want to help.\"",
+              "points": "3"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 5:",
+          "romance": "\"I took it seriously.\"",
+          "friendship": "\"I didn't take it seriously.\""
+        },
+        {
+          "choice": "Choice 6:",
+          "romance": "\"I love you, Ichiko.\"",
+          "friendship": "\"I'm just kidding.\""
+        }
+      ]
+    },
+    {
+      "text": "Any choices you make will be irrelevant, since this is the max rank.",
+      "rank": "10",
+      "unlocks": {
+        "abilities": [
+          "legendaryScoop"
+        ],
+        "fusion": "Beezlebub"
+      }
+    }
+  ],
+  "arcana": "Devil",
+  "name": "Ichiko",
+  "location": "Crossroads Bar in Shinjuku at night.",
+  "gift": "Cameras, Fans"
 }

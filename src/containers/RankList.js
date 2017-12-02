@@ -5,8 +5,6 @@ import RankItem from './RankItem'
 
 class RankList extends Component {
   render () {
-    // TODO: style text for abilities
-    // TODO: choices
     return (
       <div className='RankList'>
         <ul>

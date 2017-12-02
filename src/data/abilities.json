@@ -45,7 +45,7 @@
   },
   "fateReading": {
     "name": "Fate Reading",
-    "description": "Pay 5000 Yen to reveal upcoming abilities for all confidants."    
+    "description": "Pay 5000 Yen to reveal upcoming abilities for all confidants."
   },
   "specialFateReading": {
     "name": "Special Fate Reading",
@@ -114,6 +114,21 @@
   "togoSystem": {
     "name": "Togo System",
     "description": "On any party member's turn, swap them out by pressing L2 and selecting \"Party\"."
+  },
+  "shockingScoop": {
+    "name": "Shocking Scoop",
+    "description": "Further increases the effects of Rumor-filled Scoop."
+  },
+  "rumorFilledScoop": {
+    "name": "Rumor-filled Scoop",
+    "description": "Palace alertness levels will be harder to increase and they’ll decrease a small amount by the next day."
+  },
+  "outrageousScoop": {
+    "name": "Outrageous Scoop",
+    "description": "Further increases the effects of Rumor-filled Scoop."
+  },
+  "legendaryScoop": {
+    "name": "Legendary Scoop",
+    "description": "Eliminates Palace alertness increases, and Palace alertness levels will drop to zero overnight."
   }
-
 }

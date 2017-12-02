@@ -59,7 +59,7 @@ class RankItem extends Component {
       <div>
         {choices ? (
           <div className='Choices'>
-            <span><strong>Important conversation choices after Mementos quest</strong></span>
+            <span><strong>Important conversation choices after Mementos Request</strong></span>
             <ul>
               {choices.map((choiceObj) => {
                 if (choiceObj.romance) {
@@ -75,37 +75,6 @@ class RankItem extends Component {
     )
   }
 
-  // renderAbility (ability) {
-  //   if (ability && !ability.name) {
-  //     const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
-  //     const shadowTalkMatch = shadowTalkRegex.exec(ability)
-
-  //     let name
-  //     let description
-
-  //     // Handle shadowTalk
-  //     if (shadowTalkMatch) {
-  //       ({name, description} = abilities[shadowTalkMatch[1]])
-  //       name = String.format(name, shadowTalkMatch[2])
-  //     } else {
-  //       ({name, description} = abilities[ability])
-  //     }
-
-  //     return (
-  //       <li>
-  //         <span><strong>Ability: {name}</strong>: {description}</span>
-  //       </li>
-  //     )
-  //   } else if (ability && ability.name) {
-  //     return (
-  //       <li>
-  //         <span><strong>Ability: {ability.name}</strong>: {ability.description}</span>
-  //       </li>
-  //     )
-  //   } else {
-  //     return null
-  //   }
-  // }
   renderAbility (ability) {
     if (ability && !ability.name) {
       const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
