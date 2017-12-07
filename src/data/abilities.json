@@ -130,5 +130,25 @@
   "legendaryScoop": {
     "name": "Legendary Scoop",
     "description": "Eliminates Palace alertness increases, and Palace alertness levels will drop to zero overnight."
+  },
+  "starterCustomization": {
+    "name": "Starter Customization",
+    "description": "Allows you to customize guns to improve their performance."
+  },
+  "mediumCustomization": {
+    "name": "Medium Customization",
+    "description": "Allows you to customize mid-grade guns."
+  },
+  "discount": {
+    "name": "Discount",
+    "description": "Decrease the cost of gun customization."
+  },
+  "expertCustomization": {
+    "name": "Expert Customization",
+    "description": "Allows you to customize high-grade guns."
+  },
+  "aceCustomization": {
+    "name": "Ace Customization",
+    "description": "Allows you to customize special-grade guns."
   }
 }

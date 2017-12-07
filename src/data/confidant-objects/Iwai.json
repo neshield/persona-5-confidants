@@ -1,11 +1,18 @@
 {
 	"ranks": [
 		{
-			"text": "After 5/6 and once you see the event in the airsoft shop with the 'package' you have to hold, talk to Iwai with rank 4 (dauntless) guts to start this cooperation. Unlocks Starter Customization, allowing you to purchase slightly varied versions of guns.",
-			"rank": "1"
+			"available": "5/6",
+			"requires": {
+				"stat": "Guts",
+				"rank": 4
+			},
+			"text": "After the event where you recieve the package at the Airsoft Shop, talk to Iwai once you have the required Guts.",
+			"rank": "1",
+			"unlocks": {
+				"abilities": ["starterCustomization"]
+			}
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Bonus: Proficency Up",
 			"rank": "2",
 			"choices": [
 				{
@@ -30,10 +37,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Proficency",
+				"amount": 2
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Medium Customization of your firearms. Bonus: Proficency Up",
 			"rank": "3",
 			"choices": [
 				{
@@ -58,7 +68,14 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Proficency",
+				"amount": 2
+			},
+			"unlocks": {
+				"abilities": ["mediumCustomization"]
+			}
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Bonus: Proficency Up",
@@ -77,10 +94,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Proficency",
+				"amount": 2
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks a Discount for gun customization. Bonus: Proficency Up",
 			"rank": "5",
 			"choices": [
 				{
@@ -105,10 +125,16 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Proficency",
+				"amount": 2
+			},
+			"unlocks": {
+				"abilities": ["discount"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
 				{
@@ -132,7 +158,7 @@
 					"choice": "Choice 4:",
 					"options": [
 						{
-							"dialogue": "\"You should buy is something.\"",
+							"dialogue": "\"You should buy us something.\"",
 							"points": "3"
 						},
 						{
@@ -144,7 +170,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Advanced Customization for your guns. Bonus: Proficency Up",
 			"rank": "7",
 			"choices": [
 				{
@@ -173,10 +198,21 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Proficency",
+				"amount": 2
+			},
+			"unlocks": {
+				"abilities": ["expertCustomization"]
+			}
 		},
 		{
-			"text": "Requires rank 5 guts. Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked. Iomplete the quest, then return to Iwai. Ionus: Proficency Up",
+			"requires": {
+				"stat": "Guts",
+				"rank": 5
+			},
+			"text": "After this a sidequest / request for Mementos is unlocked. Complete the quest, then return to Iwai. Bonus: Proficency Up",
 			"rank": "8",
 			"choices": [
 				{
@@ -204,7 +240,9 @@
 							"points": "2"
 						}
 					]
-				},
+				}
+			],
+			"afterMementos": [
 				{
 					"choice": "Choice 1:",
 					"options": [
@@ -231,10 +269,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Proficency",
+				"amount": 2
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "9",
 			"choices": [
 				{
@@ -279,8 +320,16 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Special Customization, the maximum type of gun type weapon customization. Uonus: Proficency Up",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+				"abilities": ["aceCustomization"],
+				"fusion": "Attis"
+			},
+			"bonus": {
+				"stat": "Proficency",
+				"amount": 2
+			}
 		}
 	],
 	"arcana": "Hanged Man",

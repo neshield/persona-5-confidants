@@ -23,7 +23,7 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      confidant: 'ann',
+      confidant: 'iwai',
       labels: confidantLabels
     }
   }
@@ -63,8 +63,15 @@ class App extends Component {
           <h3>Good Gifts: {confidants.get(this.state.confidant).gift}</h3>
           ) : null}
         {this.renderRankList()}
-        <footer className='Centered'>Information gathered from: <a target='_blank' rel='noopener noreferrer'
-          href='https://www.rpgsite.net/feature/5479-persona-5-confidant-guide-all-conversation-choices-answers-romance-options-gifts-skill-unlocks'>RPGSite Persona 5 Confidant Guide</a></footer>
+        <footer className='Centered'>
+        Information gathered from:
+        <br />
+          <a target='_blank' rel='noopener noreferrer'
+            href='https://www.rpgsite.net/feature/5479-persona-5-confidant-guide-all-conversation-choices-answers-romance-options-gifts-skill-unlocks'>RPGSite Persona 5 Confidant Guide</a>
+          <br />
+          <a target='_blank' rel='noopener noreferrer'
+            href='https://www.gamefaqs.com/ps4/835628-persona-5/faqs/73868'>Confidant Guide by JustChillin</a>
+        </footer>
       </div>
     )
   }
