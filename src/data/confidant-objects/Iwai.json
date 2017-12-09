@@ -242,6 +242,9 @@
 					]
 				}
 			],
+			"mementosRequest": {
+				"name": "Shady Deal in the Shadows"
+			},
 			"afterMementos": [
 				{
 					"choice": "Choice 1:",

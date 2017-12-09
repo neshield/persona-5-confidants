@@ -75,6 +75,18 @@ class RankItem extends Component {
     )
   }
 
+  renderMementosRequest (mementosRequest) {
+    return (
+      <div>
+        {mementosRequest ? (
+          <div>
+            <span><strong>New Mementos Request: {mementosRequest.name}</strong></span>
+          </div>
+        ) : null}
+      </div>
+    )
+  }
+
   renderAbility (ability) {
     if (ability && !ability.name) {
       const shadowTalkRegex = new RegExp('(shadowTalk):(.+)')
@@ -183,7 +195,7 @@ class RankItem extends Component {
   }
 
   render () {
-    const {requires, choices, available, unlocks, afterMementos, bonus} = this.props.rank
+    const {requires, choices, available, unlocks, afterMementos, bonus, mementosRequest} = this.props.rank
     let text = this.cleanText(this.props.rank.text)
     return (
       <div className='RankItem'>
@@ -198,6 +210,7 @@ class RankItem extends Component {
           <span>{text}<br /></span>
         ) : null}
         {this.renderChoices(choices)}
+        {this.renderMementosRequest(mementosRequest)}
         {this.renderAfterMementos(afterMementos)}
         {this.renderUnlocks(unlocks)}
         {this.renderBonus(bonus)}

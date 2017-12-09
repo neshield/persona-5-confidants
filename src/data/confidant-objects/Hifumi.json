@@ -169,7 +169,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Narikin, a chance to get double money if you win the battle in one full party turn after an ambush. Bonus: Knowledge Up",
 			"rank": "7",
 			"choices": [
 				{
@@ -224,6 +223,9 @@
 					]
 				}
 			],
+			"mementosRequest": {
+				"name": "Upstaging the Stage Mother"
+			},
 			"afterMementos": [
 				{
 					"choice": "Choice 1:",

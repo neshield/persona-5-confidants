@@ -186,7 +186,6 @@
       }
     },
     {
-      "text": "After this a sidequest / request for Mementos is unlocked: Fighting for Truth in Journalism. Complete the Fighting for Truth in Journalism sidequest, then return to Ichiko to rank up.",
       "rank": "8",
       "choices": [
         {
@@ -199,6 +198,9 @@
           ]
         }
       ],
+      "mementosRequest": {
+        "name": "Fighting for Truth in Journalism"
+      },
       "afterMementos": [
         {
           "choice": "Choice 3:",
