@@ -2,7 +2,7 @@
 	"ranks": [
 		{
 			"available": "8/31",
-			"text": "Automatically unlocked on 8/31.",
+			"text": "Unlocked automatically on 8/31.",
 			"rank": "1",
 			"unlocks": {
 				"abilities": ["moralSupport"],
@@ -246,8 +246,8 @@
 			]
 		},
 		{
-			"text": "A romance with Futaba becomes available at this rank.",
 			"rank": "9",
+			"romance": "Futaba Sakura",
 			"choices": [
 				{
 					"choice": "Choice 1:",

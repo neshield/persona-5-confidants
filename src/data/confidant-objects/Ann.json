@@ -1,7 +1,7 @@
 {
 	"ranks": [
 		{
-			"text": "Automatically unlocked on 4/15.",
+			"text": "Unlocked automatically on 4/15.",
 			"rank": "1",
 			"available": "4/15",
 			"unlocks": {
@@ -25,7 +25,7 @@
 						},
 						{
 							"dialogue": "\"Are you feeling better now?\"",
-							"points": "3"
+							"points": "3" 
 						},
 						{
 							"dialogue": "\"So are you friends again?\"",
@@ -317,8 +317,8 @@
 			}
 		},
 		{
-			"text": "A romance with Ann becomes available at this rank.",
 			"rank": "9",
+			"romance": "Ann Takamaki",
 			"choices": [
 				{
 					"choice": "Choice 3:",

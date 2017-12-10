@@ -184,6 +184,19 @@ class RankItem extends Component {
     )
   }
 
+  renderRomanceAvailable (romance) {
+    if (romance) {
+      const romanceStr = String.format('A romance with {0} becomes available at this rank.', (romance))
+      return (
+        <div className='romance'>
+          <span>{romanceStr}</span>
+        </div>
+      )
+    } else {
+      return null
+    }
+  }
+
   cleanText (text) {
     let result = ''
     if (text) {
@@ -195,7 +208,7 @@ class RankItem extends Component {
   }
 
   render () {
-    const {requires, choices, available, unlocks, afterMementos, bonus, mementosRequest} = this.props.rank
+    const {requires, choices, available, unlocks, afterMementos, bonus, mementosRequest, romance} = this.props.rank
     let text = this.cleanText(this.props.rank.text)
     return (
       <div className='RankItem'>
@@ -209,6 +222,7 @@ class RankItem extends Component {
         {text ? (
           <span>{text}<br /></span>
         ) : null}
+        {this.renderRomanceAvailable(romance)}
         {this.renderChoices(choices)}
         {this.renderMementosRequest(mementosRequest)}
         {this.renderAfterMementos(afterMementos)}

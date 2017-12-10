@@ -1,46 +1,47 @@
 {
+	"notes": "Don't think it's necessary to have the 'available' data for this Confidant, due to the nature of unlocking his ranks.",
 	"ranks": [
 		{
-			"text": "Automatically unlocked on 6/10.",
+			"text": "Unlocked automatically on 6/10.",
 			"rank": "1"
 		},
 		{
-			"text": "Automatically unlocked on 7/24.",
+			"text": "Unlocked automatically on 7/24.",
 			"rank": "2"
 		},
 		{
-			"text": "Automatically unlocked on 8/28.",
+			"text": "Unlocked automatically on 8/28.",
 			"rank": "3"
 		},
 		{
-			"text": "Automatically unlocked on 10/24.",
+			"text": "Unlocked automatically on 8/28.",
 			"rank": "4"
 		},
 		{
-			"text": "Automatically unlocked on 10/26.",
+			"text": "Unlocked automatically on 10/24.",
 			"rank": "5"
 		},
 		{
-			"text": "Automatically unlocked on 10/29.",
+			"text": "Unlocked automatically on 10/26.",
 			"rank": "6",
 			"unlocks": {
 				"abilities": ["batonPass", "followUp", "harisenRecovery", "shadowTalk:Detective"]
 			}
 		},
 		{
-			"text": "Automatically unlocked on 11/29.",
+			"text": "Unlocked automatically on 10/29.",
 			"rank": "7"
 		},
 		{
-			"text": "Automatically unlocked on 11/20.",
+			"text": "Unlocked automatically on 11/20.",
 			"rank": "8"
 		},
 		{
-			"text": "Automatically unlocks throughout the course of the sixth palace.",
+			"text": "Unlocked automatically throughout the course of the sixth palace.",
 			"rank": "9"
 		},
 		{
-			"text": "Automatically unlocks later in the sixth palace.",
+			"text": "Unlocked automatically later in the sixth palace.",
 			"rank": "10",
 			"unlocks": {
 				"secondAwakening": "Goro:Loki",
@@ -49,5 +50,6 @@
 		}
 	],
 	"arcana": "Justice",
-	"name": "Goro"
+	"name": "Goro",
+	"location": "N/A"
 }

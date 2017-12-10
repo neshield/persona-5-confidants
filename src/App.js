@@ -58,7 +58,7 @@ class App extends Component {
         {this.renderConfidantDropdown(this.state.labels)}
         <h2 className='Centered'>{utils.upFirstLetter(this.state.confidant).replace('-w', ' W')}</h2>
         <h3 className='Centered'>{utils.upFirstLetter(confidants.get(this.state.confidant).arcana)}</h3>
-        <h3>Location: {confidants.get(this.state.confidant).location}</h3>
+        <h3>{confidants.get(this.state.confidant).location ? 'Location: ' + confidants.get(this.state.confidant).location : null}</h3>
         {confidants.get(this.state.confidant).gift ? (
           <h3>Good Gifts: {confidants.get(this.state.confidant).gift}</h3>
           ) : null}

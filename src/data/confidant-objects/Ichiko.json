@@ -218,8 +218,8 @@
       }
     },
     {
-      "text": "This is the point when a romance with Ichiko becomes available.",
       "rank": "9",
+      "romance": "Ichiko Ohya",
       "choices": [
         {
           "choice": "Choice 2:",

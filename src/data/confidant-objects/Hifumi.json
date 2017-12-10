@@ -247,8 +247,8 @@
 			}
 		},
 		{
-			"text": "A romance with Hifumi becomes available at this rank.",
 			"rank": "9",
+			"romance": "Hifumi Togo",
 			"choices": [
 				{
 					"choice": "Choice 1:",

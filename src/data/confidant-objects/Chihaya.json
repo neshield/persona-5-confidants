@@ -171,8 +171,9 @@
 			]
 		},
 		{
-			"text": "A romance with Chihaya becomes available at this rank. She will also return the ¥100,000 Yen spent to start this cooperation to you.",
+			"text": "During this rank, Chihaya will return the ¥100,000 Yen spent to start this cooperation to you.",
 			"rank": "9",
+			"romance": "Chihaya Mifune",
 			"choices": [
 				{
 					"choice": "Choice 2:",

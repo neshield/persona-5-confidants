@@ -348,8 +348,8 @@
 			}
 		},
 		{
-			"text": "A romance with Haru becomes available at this rank.",
 			"rank": "9",
+			"romance": "Haru Okumura",
 			"choices": [
 				{
 					"choice": "Choice 2:",
