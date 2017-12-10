@@ -1,7 +1,7 @@
 {
 	"ranks": [
 		{
-			"text": "Unlocked automatically on 4/15.",
+			"text": "automatic: on 4/15.",
 			"rank": "1",
 			"available": "4/15",
 			"unlocks": {

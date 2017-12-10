@@ -2,7 +2,7 @@
 	"ranks": [
 		{
 			"available": "8/31",
-			"text": "Unlocked automatically on 8/31.",
+			"text": "automatic: on 8/31.",
 			"rank": "1",
 			"unlocks": {
 				"abilities": ["moralSupport"],

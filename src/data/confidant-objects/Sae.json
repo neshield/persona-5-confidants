@@ -1,44 +1,48 @@
 {
 	"ranks": [
 		{
-			"text": "Automatically on 7/9",
+			"text": "automatic: on 7/9",
 			"rank": "1"
 		},
 		{
-			"text": "Automatically on 7/24.",
+			"text": "automatic: on 7/24.",
 			"rank": "2"
 		},
 		{
-			"text": "Automatically on 8/22.",
+			"text": "automatic: on 8/22.",
 			"rank": "3"
 		},
 		{
-			"text": "Automatically on 9/23.",
+			"text": "automatic: on 9/23.",
 			"rank": "4"
 		},
 		{
-			"text": "Automatically on 10/12.",
+			"text": "automatic: on 10/12.",
 			"rank": "5"
 		},
 		{
-			"text": "Automatically on 10/28.",
+			"text": "automatic: on 10/28.",
 			"rank": "6"
 		},
 		{
-			"text": "Automatically on 11/20.",
+			"text": "automatic: on 11/20.",
 			"rank": "7"
 		},
 		{
-			"text": "Automatically on 11/20.",
+			"text": "automatic: on 11/20.",
 			"rank": "8"
 		},
 		{
-			"text": "Automatically on 11/20.",
+			"text": "automatic: on 11/20.",
 			"rank": "9"
 		},
 		{
-			"text": "Automatically on 11/20. Unlocks True Judgement.",
-			"rank": "10"
+			"text": "automatic: on 11/20.",
+			"rank": "10",
+			"unlocks": {
+				"abilities": ["trueJudgement"],
+				"fustion": "Satan"
+			}
 		}
 	],
 	"arcana": "Judgement",

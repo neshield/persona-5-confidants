@@ -197,10 +197,23 @@ class RankItem extends Component {
     }
   }
 
+  formatText (text) {
+    let result = this.cleanText(text)
+    if (result) {
+      const automaticUnlockRegex = new RegExp('automatic:(.*)')
+      const match = automaticUnlockRegex.exec(result)
+      if (match) {
+        const automaticUnlockFomatted = String.format('Unlocked automatically{0}', match[1])
+        result = text.replace(automaticUnlockRegex, automaticUnlockFomatted)
+      }
+    }
+    return result
+  }
+
   cleanText (text) {
     let result = ''
     if (text) {
-      let impactfulChoicesRegex = new RegExp('Impactful Conversation Choices for this Rank:', 'ig')
+      const impactfulChoicesRegex = new RegExp('Impactful Conversation Choices for this Rank:', 'ig')
       result = text.replace(impactfulChoicesRegex, '')
     }
 
@@ -209,7 +222,7 @@ class RankItem extends Component {
 
   render () {
     const {requires, choices, available, unlocks, afterMementos, bonus, mementosRequest, romance} = this.props.rank
-    let text = this.cleanText(this.props.rank.text)
+    let text = this.formatText(this.props.rank.text)
     return (
       <div className='RankItem'>
         <span><strong>Rank {this.props.rank.rank}</strong><br /></span>
