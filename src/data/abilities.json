@@ -151,6 +151,38 @@
     "name": "Ace Customization",
     "description": "Allows you to customize special-grade guns."
   },
+  "wildTalk": {
+    "name": "Wild Talk",
+    "description": "Allows negotiation with Shadows during a hold up."
+  },
+  "arcanaBurst": {
+    "name": "Arcana Burst",
+    "description": "Grant bonus EXP when fusing a Persona based on the rank of the Confidant with the corresponding Arcana."
+  },
+  "highArcanaBurst": {
+    "name": "High Arcana Burst",
+    "description": "Increase the effect of Arcana Burst."
+  },
+  "maxArcanaBurst": {
+    "name": "Max Arcana Burst",
+    "description": "Further increase the effect of High Arcana Burst."
+  },
+  "thirdEye": {
+    "name": "Third Eye",
+    "description": "Lets you see hidden information by pressing L2."
+  },
+  "powerStock": {
+    "name": "Power Stock",
+    "description": "Increase your Persona stock to 8."
+  },
+  "superStock": {
+    "name": "Super Stock",
+    "description": "Increase your Persona stock to 10."
+  },
+  "ultraStock": {
+    "name": "Ultra Stock",
+    "description": "Increase your Persona stock to 12."
+  },
   "trueJudgement": {
     "name": "True Judgement",
     "description": "\"????????\". Note: True Judgement appears to have no effects."

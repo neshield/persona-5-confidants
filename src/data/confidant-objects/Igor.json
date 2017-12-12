@@ -1,27 +1,42 @@
 {
 	"ranks": [
 		{
-			"text": "automatic: on 4/12. Unlocks the Wild Talk ability, allowing for negotiation with Shadows during a Hold Up. Unlocks the Arcana Burst, gifting Bonus EXP to Persona of this Arcana based on this Confidant's rank.",
+			"text": "automatic: on 4/12.",
+			"unlocks": {
+				"abilities": ["wildTalk", "arcanaBurst"]
+			},
 			"rank": "1"
 		},
 		{
-			"text": "automatic: after you infiltrate the first palace. Unlocks the Third Eye ability, letting you see things more clearly with L1/L2.",
+			"text": "automatic: after you infiltrate the first Palace.",
+			"unlocks": {
+				"abilities": ["thirdEye"]
+			},
 			"rank": "2"
 		},
 		{
-			"text": "automatic: on 5/5. Unlocks the Power Stock ability, increasing your Persona stock to 8.",
+			"text": "automatic: on 5/5.",
+			"unlocks": {
+				"abilities": ["powerStock"]
+			},
 			"rank": "3"
 		},
 		{
-			"text": "automatic: after the second palace",
+			"text": "automatic: after the second Palace.",
 			"rank": "4"
 		},
 		{
-			"text": "automatic: on 6/11. Unlocks the Super Stock ability, increasing your Persona stock to 10.",
+			"text": "automatic: on 6/11.",
+			"unlocks": {
+				"abilities": ["superStock"]
+			},
 			"rank": "5"
 		},
 		{
-			"text": "automatic: after the fourth palace. Unlocks the High Arcana Burst ability, granting further bonus EXP based on Confidant rank.",
+			"text": "automatic: after the fourth Palace.",
+			"unlocks": {
+				"abilities": ["highArcanaBurst"]
+			},
 			"rank": "6"
 		},
 		{
@@ -29,7 +44,10 @@
 			"rank": "7"
 		},
 		{
-			"text": "automatic: on 8/31. Unlocks the Ultra Stock ability, increasing your Persona stock to 12.",
+			"text": "automatic: on 8/31.",
+			"unlocks": {
+				"abilities": ["ultraStock"]
+			},
 			"rank": "8"
 		},
 		{
@@ -37,7 +55,11 @@
 			"rank": "9"
 		},
 		{
-			"text": "automatic: on 12/24. Unlocks the Max Arcana Burst ability, greatly raising bonus EXP for Fool Persona fusion.",
+			"text": "automatic: on 12/24.",
+			"unlocks": {
+				"abilities": ["maxArcanaBurst"],
+				"fusion": "Vishnu"
+			},
 			"rank": "10"
 		}
 	],
