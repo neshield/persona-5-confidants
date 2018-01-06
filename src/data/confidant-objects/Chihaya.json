@@ -6,6 +6,9 @@
 			"rank": "1",
 			"unlocks" : {
 				"abilities": ["luckReading"]
+			},
+			"mementosRequest": {
+				"name": "Ending the Boyfriend's Abuse"
 			}
 		},
 		{
@@ -134,8 +137,11 @@
 			}
 		},
 		{
-			"text": "Rank 8 comes in two parts. Your choices for the first part don't matter. This will give you a Mementos request: Debunking the Psychic. Return to Chihaya after finishing the request.",
+			"text": "Rank 8 comes in two parts. Your choices for before the Mementos Request don't matter. Return to Chihaya after finishing the request.",
 			"rank": "8",
+			"mementosRequest": {
+				"name": "Debunking the Psychic"
+			},
 			"afterMementos": [
 				{
 					"choice": "Choice 1:",

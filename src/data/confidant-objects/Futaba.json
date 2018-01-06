@@ -205,6 +205,9 @@
 					]
 				}
 			],
+			"mementosRequest": {
+				"name": "Daughter's Just a Meal Ticket"
+			},
 			"unlocks": {
 				"abilities": ["treasureReboot"]
 			}
