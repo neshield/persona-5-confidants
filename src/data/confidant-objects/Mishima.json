@@ -1,15 +1,18 @@
 {
 	"ranks": [
 		{
-			"text": "automatic: on 5/6 as part of the main story. Unlocks Mishima's Support, a very useful side ability that allows back-up party members to still earn a little EXP, albeit at a reduced rate.",
-			"rank": "1"
+			"available": "5/6",
+			"rank": "1",
+			"unlocks": {
+				"abilities": ["mishimasSupport"]
+			}
 		},
 		{
-			"text": "Automatically triggered as a story progression moment on 5/8. Impactful Conversation Choices for this Rank:None! Take it easy.",
+			"available": "5/8",
+			"text": "Automatically triggered as a story progression moment on 5/8.",
 			"rank": "2"
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Mishima's Enthusiasm, increasing the EXP earned from battles.",
 			"rank": "3",
 			"choices": [
 				{
@@ -47,10 +50,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["mishimasEnthusiasm"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Mishima's Desperation, which boosts the EXP back-up party members recieve from Mishima's Support.",
 			"rank": "4",
 			"choices": [
 				{
@@ -75,10 +80,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["mishimasDesperation"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "5",
 			"choices": [
 				{
@@ -106,7 +113,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Inokashira Park location",
 			"rank": "6",
 			"choices": [
 				{
@@ -144,10 +150,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "location": "Inokashira Park"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Once this is done, meet with your team and then go into mementos and find the target. Talk to them. Later, Mishima will get in touch to talk:Unlocks Phanboy, drastically increasing the EXP you gain from battle.",
+			"text": "Once the initial conversation is over, meet with your team, go into Mementos and find the target. Talk to them. Later, Mishima will get in touch to talk.",
 			"rank": "7",
 			"choices": [
 				{
@@ -175,7 +184,9 @@
 							"points": "2"
 						}
 					]
-				},
+				}
+			],
+			"afterMementos": [
 				{
 					"choice": "Choice 3:",
 					"options": [
@@ -189,10 +200,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["phanboy"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "8",
 			"choices": [
 				{
@@ -247,8 +260,12 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Salvation Wish, allowing back-up party members to gain full EXP from battles.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+			  "abilities": ["salvationWish"],
+			  "fusion": "Sandalphon"
+			}
 		}
 	],
 	"arcana": "Moon",

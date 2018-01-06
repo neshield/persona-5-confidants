@@ -9,14 +9,10 @@
 				"stat": "knowledge"
 			},
 			"unlocks": {
-				"ability": {
-					"name":"Shadow Calculus",
-					"description": "See potential item drops of enemies from the analyze screen."
-				}
+				"abilities": ["shadowCalculus"]
 			}
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Makoto's turn to other Baton Pass users in battle after a 1 More.",
 			"rank": "2",
 			"choices": [
 				{
@@ -41,10 +37,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["batonPass"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Brainiac Talk ability, giving Makoto the chance to step in and rescue a failed shadow negotiation.",
 			"rank": "3",
 			"choices": [
 				{
@@ -69,10 +67,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["shadowTalk:Braniac"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Makoto the chance to attack an enemy after Joker as a follow-up.",
 			"rank": "4",
 			"choices": [
 				{
@@ -110,10 +110,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["followUp"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "5",
 			"choices": [
 				{
@@ -145,8 +147,11 @@
 			]
 		},
 		{
-			"text": "Requires rank 5 Charm. Impactful conversation choices for this rank:Unlocks the Harisen Recovery ability, which gives Makoto the chance to remove status ailments from party members when in the party.",
 			"rank": "6",
+			"requires": {
+				"stat": "Charm",
+				"rank": 5
+			},
 			"choices": [
 				{
 					"choice": "Choice 1:",
@@ -161,10 +166,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["harisenRecovery"]
+			}	
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Shadow Factorization ability, which tells you if an attack will be effective or not while targeting.",
 			"rank": "7",
 			"choices": [
 				{
@@ -202,10 +209,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["shadowFactorization"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Endure ability, giving Makoto a chance to withstand a blow in combat that would usually kill.",
 			"rank": "8",
 			"choices": [
 				{
@@ -238,10 +247,14 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["endure"]
+			}
 		},
 		{
-			"text": "This is the point when a romance with Makoto Niijima becomes available. In order to start this rank, you'll need information on the host, Tsukasa. Get this by going to Shinjuku - there's a man outside the bookstore. Talk to him twice. Impactful conversation choices for this rank:Friendship - \"You'll find someone someday.\" +3Romance - \"I'll be your study partner.\"Romance - \"I do.\"Friendship - \"That's not what I meant.\"Unlocks the Protect ability, giving Makoto the ability to shield Joker from an attack that would be fatal.",
+			"text": "In order to start this rank, you'll need information on the host, Tsukasa. Get this by going to Shinjuku - there's a man outside the bookstore. Talk to him twice.",
+			"romance": "Makoto Nijima",
 			"rank": "9",
 			"choices": [
 				{
@@ -298,11 +311,18 @@
 					"romance": "\"I do.\"",
 					"friendship": "\"That's not what I meant.\""
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["protect"]
+			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Makoto's Persona to its final form, Cybele.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+				"fusion": "Anat",
+				"secondAwakening":"Makoto:Cybele"
+			}
 		}
 	],
 	"arcana": "Priestess",

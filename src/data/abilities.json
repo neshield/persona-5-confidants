@@ -186,5 +186,33 @@
   "trueJudgement": {
     "name": "True Judgement",
     "description": "\"????????\". Note: True Judgement appears to have no effects."
+  },
+  "shadowCalculus": {
+    "name": "Shadow Calculus",
+    "description": "See potential item drops of enemies from the analyze screen."
+  },
+  "shadowFactorization": {
+    "name": "Shadow Factorization",
+    "description": "See whether an attack will be effective or not while targeting."
+  },
+  "mishimasSupport": {
+    "name": "Mishima's Support",
+    "description": "Allow backup members to earn some EXP from battle."
+  },
+  "mishimasEnthusiasm": {
+    "name": "Mishima's Enthusiasm",
+    "description": "Increase EXP earned from battle."
+  },
+  "mishimasDesperation": {
+    "name": "Mishima's Desperation",
+    "description": "Increase EXP earned by backup members."
+  },
+  "phanboy": {
+    "name": "Phanboy",
+    "description": "Greatly increase EXP earned from battle."
+  },
+  "salvationWish": {
+    "name": "Salvation Wish",
+    "description": "Backup members earn full EXP from battle."
   }
 }
