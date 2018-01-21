@@ -1,47 +1,78 @@
 {
 	"ranks": [
 		{
-			"text": "automatic: on 4/15. Unlocks Infiltration Tools ability, allowing you to spend time in your room crafting infiltration tools like lockpicks.",
-			"rank": "1"
+			"text": "automatic: on 4/15.",
+			"rank": "1",
+			"unlocks": {
+			  "abilities": ["infiltrationTools"]
+			}
 		},
 		{
-			"text": "automatic: after you steal your first treasure. Unlocks Baton Pass ability, letting you pass Morgana's turn to other Baton Pass users after a 1 More.",
-			"rank": "2"
+			"text": "automatic: after the first Palace.",
+			"rank": "2",
+			"unlocks": {
+			  "abilities": ["batonPass"]
+			}
 		},
 		{
-			"text": "automatic: after you raid your second palace. Unlocks the Follow Up ability, where Morgana has a chance to perform a follow-up attack after Joker.",
-			"rank": "3"
+			"text": "automatic: after the second Palace.",
+			"rank": "3",
+			"unlocks": {
+			  "abilities": ["followUp"]
+			}
 		},
 		{
-			"text": "automatic: on 6/20Unlocks the Kitty Talk ability, giving Morgana the chance to step in and rescue a failed shadow negotiation.",
-			"rank": "4"
+			"text": "automatic: on 6/20.",
+			"rank": "4",
+			"unlocks": {
+			  "abilities": ["shadowTalk:Kitty"]
+			}
 		},
 		{
-			"text": "automatic: after the third palace. Unlocks the Pickpocket ability, which gives you the chance to obtain an item with landed melee attacks.",
-			"rank": "5"
+			"text": "automatic: after the third Palace.",
+			"rank": "5",
+			"unlocks": {
+			  "abilities": ["pickpocket"]
+			}
 		},
 		{
-			"text": "automatic: on 7/25. Unlocks the Ace Tools ability, which lets you craft all types of infiltration tools.",
-			"rank": "6"
+			"text": "automatic: on 7/25.",
+			"rank": "6",
+			"unlocks": {
+			  "abilities": ["aceTools"]
+			}
 		},
 		{
-			"text": "automatic: on 8/29. Unlocks the Harisen Recovery ability, which gives Morgana the chance to remove status ailments from party members when in the party.",
-			"rank": "7"
+			"text": "automatic: on 8/29.",
+			"rank": "7",
+			"unlocks": {
+			  "abilities": ["harisenRecovery"]
+			}
 		},
 		{
-			"text": "automatic: on 9/17. Unlocks the Endure ability, giving Morgana a chance to withstand a blow that would usually kill.",
-			"rank": "8"
+			"text": "automatic: on 9/17.",
+			"rank": "8",
+			"unlocks": {
+			  "abilities": ["endure"]
+			}
 		},
 		{
-			"text": "automatic: after the fifth palace. Unlocks the Protect ability, giving Morgana the ability to shield Joker from an attack that would be fatal.",
-			"rank": "9"
+			"text": "automatic: after the Fifth palace.",
+			"rank": "9",
+			"unlocks": {
+			  "abilities": ["protect"]
+			}
 		},
 		{
 			"text": "automatic: on 11/23. Unlocks Second Awakening, evolving Morgana's Persona to its final form.",
-			"rank": "10"
+			"rank": "10",
+			"unlocks": {
+				"secondAwakening": "Morgana:Mercurius",
+				"fusion": "Futsunushi"
+			}
 		}
 	],
 	"arcana": "Magician",
 	"name": "Morgana",
-	"location": "MC's room, but you do not need to speak with him to increase your confidant rank."
+	"location": "Joker's room."
 }

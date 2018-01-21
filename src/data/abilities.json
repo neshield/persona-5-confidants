@@ -214,5 +214,17 @@
   "salvationWish": {
     "name": "Salvation Wish",
     "description": "Backup members earn full EXP from battle."
+  },
+  "infiltrationTools": {
+    "name": "Infiltration Tools",
+    "description": "Allowins you to spend time in your room crafting infiltration tools like lockpicks."
+  },
+  "pickpocket": {
+    "name": "Pickpocket",
+    "description": "Chance to obtain an item after Joker lands a melee attack."
+  },
+  "aceTools": {
+    "name": "Ace Tools",
+    "description": "Allows you to craft all types of infiltration tools."
   }
 }
