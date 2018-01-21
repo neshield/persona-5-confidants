@@ -4,10 +4,9 @@ import '../index.css'
 import './RankItem.css'
 
 class RankItem extends Component {
-  // TODO: Add keys to li
   renderChoice (choiceObj) {
     return (
-      <li>
+      <li key={choiceObj.choice}>
         <span>{choiceObj.choice}</span>
         <ul>
           {choiceObj.options.map((opt) => {
@@ -22,7 +21,7 @@ class RankItem extends Component {
 
   renderRomance (choiceObj) {
     return (
-      <li>
+      <li key={choiceObj.choice}>
         <span>{choiceObj.choice}</span>
         <ul>
           <li>Romance: {choiceObj.romance}</li>
@@ -109,13 +108,13 @@ class RankItem extends Component {
       }
 
       return (
-        <li>
+        <li key={name}>
           <span><strong>Ability: {name}</strong>: {description}</span>
         </li>
       )
     } else if (ability && ability.name) {
       return (
-        <li>
+        <li key={ability.name}>
           <span><strong>Ability: {ability.name}</strong>: {ability.description}</span>
         </li>
       )
@@ -155,12 +154,12 @@ class RankItem extends Component {
             <ul>
               {this.renderAbilities(unlocks.abilities)}
               {unlocks.location ? (
-                <li>
+                <li key={unlocks.location}>
                   <span><strong>Location: {unlocks.location}</strong></span>
                 </li>
                 ) : null}
               {unlocks.fusion ? (
-                <li>
+                <li key={unlocks.fusion}>
                   <span><strong>Fusion: {unlocks.fusion}</strong></span>
                 </li>
                 ) : null}

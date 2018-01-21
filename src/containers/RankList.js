@@ -10,7 +10,7 @@ class RankList extends Component {
         <ul>
           {this.props.confidant.ranks.map((rank) => {
             return (
-              <li key={rank.rank}>
+              <li key={this.props.confidant.name + rank.rank}>
                 <RankItem rank={rank} />
               </li>
             )
