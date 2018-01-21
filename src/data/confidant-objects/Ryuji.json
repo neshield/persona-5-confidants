@@ -1,11 +1,10 @@
 {
 	"ranks": [
 		{
-			"text": "automatic: on 4/12 as part of the story your cooperation with Ryuji will begin.",
+			"text": "automatic: on 4/12.",
 			"rank": "1"
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Ryuji's turn to other Baton Pass users in battle after a 1 More.",
 			"rank": "2",
 			"choices": [
 				{
@@ -34,10 +33,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["batonPass"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Ryuji the chance to attack an enemy after Joker as a follow-up.",
 			"rank": "3",
 			"choices": [
 				{
@@ -62,10 +63,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["followUp"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Punk Talk ability, giving Ryuji the chance to step in and rescue a failed shadow negotiation. Unlocks the Ogikubo Ramen location.",
 			"rank": "4",
 			"choices": [
 				{
@@ -94,10 +97,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["shadowTalk:Punk"],
+			  "location": "Ogikubo Ramen"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "5",
 			"choices": [
 				{
@@ -142,7 +148,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Harisen Recovery ability, which gives Ryuji the chance to remove status ailments from party members when in the party.",
 			"rank": "6",
 			"choices": [
 				{
@@ -188,10 +193,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["harisenRecovery"]
+			}
 		},
 		{
-			"text": "Ryuji will text you to initiate this rank naturally. Agree to meet him. Impactful conversation choices for this rank:Grants the Insta-kill ability, which gives Ryuji the chance to instantly win a battle after an ambush. Becomes more likely the weaker an enemy is.",
+			"text": "Ryuji will text you to initiate this rank naturally. Agree to meet him.",
 			"rank": "7",
 			"choices": [
 				{
@@ -216,10 +224,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["instaKill"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Endure ability, giving Ryuji a chance to withstand a blow in combat that would usually kill.",
 			"rank": "8",
 			"choices": [
 				{
@@ -253,10 +263,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["endure"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Protect ability, giving Ryuji the ability to shield Joker from an attack that would be fatal.",
 			"rank": "9",
 			"choices": [
 				{
@@ -307,14 +319,21 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["protect"]
+			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Ryujis's Persona to its final form, Seiten Taisei.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+				"fusion": "Chi You",
+				"secondAwakening": "Ryuji:Seiten Taisei"
+			}
 		}
 	],
 	"arcana": "Chariot",
 	"name": "Ryuji",
-	"location": "Near classroom after school, or in the arcade on non-school days"
+	"location": "Near classroom after school, or in the arcade on non-school days."
 }

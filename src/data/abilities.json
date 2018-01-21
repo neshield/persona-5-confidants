@@ -226,5 +226,9 @@
   "aceTools": {
     "name": "Ace Tools",
     "description": "Allows you to craft all types of infiltration tools."
+  },
+  "instaKill": {
+    "name": "Insta-Kill",
+    "description": "Chance to instantly win a battle started with an ambush."
   }
 }
