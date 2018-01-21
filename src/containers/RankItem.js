@@ -11,7 +11,7 @@ class RankItem extends Component {
         <ul>
           {choiceObj.options.map((opt) => {
             return (
-              <li key={opt.dialogue}>{opt.dialogue} +{opt.points}</li>
+              <li key={opt.dialogue}>{opt.dialogue} + {opt.points}</li>
             )
           })}
         </ul>

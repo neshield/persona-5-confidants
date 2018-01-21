@@ -230,5 +230,29 @@
   "instaKill": {
     "name": "Insta-Kill",
     "description": "Chance to instantly win a battle started with an ambush."
+  },
+  "slackOff": {
+    "name": "Slack Off",
+    "description": "Allows you to occasionally spend class time to read, study, or make infiltration tools."
+  },
+  "housekeeping": {
+    "name": "Housekeeping",
+    "description": "Kawakami can make coffee or handle laundry for you."
+  },
+  "freeTime": {
+    "name": "Free Time",
+    "description": "Increases the frequency of Slack Off."
+  },
+  "superHousekeeping": {
+    "name": "Super Housekeeping",
+    "description": "Kawakami can also make curry or infiltration tools."
+  },
+  "specialMassage": {
+    "name": "Special Massage",
+    "description": "Kawakami offers a massage that lets you go out at night after exploring the metaverse"
+  }, 
+  "freeMaidService": {
+    "name": "Free Maid Service",
+    "description": "Kawakami's services are now free."
   }
 }
