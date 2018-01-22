@@ -171,7 +171,6 @@
 			}
 		},
 		{
-			"text": "Unlocks the Daughter's Just a Meal Ticket request for Mementos. This must be completed before the next rank can be started.",
 			"rank": "7",
 			"choices": [
 				{
@@ -213,8 +212,10 @@
 			}
 		},
 		{
-			"text": "To initiate, complete the Daughter's Just a Meal Ticket Mementos Request.",
 			"rank": "8",
+			"requires": {
+				"clearedMementosRequest": "Daughter's Just a Meal Ticket"
+			},
 			"choices": [
 				{
 					"choice": "Choice 1:",
@@ -302,11 +303,11 @@
 			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Final Guard, which has a chance to completely nullify an otherwise fatal attack. Unlocks Second Awakening, evolving Futaba's Persona to its final form, Ongyo-Ki.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
 			"rank": "10",
 			"unlocks": {
 				"abilities": ["finalGuard"],
-				"fusion": "Ongyouki",
+				"fusion": "Ongyo-ki",
 				"secondAwakening": "Futaba:Prometheus"
 			}
 		}

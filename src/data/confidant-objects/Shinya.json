@@ -1,11 +1,21 @@
 {
 	"ranks": [
 		{
-			"text": "On 9/4 Mishima will text you details about a new side quest, Winners Don't Use Cheats. Pursue this sidequest - through the course of the sidequest you will meet Shinya, the Tower Arcana cooperation. Unlocks Down Shot, an ability that lets you spend an entire magazine to guarantee a knock down on an enemy. Uonus: Kindness Up",
-			"rank": "1"
+			"available": "9/4",
+			"text": "Mishima will text you about a Mementos Request. This rank will occur automatically during the course of the request.",
+			"rank": "1",
+			"mementosRequest": {
+				"name": "Winners Don't use Cheats"
+			},
+			"unlocks": {
+			  "abilities": ["downShot"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Unlocks Bullet Hail, which gives you a chance to enter a gun all-out-attack after an ambush. Bonus: Kindness Up",
 			"rank": "2",
 			"choices": [
 				{
@@ -52,10 +62,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["bulletHail"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Warning Shot, a way to frighten enemies with a threat during shadow negotiations to get them to your side. Bonus: Kindness Up",
 			"rank": "3",
 			"choices": [
 				{
@@ -67,44 +83,18 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["warningShot"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Bonus: Kindness Up",
 			"rank": "4",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"Dr. Takemi will help.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"You seem happy.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"You're so kind.\"",
-							"points": "2"
-						},
-						{
-							"dialogue": "\"Why free?\"",
-							"points": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"text": "Impactful conversation choices for this rank:Unlocks Ammo Pouch, boosting your maximum bullet capacity for each weapon. Bonus: Kindness Up",
-			"rank": "5",
-			"choices": [
+						"choices": [
 				{
 					"choice": "Choice 1:",
 					"options": [
@@ -123,10 +113,60 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Cheap Shot, reducing the bullets required for a Down Shot. Bonus: Kindness Up",
+			"rank": "5",
+			"choices": [
+				{
+					"choice": "Choice 1:",
+					"options": [
+						{
+							"dialogue": "\"It was pretty weird.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"He must've rigged it.\"",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 2:",
+					"options": [
+						{
+							"dialogue": "\"I'm sure you can do it.\"",
+							"points": "3"
+						}
+					]
+				},
+				{
+					"choice": "Choice 3:",
+					"options": [
+						{
+							"dialogue": "\"You need a new strategy.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"That's good.\"",
+							"points": "2"
+						}
+					]
+				}
+			],
+			"unlocks": {
+			  "abilities": ["ammoPouch"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
+		},
+		{
 			"rank": "6",
 			"choices": [
 				{
@@ -151,14 +191,20 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["cheapShot"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:None! That was easy. Bonus: Kindness Up",
+			"text": "No impactful conversation choices for this rank.",
 			"rank": "7"
 		},
 		{
-			"text": "Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: A Mother's Aggression. Unlocks Electric Slug, boosting the damage inflicted by Bullet Hail. Uonus: Kindness Up",
 			"rank": "8",
 			"choices": [
 				{
@@ -187,10 +233,22 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["electricSlug"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			},
+			"mementosRequest": {
+				"name": "A Mother's Aggression"
+			}
 		},
 		{
-			"text": "To initiate this rank you must have completed the A Mother's Aggression side quest. Impactful conversation choices for this rank:",
+			"requires": {
+				"clearedMementosRequest": "A Mother's Aggression"
+			},
 			"rank": "9",
 			"choices": [
 				{
@@ -235,8 +293,12 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Oda Special, allowing Joker's attacks to ignore resistances to hit resistant enemies.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+			  "abilities": ["odaSpecial"],
+			  "fusion": "Mada"
+			}
 		}
 	],
 	"arcana": "Tower",

@@ -219,6 +219,23 @@ class RankItem extends Component {
     return result
   }
 
+  renderRequirements (requires) {
+    if (requires) {
+      return (
+        <div>
+          {requires.rank ? (
+            <span className='Requires'><strong>Requires Stat:</strong> Rank {requires.rank} {requires.stat}<br /></span>
+          ) : null}
+          {requires.clearedMementosRequest ? (
+            <span className='RequiresClearedMementosRequest'><strong>Requires Cleared Mementos Request: </strong>{requires.clearedMementosRequest}<br /></span>
+          ) : null}
+        </div>
+      )
+    } else {
+      return null
+    }
+  }
+
   render () {
     const {requires, choices, available, unlocks, afterMementos, bonus, mementosRequest, romance} = this.props.rank
     let text = this.formatText(this.props.rank.text)
@@ -228,9 +245,7 @@ class RankItem extends Component {
         {available ? (
           <span className='Available'><strong>Available On:</strong> {available}<br /></span>
         ) : null}
-        {requires ? (
-          <span className='Available'><strong>Requires:</strong> Rank {requires.rank} {requires.stat}<br /></span>
-          ) : null}
+        {this.renderRequirements(requires)}
         {text ? (
           <span>{text}<br /></span>
         ) : null}

@@ -64,7 +64,7 @@
 			}
 		},
 		{
-			"text": "automatic: on 11/23. Unlocks Second Awakening, evolving Morgana's Persona to its final form.",
+			"text": "automatic: on 11/23.",
 			"rank": "10",
 			"unlocks": {
 				"secondAwakening": "Morgana:Mercurius",

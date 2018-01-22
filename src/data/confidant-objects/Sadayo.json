@@ -236,8 +236,11 @@
 			}
 		},
 		{
-			"text": "To initiate, complete A Teacher Maid to Suffer request for Mementos. This is the point when a romance with Sadayo Kawakami becomes available.",
 			"rank": "9",
+			"requires": {
+				"clearedMementosRequest": "A Teacher Maid to Suffer"
+			},
+			"romance": "Sadayo Kawakami",
 			"choices": [
 				{
 					"choice": "Choice 1:",

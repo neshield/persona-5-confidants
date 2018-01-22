@@ -217,7 +217,7 @@
   },
   "infiltrationTools": {
     "name": "Infiltration Tools",
-    "description": "Allowins you to spend time in your room crafting infiltration tools like lockpicks."
+    "description": "Allows you to spend time in your room crafting infiltration tools like lockpicks."
   },
   "pickpocket": {
     "name": "Pickpocket",
@@ -254,5 +254,33 @@
   "freeMaidService": {
     "name": "Free Maid Service",
     "description": "Kawakami's services are now free."
+  },
+  "downShot": {
+    "name": "Down Shot",
+    "description": "Allows you to use all rounds in Joker's gun's clip to down one enemy."
+  },
+  "bulletHail": {
+    "name": "Bullet Hail",
+    "description": "Chance to enter a gun-based attack at the start of a successful ambush. (Tip: you can hold X instead of mashing it.)"
+  },
+  "warningShot": {
+    "name": "Warning Shot",
+    "description": "Able to scare enemies to ease the difficulty of a shadow negotiation."
+  },
+  "ammoPouch": {
+    "name": "Ammo Pouch",
+    "description": "Increases the maximum number of bullets you can carry."
+  },
+  "cheapShot": {
+    "name": "Cheap Shot",
+    "description": "Decreases the bullet cost for Down Shot."
+  },
+  "electricSlug": {
+    "name": "Electic Slug",
+    "description": "Increases the damage inflicted by Bullet Hail."
+  },
+  "odaSpecial": {
+    "name": "Oda Special",
+    "description": "Allows Joker's gun attacks to ignore resistances and hit the enemy."
   }
 }

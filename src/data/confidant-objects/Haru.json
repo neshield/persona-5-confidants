@@ -115,7 +115,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Celeb Talk ability, giving Haru the chance to step in on a failed shadow negotiation.",
 			"rank": "4",
 			"choices": [
 				{
@@ -216,7 +215,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Harisen Recovery ability, which gives Haru the chance to remove status ailments from party members when in the party.",
 			"rank": "6",
 			"choices": [
 				{
@@ -312,7 +310,6 @@
 			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Endure ability, giving Makoto a chance to withstand a blow in combat that would usually kill.",
 			"rank": "8",
 			"choices": [
 				{
@@ -384,7 +381,7 @@
 			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Haru's Persona to its final form, Astarte.",
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
 			"rank": "10",
 			"unlocks": {
 				"fusion": "Mother Harlot",

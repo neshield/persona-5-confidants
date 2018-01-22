@@ -1,7 +1,6 @@
 {
 	"ranks": [
 		{
-			"text": "Find Makoto in front of the Student Council Office at school.",
 			"rank": "1",
 			"available": "After the third Palace.",
 			"requires": {
@@ -327,5 +326,5 @@
 	],
 	"arcana": "Priestess",
 	"name": "Makoto",
-	"location": "In front of the Student Council Office, or at the school gates."
+	"location": "In front of the Student Council Office, or at the school gates on days off."
 }
