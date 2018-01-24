@@ -7,6 +7,7 @@ import confidantLabels from './data/confidant-labels'
 import utils from './utils'
 
 // TODO: Fix Iwai, Tae, Yoshida
+// DID THIS WORK
 
 if (!String.format) {
   String.format = function (format) {
