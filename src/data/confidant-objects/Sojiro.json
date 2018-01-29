@@ -1,8 +1,9 @@
 {
 	"ranks": [
 		{
-			"text": "As the story progresses, you'll unlock the ability to befriend Sojiro.",
-			"rank": "1"
+			"rank": "1",
+			"available": "4/20",
+			"text": "Speak to him on the night of 4/20. If you do not, this rank will be acheived automattically on 5/6."
 		},
 		{
 			"text": "Impactful Conversation Choices for this rank:Unlocks Coffee Basics, a new ability that lets you create a coffee item that can restore SP in battle using LeBlanc's coffee brewing facilities. Kindness +3.",
@@ -35,10 +36,17 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["coffeeBasics"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Before you start this rank, you'll have to make coffee with Sojiro once. Afterwards, you'll be able to talk further. Impactful conversation choices for this rank:",
+			"text": "You must brew coffee at least once to start this rank.",
 			"rank": "3",
 			"choices": [
 				{
@@ -59,10 +67,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Leblanc Curry ability - this skill lets ytou create a curry item that can restore SP using LeBlanc's kitchen. Kindness +3",
 			"rank": "4",
 			"choices": [
 				{
@@ -83,10 +94,17 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["leblancCurry"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Available only after 8/22. Impactful conversation choices for this rank:Kindness +3",
+			"available": "8/22",
 			"rank": "5",
 			"choices": [
 				{
@@ -124,10 +142,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Coffee Mastery ability, enhancing your coffee-making ability to allow for better items. Kindness +3",
 			"rank": "6",
 			"choices": [
 				{
@@ -161,10 +182,20 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["coffeeMastery"]
+			},
+			"bonus": {
+				"stat": "Kindness",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Requires rank 5 (angelic) kindness. Impactful conversation choices for this rank:Kindness +3",
+			"requires": {
+				"stat": "Kindness",
+				"rank": "5"
+			},
 			"rank": "7",
 			"choices": [
 				{
@@ -179,7 +210,10 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Mementos Mission Request: \"The Money-Grubbing Uncle. Futaba and Sojiro Cooperations locked until this is complete.",
+			"text": "Futaba and Sojiro Cooperations are locked until the unlocked Mementos request is complete.",
+			"mementosRequest": {
+				"name": "The Money-Grubbing Uncle"
+			},
 			"rank": "8",
 			"choices": [
 				{
@@ -207,7 +241,9 @@
 			]
 		},
 		{
-			"text": "You must complete \"The Money-Grubbing Uncle\" sidequest in order to start this rank. Impactful conversation choices for this rank:Unlocks the Curry Tips skill, which enhances the quality of the curry you can make.",
+			"requires": {
+				"clearedMementosRequest": "The Money-Grubbing Uncle"
+			},
 			"rank": "9",
 			"choices": [
 				{
@@ -236,11 +272,20 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["curryTips"]
+			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks the Kanda Church location. Unlocks Curry Mastery, making the curry you make fantastic at restoring your whole party's SP.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+			  "abilities": ["curryMaster"],
+			  "location": "Kanda Church",
+			  "fusion": "Kohryuu"
+			}
+
 		}
 	],
 	"arcana": "Hierophant",

@@ -282,5 +282,37 @@
   "odaSpecial": {
     "name": "Oda Special",
     "description": "Allows Joker's gun attacks to ignore resistances and hit the enemy."
+  },
+  "coffeeBasics": {
+    "name": "Coffee Basics",
+    "description": "Allows you to make coffee which slightly restores SP to one ally."
+  },
+  "leblancCurry": {
+    "name": "Leblanc Curry",
+    "description": "Allows you to make curry which slightly restores SP to all allies."
+  },
+  "coffeeMastery": {
+    "name": "Coffee Mastery",
+    "description": "Allows you to make coffee which greatly restores SP to one ally."
+  },
+  "curryTips": {
+    "name": "Curry Tips",
+    "description": "Allows you to make curry which moderately restores SP to all allies."
+  },
+  "curryMaster": {
+    "name": "Curry Master",
+    "description": "Allows you to make curry which greatly restores SP to all allies."
+  },
+  "noviceDuplication": {
+    "name": "Novice Duplication",
+    "description": "Allows Yusuke to use Blank Cards to duplicate low-rank Skill Cards."
+  },
+  "adeptDuplication": {
+    "name": "Adept Duplication",
+    "description": "Allows Yusuke to use Blank Cards to duplicate mid-rank Skill Cards."
+  },
+  "masterDuplication": {
+    "name": "Master Duplication",
+    "description": "Allows Yusuke to use Blank Cards to duplicate high-rank Skill Cards."
   }
 }

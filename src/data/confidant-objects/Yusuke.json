@@ -1,11 +1,13 @@
 {
 	"ranks": [
 		{
-			"text": "automatic: on 6/18. There will be an umissable event with Yusuke. Talk to him at the train station's underground passageway afterwards. Unlocks Novice Duplication, a skill that allows Yusuke to produce low-level skill cards for you.",
-			"rank": "1"
+			"text": "automatic: on 6/18. There will be an umissable event with Yusuke. Talk to him at the train station's underground passageway afterwards.",
+			"rank": "1",
+			"unlocks": {
+			  "abilities": ["noviceDuplication"]
+			}
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Unlocks Baton Pass ability, letting you pass Yusuke's turn to other Baton Pass users in battle after a 1 More.",
 			"rank": "2",
 			"choices": [
 				{
@@ -34,10 +36,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["batonPass"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Follow Up ability, giving Yusuke the chance to attack an enemy after Joker as a follow-up. Unlocks the Ueno Museum location.",
 			"rank": "3",
 			"choices": [
 				{
@@ -71,10 +75,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["followUp"],
+			  "location": "Ueno Museum"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Artist Talk ability, giving Yusuke the chance to step in on a failed shadow negotiation. Unlocks the Inokashira Park location.",
 			"rank": "4",
 			"choices": [
 				{
@@ -103,10 +110,13 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["shadowTalk:Artist"],
+			  "location": "Inokashira Park"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Adept Duplication skill, which allows Yusuke to create medium-level skill cards. Unlocks the Kanda Church location.",
 			"rank": "5",
 			"choices": [
 				{
@@ -139,10 +149,17 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["adeptDuplication"],
+			  "location": "Kanda Church"
+			}
 		},
 		{
-			"text": "Requires rank 4 Proficiency. Impactful conversation choices for this rank:Unlocks the Harisen Recovery ability, which gives Yusuke the chance to remove status ailments from party members when in the party.",
+			"requires": {
+				"stat": "Proficiency",
+				"rank": "4"
+			},
 			"rank": "6",
 			"choices": [
 				{
@@ -154,10 +171,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["harisenRecovery"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Master Duplication ability, which allows Yusuke to create high-level skill cards.",
 			"rank": "7",
 			"choices": [
 				{
@@ -178,10 +197,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["masterDuplication"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Endure ability, giving Yusuke a chance to withstand a blow in combat that would usually kill.",
 			"rank": "8",
 			"choices": [
 				{
@@ -202,7 +223,10 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["endure"]
+			}
 		},
 		{
 			"text": "Impactful conversation choices for this rank:Unlocks the Protect ability, giving Yusuke the ability to shield Joker from an attack that would be fatal.",
@@ -230,11 +254,18 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+			  "abilities": ["protect"]
+			}
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Second Awakening, evolving Yusuke's Persona to its final form, Kamu Susano-o.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+			  "secondAwakening": "Yusuke:Kamui Susano-o",
+			  "fusion": "Odin"
+			}
 		}
 	],
 	"arcana": "Emperor",
