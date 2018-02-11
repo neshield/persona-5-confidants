@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import abilities from '../data/abilities.json'
 import '../index.css'
-import './RankItem.css'
+//import './RankItem.css'
 
 class RankItem extends Component {
   renderChoice (choiceObj) {
