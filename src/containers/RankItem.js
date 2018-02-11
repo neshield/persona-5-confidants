@@ -58,7 +58,7 @@ class RankItem extends Component {
       <div>
         {choices ? (
           <div className='Choices'>
-            <span><strong>Important conversation choices after Mementos Request</strong></span>
+            <span><strong>Important conversation choices after clearing Mementos Request</strong></span>
             <ul>
               {choices.map((choiceObj) => {
                 if (choiceObj.romance) {

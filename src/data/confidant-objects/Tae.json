@@ -1,11 +1,18 @@
 {
 	"ranks": [
 		{
-			"text": "After 4/18, visit the Clinic near LeBlanc Cafe and talk to her to start this cooperation. Unlocks Rejuvenation, increasing the range of healing items the clinic stocks.",
-			"rank": "1"
+			"available": "4/18",
+			"text": "Visit the Clinic near LeBlanc Cafe and talk to her to start this cooperation",
+			"rank": "1",
+			"unlocks": {
+				"abilities": ["rejuvenation"]
+			}
 		},
 		{
-			"text": "Requires rank 2 (bold) guts. Impactful Conversation Choices for this Rank:",
+			"requires": {
+				"stat": "Guts",
+				"rank": "2"
+			},
 			"rank": "2",
 			"choices": [
 				{
@@ -26,10 +33,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Guts",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Sterilization, adding even more items to the clinic shop.",
 			"rank": "3",
 			"choices": [
 				{
@@ -45,10 +55,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["sterilization"]
+			},
+			"bonus": {
+				"stat": "Guts",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
 				{
@@ -77,10 +93,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Guts",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Immunization, adding support items to the clinic shop.",
 			"rank": "5",
 			"choices": [
 				{
@@ -96,10 +115,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["immunization"]
+			},
+			"bonus": {
+				"stat": "Guts",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
 				{
@@ -115,10 +140,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Guts",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks a Discount, reducing the cost of clinic items significantly.",
 			"rank": "7",
 			"choices": [
 				{
@@ -160,11 +188,24 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["discountDeath"]
+			},
+			"bonus": {
+				"stat": "Guts",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "Requires rank 4 (charismatic) charm. Impactful conversation choices for this rank:After this a sidequest / request for Mementos is unlocked: Bad Medicine. Iomplete the Bad Medicine sidequest, then return to Tae:",
+			"requires": {
+				"stat": "Charm",
+				"rank": "4"
+			},
 			"rank": "8",
+			"mementosRequest": {
+				"name": "Bad Medicine"
+			},
 			"choices": [
 				{
 					"choice": "Choice 2:",
@@ -174,7 +215,9 @@
 							"points": "2"
 						}
 					]
-				},
+				}
+			],
+			"afterMementos": [
 				{
 					"choice": "Choice 2:",
 					"options": [
@@ -209,11 +252,15 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Guts",
+				"amount": "1"
+			}
 		},
 		{
-			"text": "This is the point when a romance with Tae Takemi becomes available. Impactful conversation choices for this rank:Romance - \"I wanted to see you\"Friendship - \"It was for my exams.\"Romance - \"I love you.\"Friendship - \"What do you think?\"Romance - \"It isn't a joke.\"Friendship - \"That sounds good.\"",
 			"rank": "9",
+			"romance": "Tae Takemi",
 			"choices": [
 				{
 					"choice": "Choice 1:",
@@ -250,12 +297,16 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Resuscitation, adding more revival-related items to the clinic store.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+				"abilities": ["resuscitation"],
+				"fusion": "Alice"
+			}
 		}
 	],
 	"arcana": "Death",
 	"name": "Tae",
 	"location": "Clinic in Yongen-Jaya.",
-	"gift": "Black Mug or Cactus"
+	"gift": "Black Mug or Cactus."
 }
