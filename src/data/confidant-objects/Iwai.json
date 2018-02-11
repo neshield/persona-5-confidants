@@ -130,7 +130,7 @@
 				"amount": 2
 			},
 			"unlocks": {
-				"abilities": ["discount"]
+				"abilities": ["discountHanged"]
 			}
 		},
 		{

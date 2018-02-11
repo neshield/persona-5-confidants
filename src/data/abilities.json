@@ -139,7 +139,7 @@
     "name": "Medium Customization",
     "description": "Allows you to customize mid-grade guns."
   },
-  "discount": {
+  "discountHanged": {
     "name": "Discount",
     "description": "Decrease the cost of gun customization."
   },
@@ -334,5 +334,25 @@
   "charismaticSpeech": {
     "name": "Charismatic Speech",
     "description": "Allows you to gain Personas higher than your level in shadow negotiations."
+  },
+  "rejuvenation": {
+    "name": "Rejuvenation",
+    "description": "Increases the selection of healing items at the clinic."
+  },
+  "sterilization": {
+    "name": "Sterilization",
+    "description": "Adds more healing items to the clinic."
+  },
+  "immunization": {
+    "name": "Immunization",
+    "description": "Adds support items to the inventory at the clinic."
+  },
+  "discountDeath": {
+    "name": "Discount",
+    "description": "Decreases the price for all items sold at the clinic."
+  },
+  "resuscitation": {
+    "name": "Resuscitation",
+    "description": "Increases the selection of the revival items at the clinic."
   }
 }
