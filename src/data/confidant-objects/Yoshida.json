@@ -1,11 +1,11 @@
 {
 	"ranks": [
 		{
-			"text": "This cooperation can be picked up from 5/6 onwards, but is entirely optional and easy to miss for months. Yoshida can be found in Station Square, but if you listen to his political preaching you'll learn that he frequents a nearby Beef Bowl Shop. You can apply to work there via the leaflets in the train station. Work there twice and you'll meet Yoshida, starting off this confidant cooperation.",
+			"available": "5/6",
+			"text": "This cooperation is easy to miss. Yoshida can be found in Station Square, but if you listen to his political preaching you'll learn that he frequents a nearby Beef Bowl Shop. You can apply to work there via the leaflets in the train station. Work there twice and you'll meet Yoshida, getting you rank 1 of this cooperation.",
 			"rank": "1"
 		},
 		{
-			"text": "Impactful Conversation Choices for this Rank:Unlocks Diplomacy, a useful ability that lets you get more money or items from shadow negotiation.",
 			"rank": "2",
 			"choices": [
 				{
@@ -39,10 +39,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["diplomacy"]
+			},
+			"bonus": {
+				"stat": "Charm",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Fundraising, which allows you to demand a lot more money during shadow negotiation.",
 			"rank": "3",
 			"choices": [
 				{
@@ -58,10 +64,12 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["fundraising"]
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "4",
 			"choices": [
 				{
@@ -73,10 +81,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Charm",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Manipulation, a skill that raises the chance enemies will give up rare items.",
 			"rank": "5",
 			"choices": [
 				{
@@ -92,10 +103,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["manipulation"]
+			},
+			"bonus": {
+				"stat": "Charm",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "6",
 			"choices": [
 				{
@@ -127,7 +144,6 @@
 			]
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "7",
 			"choices": [
 				{
@@ -139,10 +155,13 @@
 						}
 					]
 				}
-			]
+			],
+			"bonus": {
+				"stat": "Charm",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:Unlocks Mind Control, an ability that sometimes lets you skip shadow negotiation entirely.",
 			"rank": "8",
 			"choices": [
 				{
@@ -163,10 +182,16 @@
 						}
 					]
 				}
-			]
+			],
+			"unlocks": {
+				"abilities": ["mindControl"]
+			},
+			"bonus": {
+				"stat": "Charm",
+				"amount": "3"
+			}
 		},
 		{
-			"text": "Impactful conversation choices for this rank:",
 			"rank": "9",
 			"choices": [
 				{
@@ -194,11 +219,20 @@
 			]
 		},
 		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank. Unlocks Charismatic Speech, allowing for contracts to be forged with higher-level Persona more easily.",
-			"rank": "10"
+			"text": "Any choices you make will be irrelevant, since this is the max rank.",
+			"rank": "10",
+			"unlocks": {
+				"abilities": ["charismaticSpeech"],
+				"fusion": "Asura"
+			},
+			"bonus": {
+				"stat": "Charm",
+				"amount": "3"
+			}
 		}
 	],
 	"arcana": "Sun",
 	"name": "Yoshida",
-	"location": "Shibuya Station Square at night"
+	"location": "Shibuya Station Square at night.",
+	"note": "The last day to spend time with Yoshida is in mid November (the exact date is unclear), so plan around this if you plan to max him out. He will send you a text a week or two before his deadline to let you know that you only have a little while longer to hang out with him. Also, it appears your conversation choices with Yoshida do not actually matter, and your rank will increase the same regardless of what you say."
 }

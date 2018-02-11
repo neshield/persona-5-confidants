@@ -314,5 +314,25 @@
   "masterDuplication": {
     "name": "Master Duplication",
     "description": "Allows Yusuke to use Blank Cards to duplicate high-rank Skill Cards."
+  },
+  "diplomacy": {
+    "name": "Diplomacy",
+    "description": "Chance to ask for more money or items during shadow negotiations."
+  },
+  "fundraising": {
+    "name": "Fundraising",
+    "description": "Chance to demand a lot more money during shadow negotiation."
+  },
+  "manipulation": {
+    "name": "Maniuplation",
+    "description": "Increases the chance to get a rare item during a shoadow negotiation."
+  },
+  "mindControl": {
+    "name": "Mind Control",
+    "description": "Chance to skip shadow negotiation when obtaining a Persona."
+  },
+  "charismaticSpeech": {
+    "name": "Charismatic Speech",
+    "description": "Allows you to gain Personas higher than your level in shadow negotiations."
   }
 }
