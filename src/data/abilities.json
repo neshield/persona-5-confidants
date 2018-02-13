@@ -354,5 +354,25 @@
   "resuscitation": {
     "name": "Resuscitation",
     "description": "Increases the selection of the revival items at the clinic."
+  },
+  "groupGuillotine": {
+    "name": "Group Guillotine",
+    "description": "Allows you to fuse three Personas to create powerful new ones."
+  },
+  "lockdown": {
+    "name": "Lockdown",
+    "description": "Allows you to leave a Persona in lockdown to learn an attribute resistance."
+  },
+  "guillotineBooster": {
+    "name": "Guillotine Booster",
+    "description": "Increases the possible fusions of Personas in the Group Guillotine."
+  },
+  "isolation": {
+    "name": "Isolation",
+    "description": "Allows you to learn strong attribute resistance skills from Lockdown."
+  },
+  "specialTreatment": {
+    "name": "Special Treatment",
+    "description": "Allows you to pay to create Personas of a level above Joker's."
   }
 }
