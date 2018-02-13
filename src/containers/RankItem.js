@@ -227,7 +227,10 @@ class RankItem extends Component {
             <span className='Requires'><strong>Requires Stat:</strong> Rank {requires.rank} {requires.stat}<br /></span>
           ) : null}
           {requires.clearedMementosRequest ? (
-            <span className='RequiresClearedMementosRequest'><strong>Requires Cleared Mementos Request: </strong>{requires.clearedMementosRequest}<br /></span>
+            <span className='RequiresClearedMementosRequest'><strong>Requires Cleared Mementos Request:</strong> {requires.clearedMementosRequest}<br /></span>
+          ) : null}
+          {requires.persona ? (
+            <span className='RequiresPersona'><strong>Requires Persona:</strong> {requires.persona.name} with {requires.persona.ability}</span>
           ) : null}
         </div>
       )
