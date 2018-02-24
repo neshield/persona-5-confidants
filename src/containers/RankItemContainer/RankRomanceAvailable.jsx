@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class RomanceAvailable extends Component {
+export default class RankRomanceAvailable extends Component {
   render() {
     const {romance} = this.props
 

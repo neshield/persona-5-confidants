@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Requirements extends Component {
+export default class RankRequirements extends Component {
   render() {
     const {requires} = this.props
 

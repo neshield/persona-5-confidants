@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class AvailableOn extends Component {
+export default class RankAvailableOn extends Component {
   render() {
     const {available} = this.props
 
