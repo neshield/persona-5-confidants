@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
-import '../index.css'
+import '../../index.css'
 import './RankList.css'
-import RankItem from './RankItem'
+import RankItemContainer from '../RankItemContainer'
 
 class RankList extends Component {
   render () {
+    const {confidant} = this.props
     return (
       <div className='RankList'>
         <ul>
-          {this.props.confidant.ranks.map((rank) => {
+          {confidant.ranks.map((rank) => {
             return (
-              <li key={this.props.confidant.name + rank.rank}>
-                <RankItem rank={rank} />
+              <li key={confidant.name + rank.rank}>
+                <RankItemContainer rank={rank} />
               </li>
             )
           })}

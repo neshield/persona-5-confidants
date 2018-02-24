@@ -1,6 +1,6 @@
 const utils = {}
 
-utils.upFirstLetter = (str) => {
+utils.uppercaseFirstLetter = (str) => {
   return str[0].toUpperCase() + str.slice(1)
 }
 
