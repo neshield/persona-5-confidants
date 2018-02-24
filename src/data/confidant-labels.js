@@ -5,7 +5,7 @@ const confidantLabels = confidantNames.map((name) => {
   return {
     value: name,
     // Specifically fix twin-wardens
-    label: utils.upFirstLetter(name).replace('-w', ' W')
+    label: utils.uppercaseFirstLetter(name).replace('-w', ' W')
   }
 })
 

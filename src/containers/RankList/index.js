@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import '../index.css'
+import '../../index.css'
 import './RankList.css'
-import RankItem from './RankItem'
+import RankItem from '../RankItem'
 
 class RankList extends Component {
   render () {
