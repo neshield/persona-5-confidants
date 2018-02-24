@@ -6,6 +6,7 @@ import LinkFooter from './containers/LinkFoter/index'
 import confidants from './data/confidants'
 import confidantLabels from './data/confidant-labels'
 import utils from './utils'
+import ConfidantInfo from './containers/ConfidantInfo/index';
 
 
 if (!String.format) {
@@ -31,7 +32,6 @@ class App extends Component {
   }
 
   handleConfidantChange (confName) {
-    console.log(`Selected confidant ${confName}`)
     this.setState({
       confidant: confName
     })
@@ -44,17 +44,7 @@ class App extends Component {
           labels={this.state.labels}
           onSelect={this.handleConfidantChange}
         />
-        <h2 className='Centered'>{utils.uppercaseFirstLetter(this.state.confidant).replace('-w', ' W')}</h2>
-        <h3 className='Centered'>{utils.uppercaseFirstLetter(confidants.get(this.state.confidant).arcana)}</h3>
-        <h4>{confidants.get(this.state.confidant).location ? 'Location: ' + confidants.get(this.state.confidant).location : null}</h4>
-        {confidants.get(this.state.confidant).gift ? (
-          <h4>Good Gifts: {confidants.get(this.state.confidant).gift}</h4>
-          ) : null}
-        {confidants.get(this.state.confidant).note ? (
-          <h4>Note: {confidants.get(this.state.confidant).note}</h4>
-        ) : null}
-
-        <RankList
+        <ConfidantInfo
           confidant={confidants.get(this.state.confidant)}
         />
         <LinkFooter />
