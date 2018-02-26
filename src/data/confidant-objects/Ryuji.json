@@ -335,5 +335,6 @@
 	],
 	"arcana": "Chariot",
 	"name": "Ryuji",
-	"location": "Near classroom after school, or in the arcade on non-school days."
+	"location": "Near classroom after school, or in the arcade on non-school days.",
+	"id": "chariot_ryuji"
 }

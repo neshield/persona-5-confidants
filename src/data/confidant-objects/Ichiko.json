@@ -269,5 +269,6 @@
   "arcana": "Devil",
   "name": "Ichiko",
   "location": "Crossroads Bar in Shinjuku at night.",
-  "gift": "Cameras, Fans"
+  "gift": "Cameras, Fans",
+  "id": "devil_ichiko"
 }

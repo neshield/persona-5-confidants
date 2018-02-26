@@ -271,5 +271,6 @@
 	],
 	"arcana": "Moon",
 	"name": "Mishima",
-	"location": "Shinjuku or Shibuya, generally at night."
+	"location": "Shinjuku or Shibuya, generally at night.",
+	"id": "moon_mishima"
 }

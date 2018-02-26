@@ -74,5 +74,6 @@
 	],
 	"arcana": "Magician",
 	"name": "Morgana",
-	"location": "Joker's room."
+	"location": "Joker's room.",
+	"id": "magician_morgana"
 }

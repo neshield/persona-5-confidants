@@ -348,8 +348,9 @@
 			}
 		}
 	],
-	"arcana": "The Lovers",
+	"arcana": "Lovers",
 	"name": "Ann",
 	"location": "Underground Mall in Shibuya after school.",
-	"gift": "Powdered Green Tea Set, KGB49 Music CD."
+	"gift": "Powdered Green Tea Set, KGB49 Music CD.",
+	"id": "lovers_ann"
 }

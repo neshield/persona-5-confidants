@@ -391,5 +391,6 @@
 	],
 	"arcana": "Empress",
 	"name": "Haru",
-	"location": "School rooftop, except on Sunday or when it rains."
+	"location": "School rooftop, except on Sunday or when it rains.",
+	"id": "empress_haru"
 }

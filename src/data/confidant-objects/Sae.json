@@ -47,5 +47,6 @@
 	],
 	"arcana": "Judgement",
 	"name": "Sae",
-	"location": "N/A"
+	"location": "N/A",
+	"id": "judgement_sae"
 }

@@ -286,5 +286,6 @@
 	"arcana": "Star",
 	"name": "Hifumi",
 	"location": "Seated in the front row in Kanda Church.",
-	"gift": "Fountain Pen, Book Cover, Fan"
+	"gift": "Fountain Pen, Book Cover, Fan",
+	"id": "star_hifumi"
 }

@@ -213,5 +213,7 @@
 	"arcana": "Fortune",
 	"name": "Chihaya",
 	"location": "Shinjuku at night when not raining.",
-	"gift": "Star-shaped Hand Mirror, Flower Basket or Sponge Cake."
+	"gift": "Star-shaped Hand Mirror, Flower Basket or Sponge Cake.",
+	"id": "fortune_chihaya"
+
 }

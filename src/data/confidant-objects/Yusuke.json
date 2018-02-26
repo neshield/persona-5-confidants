@@ -270,5 +270,6 @@
 	],
 	"arcana": "Emperor",
 	"name": "Yusuke",
-	"location": "Shibuya Station Underground Walkway."
+	"location": "Shibuya Station Underground Walkway.",
+	"id": "emperor_yusuke"
 }

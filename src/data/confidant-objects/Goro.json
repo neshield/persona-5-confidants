@@ -51,5 +51,6 @@
 	],
 	"arcana": "Justice",
 	"name": "Goro",
-	"location": "N/A"
+	"location": "N/A",
+	"id": "justice_goro"
 }

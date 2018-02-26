@@ -65,5 +65,6 @@
 	],
 	"arcana": "Fool",
 	"name": "Igor",
-	"location": "Velvet Room."
+	"location": "Velvet Room.",
+	"id": "fool_igor"
 }
