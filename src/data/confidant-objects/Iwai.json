@@ -335,5 +335,6 @@
 	],
 	"arcana": "Hanged Man",
 	"name": "Iwai",
-	"location": "Airsoft Shop."
+	"location": "Airsoft Shop.",
+	"id": "hanged_man_iwai"
 }

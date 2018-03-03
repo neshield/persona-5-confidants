@@ -121,5 +121,6 @@
 	"arcana": "Strength",
 	"name": "Twin Wardens",
 	"location": "Velvet Room.",
-	"note": "The Twin Wardens cooperation is different from all of the others. Instead of conversation, you rank up by fulfilling their requests for a Persona with a specific ability."
+	"note": "The Twin Wardens cooperation is different from all of the others. Instead of conversation, you rank up by fulfilling their requests for a Persona with a specific ability.",
+	"id": "strength_twin_wardens"
 }

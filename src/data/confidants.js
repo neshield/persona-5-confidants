@@ -21,27 +21,31 @@ import yoshida from './confidant-objects/Yoshida.json'
 import yusuke from './confidant-objects/Yusuke.json'
 
 const confidants = new Map()
-confidants.set('ann', ann)
-confidants.set('chihaya', chihaya)
-confidants.set('futaba', futaba)
-confidants.set('goro', goro)
-confidants.set('haru', haru)
-confidants.set('hifumi', hifumi)
-confidants.set('ichiko', ichiko)
-confidants.set('igor', igor)
-confidants.set('iwai', iwai)
-confidants.set('makoto', makoto)
-confidants.set('mishima', mishima)
-confidants.set('morgana', morgana)
-confidants.set('ryuji', ryuji)
-confidants.set('sadayo', sadayo)
-confidants.set('sae', sae)
-confidants.set('shinya', shinya)
-confidants.set('sojiro', sojiro)
-confidants.set('tae', tae)
-confidants.set('twin-wardens', twinWardens)
-confidants.set('yoshida', yoshida)
-confidants.set('yusuke', yusuke)
+
+// Party Members By Order of Meeting
+confidants.set(morgana.id, morgana)
+confidants.set(ryuji.id, ryuji)
+confidants.set(ann.id, ann)
+confidants.set(yusuke.id, yusuke)
+confidants.set(makoto.id, makoto)
+confidants.set(futaba.id, futaba)
+confidants.set(chihaya.id, chihaya)
+confidants.set(haru.id, haru)
+confidants.set(goro.id, goro)
+
+// Other Confidants roughly by start
+confidants.set(sojiro.id, sojiro)
+confidants.set(igor.id, igor)
+confidants.set(twinWardens.id, twinWardens)
+confidants.set(mishima.id, mishima)
+confidants.set(iwai.id, iwai)
+confidants.set(tae.id, tae)
+confidants.set(sae.id, sae)
+confidants.set(sadayo.id, sadayo)
+confidants.set(hifumi.id, hifumi)
+confidants.set(ichiko.id, ichiko)
+confidants.set(yoshida.id, yoshida)
+confidants.set(shinya.id, shinya)
 
 export default confidants
 

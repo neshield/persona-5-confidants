@@ -315,5 +315,6 @@
 	"arcana": "Hermit",
 	"name": "Futaba",
 	"location": "Outside LeBlanc.",
-	"gift": "Idol Badge"
+	"gift": "Idol Badge",
+	"id": "hermit_futaba"
 }

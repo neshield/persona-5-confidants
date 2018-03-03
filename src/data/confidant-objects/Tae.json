@@ -308,5 +308,6 @@
 	"arcana": "Death",
 	"name": "Tae",
 	"location": "Clinic in Yongen-Jaya.",
-	"gift": "Black Mug or Cactus."
+	"gift": "Black Mug or Cactus.",
+	"id": "death_tae"
 }

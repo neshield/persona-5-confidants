@@ -1,11 +1,10 @@
 import './App.css'
 import React, { Component } from 'react'
-import ConfidantDropdown from './containers/ConfidantDropdown/index'
 import LinkFooter from './containers/LinkFoter/index'
 import confidants from './data/confidants'
-import confidantLabels from './data/confidant-labels'
-import ConfidantInfo from './containers/ConfidantInfo/index';
-
+import ConfidantInfo from './containers/ConfidantInfo/index'
+import ConfidantSidebar from './containers/ConfidantSidebar/index'
+import { Sidebar, Segment, Menu, Container } from 'semantic-ui-react'
 
 if (!String.format) {
   String.format = function (format) {
@@ -22,30 +21,43 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      confidant: 'ann',
-      labels: confidantLabels
+      menuConfidant: 'magician_morgana',
+      visible: true
     }
-    
-    this.handleConfidantChange = this.handleConfidantChange.bind(this)
+
+    this.handleConfidantChangeMenu = this.handleConfidantChangeMenu.bind(this)
   }
 
-  handleConfidantChange (confName) {
-    this.setState({
-      confidant: confName
-    })
+  handleConfidantChangeMenu (e, selected) {
+    this.setState({menuConfidant: selected.name}) 
   }
 
-  render () {
+  toggleVisibility = () => this.setState({ visible: !this.state.visible })
+
+  render() {
+    const { visible } = this.state
     return (
-      <div className='App'>
-        <ConfidantDropdown
-          labels={this.state.labels}
-          onSelect={this.handleConfidantChange}
-        />
-        <ConfidantInfo
-          confidant={confidants.get(this.state.confidant)}
-        />
-        <LinkFooter />
+      <div>
+        <Menu borderless inverted attached="top" size="massive" className="TopBar">
+          <Menu.Item color="grey">
+            Persona 5 Confidant Guide
+          </Menu.Item>
+        </Menu>
+        <Sidebar.Pushable as={Segment}>
+          <Sidebar as={Menu} animation='push' width='thin' visible={visible} icon='labeled' vertical inverted>
+            <ConfidantSidebar onSelect={this.handleConfidantChangeMenu}/>
+          </Sidebar>
+          <Sidebar.Pusher className="MainContent">
+            <Container fluid>
+            <Segment textAlign='left'>
+              <ConfidantInfo
+                confidant={confidants.get(this.state.menuConfidant)}
+              />
+              <LinkFooter />
+            </Segment>
+            </Container>
+          </Sidebar.Pusher>
+        </Sidebar.Pushable>
       </div>
     )
   }

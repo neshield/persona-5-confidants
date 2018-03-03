@@ -234,5 +234,6 @@
 	"arcana": "Sun",
 	"name": "Yoshida",
 	"location": "Shibuya Station Square at night.",
-	"note": "The last day to spend time with Yoshida is in mid November (the exact date is unclear), so plan around this if you plan to max him out. He will send you a text a week or two before his deadline to let you know that you only have a little while longer to hang out with him. Also, it appears your conversation choices with Yoshida do not actually matter, and your rank will increase the same regardless of what you say."
+	"note": "The last day to spend time with Yoshida is in mid November (the exact date is unclear), so plan around this if you plan to max him out. He will send you a text a week or two before his deadline to let you know that you only have a little while longer to hang out with him. Also, it appears your conversation choices with Yoshida do not actually matter, and your rank will increase the same regardless of what you say.",
+	"id": "sun_yoshida"
 }

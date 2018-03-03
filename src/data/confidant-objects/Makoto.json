@@ -326,5 +326,6 @@
 	],
 	"arcana": "Priestess",
 	"name": "Makoto",
-	"location": "In front of the Student Council Office, or at the school gates on days off."
+	"location": "In front of the Student Council Office, or at the school gates on days off.",
+	"id": "priestess_makoto"
 }
