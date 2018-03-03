@@ -4,7 +4,7 @@ import LinkFooter from './containers/LinkFoter/index'
 import confidants from './data/confidants'
 import ConfidantInfo from './containers/ConfidantInfo/index'
 import ConfidantSidebar from './containers/ConfidantSidebar/index'
-import { Sidebar, Segment, Button, Menu, Header } from 'semantic-ui-react'
+import { Sidebar, Segment, Menu, Container } from 'semantic-ui-react'
 
 if (!String.format) {
   String.format = function (format) {
@@ -22,7 +22,7 @@ class App extends Component {
     super(props)
     this.state = {
       menuConfidant: 'magician_morgana',
-      visible: false
+      visible: true
     }
 
     this.handleConfidantChangeMenu = this.handleConfidantChangeMenu.bind(this)
@@ -38,18 +38,24 @@ class App extends Component {
     const { visible } = this.state
     return (
       <div>
+        <Menu borderless inverted attached="top" size="massive" className="TopBar">
+          <Menu.Item color="grey">
+            Persona 5 Confidant Guide
+          </Menu.Item>
+        </Menu>
         <Sidebar.Pushable as={Segment}>
-          <Button onClick={this.toggleVisibility}>Select A Confidant</Button>
-          <Sidebar as={Menu} animation='overlay' width='thin' visible={visible} icon='labeled' vertical inverted>
+          <Sidebar as={Menu} animation='push' width='thin' visible={visible} icon='labeled' vertical inverted>
             <ConfidantSidebar onSelect={this.handleConfidantChangeMenu}/>
           </Sidebar>
-          <Sidebar.Pusher>
-            <Segment textAlign='center'>
+          <Sidebar.Pusher className="MainContent">
+            <Container fluid>
+            <Segment textAlign='left'>
               <ConfidantInfo
                 confidant={confidants.get(this.state.menuConfidant)}
               />
               <LinkFooter />
             </Segment>
+            </Container>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
       </div>

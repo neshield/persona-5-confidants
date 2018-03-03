@@ -14,7 +14,19 @@ html {
   text-align: center;
 }
 
+.MainContent{
+  width: calc(100% - 260px)
+}
+
+.ui.segment.pushable {
+  margin-top: 0px;
+}
+
 footer{
   margin-top: 5%;
   margin-bottom: 3%;
+}
+
+.TopBar{
+  border-bottom: 20px solid black
 }
