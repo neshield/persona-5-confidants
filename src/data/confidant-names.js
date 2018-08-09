@@ -1,5 +1,3 @@
-// import utils from '../utils'
-
 const names = [
   'ann',
   'chihaya',
@@ -23,20 +21,5 @@ const names = [
   'yoshida',
   'yusuke'
 ]
-
-// names.forEach((name) => {
-//   console.log(`confidants.set('${name}', ${name})`)
-// })
-
-// names.forEach((name) => {
-//   console.log(`import ${name} from './confidant-objects/${name[0].toUpperCase() + name.slice(1)}.json'`)
-// })
-
-// const names = [
-//   {
-//     value: 'makoto',
-//     label: ''
-//   }
-// ]
 
 export default names

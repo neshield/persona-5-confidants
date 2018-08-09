@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class RankRomanceAvailable extends Component {
-  render() {
+  render () {
     const {romance} = this.props
 
     if (romance) {

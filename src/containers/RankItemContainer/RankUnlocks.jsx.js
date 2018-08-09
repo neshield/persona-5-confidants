@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import abilities from '../../data/abilities.json'
 
 export default class RankUnlocks extends Component {
-  render() {
+  render () {
     const {unlocks} = this.props
     return (
       <div>
@@ -72,7 +72,6 @@ export default class RankUnlocks extends Component {
     }
   }
 
-
   renderSecondAwakening (secondAwakening) {
     const secondAwakeningTemplate = "Evolve {0}'s Persona to {1}."
     const secondAwakeningRegex = new RegExp('(.+):(.+)')
@@ -89,5 +88,4 @@ export default class RankUnlocks extends Component {
       return null
     }
   }
-
 }

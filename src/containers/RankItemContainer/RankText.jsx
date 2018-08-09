@@ -24,11 +24,11 @@ export default class RankText extends Component {
     return result
   }
 
-  render() {
+  render () {
     const {text} = this.props
     if (text) {
       return (
-        <div className="rankText">
+        <div className='rankText'>
           <span>{this.formatText(text)}<br /></span>
         </div>
       )

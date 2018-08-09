@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DialogueChoice from './DialogueChoice.jsx'
 export default class RankDialogue extends Component {
-  render() {
+  render () {
     const {choices} = this.props
     return (
       <div>
@@ -46,5 +46,4 @@ export default class RankDialogue extends Component {
       </li>
     )
   }
-
 }
