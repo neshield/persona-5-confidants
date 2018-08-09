@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class RankRequirements extends Component {
-  render() {
+  render () {
     const {requires} = this.props
 
     if (requires) {

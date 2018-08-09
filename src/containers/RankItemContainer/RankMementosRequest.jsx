@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class RankMementosRequest extends Component {
-  render() {
+  render () {
     const {mementosRequest} = this.props
 
     return (
