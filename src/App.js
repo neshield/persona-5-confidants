@@ -4,7 +4,8 @@ import LinkFooter from './containers/LinkFoter/index'
 import confidants from './data/confidants'
 import ConfidantInfo from './containers/ConfidantInfo/index'
 import ConfidantSidebar from './containers/ConfidantSidebar/index'
-import { Sidebar, Segment, Menu, Container } from 'semantic-ui-react'
+import { Sidebar, Segment, Menu, Container, Button } from 'semantic-ui-react'
+import classNames from 'classnames'
 
 if (!String.format) {
   String.format = function (format) {
@@ -22,7 +23,7 @@ class App extends Component {
     super(props)
     this.state = {
       menuConfidant: 'magician_morgana',
-      visible: true
+      sidebarVisible: false
     }
 
     this.handleConfidantChangeMenu = this.handleConfidantChangeMenu.bind(this)
@@ -31,23 +32,28 @@ class App extends Component {
   handleConfidantChangeMenu (e, selected) {
     this.setState({menuConfidant: selected.name}) 
   }
-
-  toggleVisibility = () => this.setState({ visible: !this.state.visible })
+ 
+  toggleVisibility = () => this.setState({ sidebarVisible: !this.state.sidebarVisible })
 
   render() {
-    const { visible } = this.state
+    const { sidebarVisible } = this.state
+    const mainContentClasses = classNames(
+      {'MainContent' : this.state.sidebarVisible === false},
+      {'MainContentThin': this.state.sidebarVisible === true}
+    ) 
     return (
       <div>
         <Menu borderless inverted attached="top" size="massive" className="TopBar">
-          <Menu.Item color="grey">
+          <Button icon="bars" border="none" outline="none" onClick={this.toggleVisibility} />
+          <Menu.Item color="grey" onClick={this.toggleVisibility}>
             Persona 5 Confidant Guide
           </Menu.Item>
         </Menu>
         <Sidebar.Pushable as={Segment}>
-          <Sidebar as={Menu} animation='push' width='thin' visible={visible} icon='labeled' vertical inverted>
+          <Sidebar as={Menu} animation='push' width='thin' visible={sidebarVisible} icon='labeled' vertical inverted className="Sidebar">
             <ConfidantSidebar onSelect={this.handleConfidantChangeMenu}/>
           </Sidebar>
-          <Sidebar.Pusher className="MainContent">
+          <Sidebar.Pusher className={mainContentClasses}>
             <Container fluid>
             <Segment textAlign='left'>
               <ConfidantInfo
