@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "bluebird": "3.5.1",
+    "classnames": "^2.2.6",
     "express": "4.16.2",
     "fs-extra": "4.0.2",
     "gh-pages": "^1.2.0",

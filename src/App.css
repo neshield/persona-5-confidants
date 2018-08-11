@@ -15,7 +15,15 @@ html {
 }
 
 .MainContent{
-  width: calc(100% - 260px)
+  width: calc(100% - 0px);
+}
+
+.MainContentThin {
+    width: calc(100% - 140px);
+}
+
+.Sidebar{
+  width: 0px;
 }
 
 .ui.segment.pushable {
