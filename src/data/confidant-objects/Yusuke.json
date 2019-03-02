@@ -4,7 +4,9 @@
 			"text": "automatic: on 6/18. There will be an umissable event with Yusuke. Talk to him at the train station's underground passageway afterwards.",
 			"rank": "1",
 			"unlocks": {
-			  "abilities": ["noviceDuplication"]
+				"abilities": [
+					"noviceDuplication"
+				]
 			}
 		},
 		{
@@ -38,7 +40,9 @@
 				}
 			],
 			"unlocks": {
-			  "abilities": ["batonPass"]
+				"abilities": [
+					"batonPass"
+				]
 			}
 		},
 		{
@@ -77,8 +81,10 @@
 				}
 			],
 			"unlocks": {
-			  "abilities": ["followUp"],
-			  "location": "Ueno Museum"
+				"abilities": [
+					"followUp"
+				],
+				"location": "Ueno Museum"
 			}
 		},
 		{
@@ -112,8 +118,10 @@
 				}
 			],
 			"unlocks": {
-			  "abilities": ["shadowTalk:Artist"],
-			  "location": "Inokashira Park"
+				"abilities": [
+					"shadowTalk:Artist"
+				],
+				"location": "Inokashira Park"
 			}
 		},
 		{
@@ -151,8 +159,10 @@
 				}
 			],
 			"unlocks": {
-			  "abilities": ["adeptDuplication"],
-			  "location": "Kanda Church"
+				"abilities": [
+					"adeptDuplication"
+				],
+				"location": "Kanda Church"
 			}
 		},
 		{
@@ -170,10 +180,29 @@
 							"points": "2"
 						}
 					]
+				},
+				{
+					"choice": "Choice 4:",
+					"options": [
+						{
+							"dialogue": "\"Maybe he was sympathetic.\"",
+							"points": "3"
+						},
+						{
+							"dialogue": "\"He somehow knew you had skill.\"",
+							"points": "2"
+						},
+						{
+							"dialogue": "\"I couldn't possibly tell you.\"",
+							"points": "3"
+						}
+					]
 				}
 			],
 			"unlocks": {
-			  "abilities": ["harisenRecovery"]
+				"abilities": [
+					"harisenRecovery"
+				]
 			}
 		},
 		{
@@ -199,7 +228,9 @@
 				}
 			],
 			"unlocks": {
-			  "abilities": ["masterDuplication"]
+				"abilities": [
+					"masterDuplication"
+				]
 			}
 		},
 		{
@@ -225,7 +256,9 @@
 				}
 			],
 			"unlocks": {
-			  "abilities": ["endure"]
+				"abilities": [
+					"endure"
+				]
 			}
 		},
 		{
@@ -256,15 +289,17 @@
 				}
 			],
 			"unlocks": {
-			  "abilities": ["protect"]
+				"abilities": [
+					"protect"
+				]
 			}
 		},
 		{
 			"text": "Any choices you make will be irrelevant, since this is the max rank.",
 			"rank": "10",
 			"unlocks": {
-			  "secondAwakening": "Yusuke:Kamui Susano-o",
-			  "fusion": "Odin"
+				"secondAwakening": "Yusuke:Kamui Susano-o",
+				"fusion": "Odin"
 			}
 		}
 	],
