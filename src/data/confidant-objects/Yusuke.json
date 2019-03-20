@@ -1,275 +1,310 @@
 {
-	"ranks": [
-		{
-			"text": "automatic: on 6/18. There will be an umissable event with Yusuke. Talk to him at the train station's underground passageway afterwards.",
-			"rank": "1",
-			"unlocks": {
-			  "abilities": ["noviceDuplication"]
-			}
-		},
-		{
-			"rank": "2",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"It's novel.\"",
-							"points": "2"
-						},
-						{
-							"dialogue": "\"It's enigmatic.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"I can't wait.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"I hope you're right.\"",
-							"points": "3"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["batonPass"]
-			}
-		},
-		{
-			"rank": "3",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"Don't let it bother you.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 3:",
-					"options": [
-						{
-							"dialogue": "\"This isn't like you.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"You're really giving up?\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 4:",
-					"options": [
-						{
-							"dialogue": "Both give",
-							"points": "2"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["followUp"],
-			  "location": "Ueno Museum"
-			}
-		},
-		{
-			"rank": "4",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"Why are we in a boat?\"",
-							"points": "2"
-						},
-						{
-							"dialogue": "\"I should bring a girl here.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"Love comes in all forms.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"Maybe you should train more.\"",
-							"points": "2"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["shadowTalk:Artist"],
-			  "location": "Inokashira Park"
-			}
-		},
-		{
-			"rank": "5",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"Do you want me to strip?\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"I dunno if I can do it...\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"I'm sure you will.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"It doesn't look like it.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"Do you want to give up?\"",
-							"points": "2"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["adeptDuplication"],
-			  "location": "Kanda Church"
-			}
-		},
-		{
-			"requires": {
-				"stat": "Proficiency",
-				"rank": "4"
-			},
-			"rank": "6",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"It feels nostalgic.\"",
-							"points": "2"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["harisenRecovery"]
-			}
-		},
-		{
-			"rank": "7",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"What do you mean?\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"The truth is within you.\"",
-							"points": "3"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["masterDuplication"]
-			}
-		},
-		{
-			"rank": "8",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"It has to be Ann.\"",
-							"points": "2"
-						}
-					]
-				},
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"You've really grown, Yusuke.\"",
-							"points": "3"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["endure"]
-			}
-		},
-		{
-			"text": "Impactful conversation choices for this rank:Unlocks the Protect ability, giving Yusuke the ability to shield Joker from an attack that would be fatal.",
-			"rank": "9",
-			"choices": [
-				{
-					"choice": "Choice 1:",
-					"options": [
-						{
-							"dialogue": "\"Her love for her son.\"",
-							"points": "3"
-						},
-						{
-							"dialogue": "\"The pain of separation.\"",
-							"points": "3"
-						}
-					]
-				},
-				{
-					"choice": "Choice 2:",
-					"options": [
-						{
-							"dialogue": "\"You've really changed, Yusuke.\"",
-							"points": "3"
-						}
-					]
-				}
-			],
-			"unlocks": {
-			  "abilities": ["protect"]
-			}
-		},
-		{
-			"text": "Any choices you make will be irrelevant, since this is the max rank.",
-			"rank": "10",
-			"unlocks": {
-			  "secondAwakening": "Yusuke:Kamui Susano-o",
-			  "fusion": "Odin"
-			}
-		}
-	],
-	"arcana": "Emperor",
-	"name": "Yusuke",
-	"location": "Shibuya Station Underground Walkway.",
-	"id": "emperor_yusuke"
+  "ranks": [
+    {
+      "text": "automatic: on 6/18. There will be an umissable event with Yusuke. Talk to him at the train station's underground passageway afterwards.",
+      "rank": "1",
+      "unlocks": {
+        "abilities": [
+          "noviceDuplication"
+        ]
+      }
+    },
+    {
+      "rank": "2",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"It's novel.\"",
+              "points": "2"
+            },
+            {
+              "dialogue": "\"It's enigmatic.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"I can't wait.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"I hope you're right.\"",
+              "points": "3"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "batonPass"
+        ]
+      }
+    },
+    {
+      "rank": "3",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"Don't let it bother you.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 3:",
+          "options": [
+            {
+              "dialogue": "\"This isn't like you.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"You're really giving up?\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 4:",
+          "options": [
+            {
+              "dialogue": "Both give",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "followUp"
+        ],
+        "location": "Ueno Museum"
+      }
+    },
+    {
+      "rank": "4",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"Why are we in a boat?\"",
+              "points": "2"
+            },
+            {
+              "dialogue": "\"I should bring a girl here.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"Love comes in all forms.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"Maybe you should train more.\"",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "shadowTalk:Artist"
+        ],
+        "location": "Inokashira Park"
+      }
+    },
+    {
+      "rank": "5",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"Do you want me to strip?\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"I dunno if I can do it...\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"I'm sure you will.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"It doesn't look like it.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"Do you want to give up?\"",
+              "points": "2"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "adeptDuplication"
+        ],
+        "location": "Kanda Church"
+      }
+    },
+    {
+      "requires": {
+        "stat": "Proficiency",
+        "rank": "4"
+      },
+      "rank": "6",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"It feels nostalgic.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 4:",
+          "options": [
+            {
+              "dialogue": "\"Maybe he was sympathetic.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"He somehow knew you had skill.\"",
+              "points": "2"
+            },
+            {
+              "dialogue": "\"I couldn't possibly tell you.\"",
+              "points": "3"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "harisenRecovery"
+        ]
+      }
+    },
+    {
+      "rank": "7",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"What do you mean?\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"The truth is within you.\"",
+              "points": "3"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "masterDuplication"
+        ]
+      }
+    },
+    {
+      "rank": "8",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"It has to be Ann.\"",
+              "points": "2"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"You've really grown, Yusuke.\"",
+              "points": "3"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "endure"
+        ]
+      }
+    },
+    {
+      "text": "Impactful conversation choices for this rank:Unlocks the Protect ability, giving Yusuke the ability to shield Joker from an attack that would be fatal.",
+      "rank": "9",
+      "choices": [
+        {
+          "choice": "Choice 1:",
+          "options": [
+            {
+              "dialogue": "\"Her love for her son.\"",
+              "points": "3"
+            },
+            {
+              "dialogue": "\"The pain of separation.\"",
+              "points": "3"
+            }
+          ]
+        },
+        {
+          "choice": "Choice 2:",
+          "options": [
+            {
+              "dialogue": "\"You've really changed, Yusuke.\"",
+              "points": "3"
+            }
+          ]
+        }
+      ],
+      "unlocks": {
+        "abilities": [
+          "protect"
+        ]
+      }
+    },
+    {
+      "text": "Any choices you make will be irrelevant, since this is the max rank.",
+      "rank": "10",
+      "unlocks": {
+        "secondAwakening": "Yusuke:Kamui Susano-o",
+        "fusion": "Odin"
+      }
+    }
+  ],
+  "arcana": "Emperor",
+  "name": "Yusuke",
+  "location": "Shibuya Station Underground Walkway.",
+  "id": "emperor_yusuke"
 }
